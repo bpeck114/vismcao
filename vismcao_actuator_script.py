@@ -27,7 +27,7 @@ for act in act_count:
 
     # Run simulation (comment out the following line for testing on non-NERSC machine)
     start_time = time.time()
-    #subprocess.run(command, shell=True, text=True)
+    subprocess.run(command, shell=True, text=True)
     end_time = time.time()
     elapsed_time = end_time - start_time
 
@@ -51,7 +51,3 @@ print("---------------------------------------")
 for dur in duration:
     print("SIM ({}) TIME:". format(dur["sim"]), "{}:{}:{}.{}".format(dur["time_hours"], dur["time_minutes"], dur["time_seconds"], dur["time_milliseconds"]))
 print("---------------------------------------")
-
-
-
-    
