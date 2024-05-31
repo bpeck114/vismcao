@@ -1,0 +1,55 @@
+/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/maos -o test -c AB_keck_mcao_3lgs.conf 
+Output folder is 'test'.
+SRC: /u/bpeck/code/maos v2.9 2.9
+BUILT: /u/bpeck/code/maos/build by CLANG (v14.0.0) on 2024/03/22 14:52:24 CPU(F64,+O3) w/o CUDA
+Launched at 2024/05/22 15:48:37 in dragon with PID 63522.
+The web based job monitor can be accessed at http://localhost:10300
+Main config file is /System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/AB_keck_mcao_3lgs.conf
+Warning(path.c:48): Path not found: path=/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/bin; abspath=/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/bin; Ignored.
+Warning(path.c:48): Path not found: path=/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/atm; abspath=/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/atm; Ignored.
+Warning(readcfg.c:399): sim.apfsm has been renamed to powfs.apfsm.
+Warning(readcfg.c:399): sim.epfsm has been renamed to powfs.epfsm.
+Warning(readcfg.c:399): sim.alfsm has been renamed to powfs.alfsm.
+Warning(readcfg.c:399): sim.commonfsm has been renamed to powfs.commonfsm.
+Warning(readcfg.c:399): sim.idealfsm has been renamed to powfs.idealfsm.
+Warning(readcfg.c:399): sim.zetafsm has been renamed to powfs.zetafsm.
+Warning(readcfg.c:399): sim.f0fsm has been renamed to powfs.f0fsm.
+Warning(readcfg.c:399): tsurf has been renamed to ncpa.tsurf.
+loaded 132 (132 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./keck_sim.conf'
+loaded  19 ( 19 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./dm_none.conf'
+loaded  19 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./keck_ASM.conf'
+loaded  19 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./keck_DM2.conf'
+loaded  19 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./keck_DM3.conf'
+loaded   0 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./keck_dm_multiple.conf'
+loaded   7 (  5 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./atm_mk13n50p_ground_detail.conf'
+loaded  76 ( 69 new) records from '/u/bpeck/code/maos/config/maos/powfs_common.conf'
+loaded  44 ( 38 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./powfs_none.conf'
+loaded  44 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./keck_shwfs_lgs.conf'
+loaded  44 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./keck_shwfs_ttf_strap.conf'
+loaded  44 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./keck_shwfs_twfs_lbwfs.conf'
+loaded   0 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./keck_wfs_lgs_strap_lbwfs.conf'
+loaded  71 ( 71 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./keck_recon.conf'
+Warning(readcfg.c:399): dbg.na_smooth has been renamed to powfs0_llt.na_smooth.
+Warning(readcfg.c:399): dbg.na_interp has been renamed to powfs0_llt.na_interp.
+Warning(readcfg.c:399): dbg.na_thres has been renamed to powfs0_llt.na_thres.
+Warning(readcfg.c:399): dbg.na_fit_maxit has been renamed to powfs0_llt.na_fit_maxit.
+Warning(readcfg.c:399): dbg.na_fit_svdthres has been renamed to powfs0_llt.na_fit_svdthres.
+Warning(readcfg.c:399): dbg.na_fit_dh has been renamed to powfs0_llt.na_fit_dh.
+Warning(readcfg.c:399): dbg.ncpa_preload has been renamed to ncpa.preload.
+Warning(readcfg.c:399): dbg.ncpa_rmsci has been renamed to ncpa.rmsci.
+Warning(readcfg.c:399): dbg.draw_opdmax has been renamed to plot.opdmax.
+Warning(readcfg.c:399): dbg.draw_gmax has been renamed to plot.gmax.
+loaded  95 ( 93 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./keck_dbg.conf'
+loaded   4 (  4 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./keck_fit_mcao.conf'
+Warning(readcfg.c:399): surf has been renamed to ncpa.surf.
+loaded  37 (  7 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/AB_keck_mcao_3lgs.conf'
+loaded   0 (  0 new) records from 'command line'
+loaded  24 ( 18 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./keck_llt_CL.conf'
+Adjust LGS range by telescope altitude 4145m.
+Zenith angle is 30 degree.
+    Scaling turbulence height and LGS hs by sec(za).
+    Scaling r0 by cos(za)^(3/5).
+    Scaling wind speed and LGS signal level by cos(za).
+powfs0: Adjusting dx from 0.0078125 to 0.0077. 
+Error(parms.c:1920): # of llts should either be 1 or match nwfs for this powfs
+Signal caught: User defined signal 2: 31 (31)
