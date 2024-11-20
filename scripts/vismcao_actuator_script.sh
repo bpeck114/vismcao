@@ -5,8 +5,8 @@
 #SBATCH --constraint=gpu
 #SBATCH --nodes=1
 #SBATCH --time=00:45:00
-#SBATCH --job-name=act_study
-#SBATCH --output=act_study.out
+#SBATCH --job-name=line_act_study
+#SBATCH --output=line_act_study.out
 echo "---------------------------"
 echo "Job id = $SLURM_JOBID"
 echo "Proc id = $SLURM_PROCID"
@@ -17,7 +17,7 @@ echo "---------------------------"
 cd /global/homes/b/bpeck/work/vismcao
 
 
-srun -N 1 -n 1 -G 1 python /global/homes/b/bpeck/work/vismcao/vismcao_actuator_script.py
+srun -N 1 -n 1 -G 1 python /global/homes/b/bpeck/work/vismcao/scripts/vismcao_actuator_script.py
  
 date
 echo "All done!"

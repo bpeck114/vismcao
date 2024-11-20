@@ -1,0 +1,10 @@
+/global/u2/b/bpeck/work/vismcao/maos -o studies/grid/act_study/4000actuators -c A_keck_mcao_lgs_4000.conf plot.all=1 plot.setup=1 -O 
+Output folder is 'studies/grid/act_study/4000actuators'.
+SRC: /global/homes/b/bpeck/code/maos v2.9 4c88b7c2 2024-11-13 16:45:33 -0800
+BUILT: /global/homes/b/bpeck/code/maos/optim by GCC (v12) on 2024/11/18 09:40:03 CPU(F64,+O3) with CUDA(v122,F32)
+Launched at 2024/11/19 19:45:43 in login16 with PID 2305246.
+The web based job monitor can be accessed at http://localhost:10300
+Main config file is A_keck_mcao_lgs_4000.conf
+Error(readcfg.c:230): Cannot open file A_keck_mcao_lgs_4000.conf for reading.
+
+Signal caught: User defined signal 2 (12)

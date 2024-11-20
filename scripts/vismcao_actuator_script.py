@@ -7,8 +7,8 @@ import subprocess
 import time
 
 # Set parameters for actuator study
-output_file = "act_study"
-act_count = np.array([2000, 3000, 4000, 5000])
+output_file = "studies/grid/act_study"
+act_count = np.array([3000])
 duration = [] # For recording how long each simulation takes
 
 # Describe what is happening
@@ -16,7 +16,7 @@ print("Running actuator study:\n")
 
 # Run MAOS simulations for actuator study
 for act in act_count:
-    command = f"maos -o {output_file}/{act}actuators -c A_keck_mcao_lgs_{act}.conf plot.all=1 plot.setup=1 -O"
+    command = f"maos -o {output_file}/{act}actuators -c master_files/A_keck_mcao_lgs_{act}.conf plot.all=1 plot.setup=1 -O"
     
     print("---------------------------------------")
     print("SIM:", act)
