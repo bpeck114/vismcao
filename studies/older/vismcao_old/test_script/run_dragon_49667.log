@@ -1,0 +1,312 @@
+/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/maos -o test_script -c A_keck_mcao_lgs_5000.conf plot.all=1 plot.setup=1 -O 
+Output folder is 'test_script'.
+SRC: /u/bpeck/code/maos v2.9 2.9
+BUILT: /u/bpeck/code/maos/build by CLANG (v14.0.0) on 2024/03/22 14:52:24 CPU(F64,+O3) w/o CUDA
+Launched at 2024/05/20 15:31:21 in dragon with PID 49667.
+The web based job monitor can be accessed at http://localhost:10300
+Main config file is /System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/A_keck_mcao_lgs_5000.conf
+Warning(path.c:48): Path not found: path=/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/bin; abspath=/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/bin; Ignored.
+Warning(path.c:48): Path not found: path=/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/atm; abspath=/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/atm; Ignored.
+Warning(readcfg.c:399): sim.apfsm has been renamed to powfs.apfsm.
+Warning(readcfg.c:399): sim.epfsm has been renamed to powfs.epfsm.
+Warning(readcfg.c:399): sim.alfsm has been renamed to powfs.alfsm.
+Warning(readcfg.c:399): sim.commonfsm has been renamed to powfs.commonfsm.
+Warning(readcfg.c:399): sim.idealfsm has been renamed to powfs.idealfsm.
+Warning(readcfg.c:399): sim.zetafsm has been renamed to powfs.zetafsm.
+Warning(readcfg.c:399): sim.f0fsm has been renamed to powfs.f0fsm.
+Warning(readcfg.c:399): tsurf has been renamed to ncpa.tsurf.
+loaded 132 (132 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./keck_sim.conf'
+loaded  19 ( 19 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./dm_none.conf'
+loaded  19 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./keck_ASM.conf'
+loaded  19 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./keck_DM2.conf'
+loaded  19 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./keck_DM3.conf'
+loaded   0 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./keck_dm_multiple.conf'
+loaded   7 (  5 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./atm_mk13n50p_ground_detail.conf'
+loaded  76 ( 69 new) records from '/u/bpeck/code/maos/config/maos/powfs_common.conf'
+loaded  44 ( 38 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./powfs_none.conf'
+loaded  44 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./keck_shwfs_lgs.conf'
+loaded  44 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./keck_shwfs_ttf_strap.conf'
+loaded  44 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./keck_shwfs_twfs_lbwfs.conf'
+loaded   0 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./keck_wfs_lgs_strap_lbwfs.conf'
+loaded  71 ( 71 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./keck_recon.conf'
+Warning(readcfg.c:399): dbg.na_smooth has been renamed to powfs0_llt.na_smooth.
+Warning(readcfg.c:399): dbg.na_interp has been renamed to powfs0_llt.na_interp.
+Warning(readcfg.c:399): dbg.na_thres has been renamed to powfs0_llt.na_thres.
+Warning(readcfg.c:399): dbg.na_fit_maxit has been renamed to powfs0_llt.na_fit_maxit.
+Warning(readcfg.c:399): dbg.na_fit_svdthres has been renamed to powfs0_llt.na_fit_svdthres.
+Warning(readcfg.c:399): dbg.na_fit_dh has been renamed to powfs0_llt.na_fit_dh.
+Warning(readcfg.c:399): dbg.ncpa_preload has been renamed to ncpa.preload.
+Warning(readcfg.c:399): dbg.ncpa_rmsci has been renamed to ncpa.rmsci.
+Warning(readcfg.c:399): dbg.draw_opdmax has been renamed to plot.opdmax.
+Warning(readcfg.c:399): dbg.draw_gmax has been renamed to plot.gmax.
+loaded  95 ( 93 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./keck_dbg.conf'
+loaded   4 (  4 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./keck_fit_mcao.conf'
+Warning(readcfg.c:399): surf has been renamed to ncpa.surf.
+loaded  37 (  7 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/A_keck_mcao_lgs_5000.conf'
+Overriding plot.all            	0 --> 1
+Overriding plot.setup          	0 --> 1
+loaded   2 (  0 new) records from 'command line'
+loaded  24 ( 18 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/mcao/vismcao/./keck_llt_CL.conf'
+draw_helper started
+Adjust LGS range by telescope altitude 4145m.
+Zenith angle is 30 degree.
+    Scaling turbulence height and LGS hs by sec(za).
+    Scaling r0 by cos(za)^(3/5).
+    Scaling wind speed and LGS signal level by cos(za).
+powfs0: Adjusting dx from 0.0078125 to 0.00766667. 
+powfs0.llt.fsm: f0=0 Hz, LPF ep=0
+powfs0.epfsm is set to 0.517618 (auto)
+powfs2: Adjusting dx from 0.03125 to 0.0312778. 
+powfs2 is TWFS for powfs0
+sim.ephi is set to 0.427717 (auto)
+sim.eplo is set to 0.427717 (auto)
+Warning(parms.c:2297): Layer 1 at 17.3205m is very close to layer 0 at 0m (OK).
+Warning(parms.c:2297): Layer 2 at 34.641m is very close to layer 1 at 17.3205m (OK).
+Warning(parms.c:2297): Layer 3 at 51.9615m is very close to layer 2 at 34.641m (OK).
+dm 0: stroke=30 um is provided in micron.
+dm 0: assume ia stroke=2 um is provided in micron.
+dm 1: stroke=7 um is provided in micron.
+dm 1: assume ia stroke=2 um is provided in micron.
+dm 2: stroke=7 um is provided in micron.
+dm 2: assume ia stroke=2 um is provided in micron.
+Focus blending is not implemented yet for integrated tomography
+parms->sim.mffocus is reset to 0
+There are 1 valid simulation seeds:  1
+Output PSF for 10 directions
+Used 449 of 456 supplied keys
+Warning(readcfg.c:158): key "dbg.pwfs_flate" is not recognized, value is 0
+Warning(readcfg.c:158): key "dbg.pwfs_flatv" is not recognized, value is 0
+Warning(readcfg.c:158): key "dbg.pwfs_psx" is not recognized, value is [0 0 0 0]
+Warning(readcfg.c:158): key "dbg.pwfs_psy" is not recognized, value is [0 0 0 0]
+Warning(readcfg.c:158): key "dbg.pwfs_pupelong" is not recognized, value is 0
+Warning(readcfg.c:158): key "dbg.pwfs_raw" is not recognized, value is 0
+Warning(readcfg.c:158): key "dbg.pwfs_side" is not recognized, value is 4
+[00;00mAperture[00;00m is 11 m with sampling 1/128 m
+[00;00mTurbulence at 30 degree zenith angle:[00;00m r0=0.128424m, L0=30m, 14 layers.
+    Greenwood freq is 25.1Hz, anisoplanatic angle is 1.58 as
+    Sampled 8192x8192 at 1/128m. wind dir is randomized.
+    layer 0: ht=      0 m, wt= 0.302, ws=  4.8 m/s
+    layer 1: ht=     17 m, wt= 0.154, ws=  5.0 m/s
+    layer 2: ht=     35 m, wt= 0.041, ws=  5.4 m/s
+    layer 3: ht=     52 m, wt= 0.002, ws=  6.6 m/s
+    layer 4: ht=    139 m, wt= 0.021, ws=  6.1 m/s
+    layer 5: ht=    231 m, wt= 0.010, ws=  6.1 m/s
+    layer 6: ht=    323 m, wt= 0.008, ws=  6.1 m/s
+    layer 7: ht=    416 m, wt= 0.005, ws=  6.1 m/s
+    layer 8: ht=    508 m, wt= 0.001, ws=  6.1 m/s
+    layer 9: ht=    932 m, wt= 0.107, ws=  5.6 m/s
+    layer 10: ht=   5022 m, wt= 0.144, ws= 11.1 m/s
+    layer 11: ht=   9238 m, wt= 0.093, ws= 19.1 m/s
+    layer 12: ht=  13856 m, wt= 0.075, ws=  8.2 m/s
+    layer 13: ht=  22518 m, wt= 0.036, ws=  4.8 m/s
+[00;00mReconstruction[00;00m: r0=0.128424m L0=30m. 14 layers. use cone coordinate.
+    layer 0: ht=      0 m, wt= 0.302
+    layer 1: ht=     17 m, wt= 0.154
+    layer 2: ht=     35 m, wt= 0.041
+    layer 3: ht=     52 m, wt= 0.002
+    layer 4: ht=    139 m, wt= 0.021
+    layer 5: ht=    231 m, wt= 0.010
+    layer 6: ht=    323 m, wt= 0.008
+    layer 7: ht=    416 m, wt= 0.005
+    layer 8: ht=    508 m, wt= 0.001
+    layer 9: ht=    932 m, wt= 0.107
+    layer 10: ht=   5022 m, wt= 0.144
+    layer 11: ht=   9238 m, wt= 0.093
+    layer 12: ht=  13856 m, wt= 0.075
+    layer 13: ht=  22518 m, wt= 0.036
+[00;00mThere are 3 powfs[00;00m
+  powfs0: Order 80, LGS at 99.1 km. Sampling 1/130.435 m. Thres 30%. [00;00mT/T is removed in right hand side in tomography.[00;00m
+    CCD image is 25x25 @ 500x500 mas, blur 27% (sigma), 1500Hz, wvl: [ 5.89e-07]
+    Gtilt in reconstruction. Physical optics start at 0 with [00;00m'matched filter'[00;00m [00;00m(noisy)[00;00m
+  powfs1: Order  2, NGS at inf km. Sampling 1/16 m. Thres 30%. 
+    Ztilt in reconstruction. Geomtric optics start at 2 with ztilt [00;00m(noisy)[00;00m
+  powfs2: Order 20, NGS at inf km. Sampling 1/31.9716 m. Thres 50%. 
+    CCD image is 3x3 @ 1500x1500 mas, blur 0% (sigma), 0.015Hz, wvl: [ 7.2e-07]
+    Gtilt in reconstruction. Geomtric optics start at 50 with gtilt Physical optics start at 0 with [00;00m'matched filter'[00;00m [00;00m(noisy)[00;00m
+[00;00mThere are 12 wfs[00;00m
+    wfs 0: type 0, at (  30.00,    0.00) arcsec,  99 km, siglev is 57.3577 bkgrnd is 0.1
+    wfs 1: type 0, at (  21.21,   21.21) arcsec,  99 km, siglev is 57.3577 bkgrnd is 0.1
+    wfs 2: type 0, at (   0.00,   30.00) arcsec,  99 km, siglev is 57.3577 bkgrnd is 0.1
+    wfs 3: type 0, at ( -21.21,   21.21) arcsec,  99 km, siglev is 57.3577 bkgrnd is 0.1
+    wfs 4: type 0, at ( -30.00,    0.00) arcsec,  99 km, siglev is 57.3577 bkgrnd is 0.1
+    wfs 5: type 0, at ( -21.21,  -21.21) arcsec,  99 km, siglev is 57.3577 bkgrnd is 0.1
+    wfs 6: type 0, at (   0.00,  -30.00) arcsec,  99 km, siglev is 57.3577 bkgrnd is 0.1
+    wfs 7: type 0, at (  21.21,  -21.21) arcsec,  99 km, siglev is 57.3577 bkgrnd is 0.1
+    wfs 8: type 1, at (  15.00,   25.98) arcsec, inf km, siglev is 42387.6 bkgrnd is 1.056
+    wfs 9: type 1, at ( -30.00,    0.00) arcsec, inf km, siglev is 42387.6 bkgrnd is 1.056
+    wfs 10: type 1, at (  15.00,  -25.98) arcsec, inf km, siglev is 42387.6 bkgrnd is 1.056
+    wfs 11: type 2, at (   0.00,    0.00) arcsec, inf km, siglev is 4.1558e+06 bkgrnd is 0.001
+[00;00mThere are 3 DMs[00;00m
+  DM 0 at -0.1km, actuator pitch 0.138m, offset   0, with 30.000000 micron stroke.
+    Normalized cubic influence function with inter-actuator coupling of 0.223
+  DM 1 at    6km, actuator pitch 0.168m, offset   0, with 7.000000 micron stroke.
+    Normalized cubic influence function with inter-actuator coupling of 0.223
+  DM 2 at   10km, actuator pitch 0.168m, offset 10000, with 7.000000 micron stroke.
+    Normalized cubic influence function with inter-actuator coupling of 0.223
+[00;00mTomography[00;00m is using CG, with [00;00mFourer Domain[00;00m preconditioner, [00;00m12[00;00m iterations, integrated tomo.
+[00;00mDM Fitting [00;00mis using CG, with [00;00mNo[00;00m preconditioner, [00;00m10[00;00m iterations
+[00;00mThere are 9 fit directions[00;00m
+    Fit 0: weight is 0.444, at (   0.00,    0.00) arcsec
+    Fit 1: weight is 0.111, at (  15.00,    0.00) arcsec
+    Fit 2: weight is 0.111, at (   0.00,   15.00) arcsec
+    Fit 3: weight is 0.111, at ( -15.00,    0.00) arcsec
+    Fit 4: weight is 0.111, at (   0.00,  -15.00) arcsec
+    Fit 5: weight is 0.028, at (  15.00,   15.00) arcsec
+    Fit 6: weight is 0.028, at ( -15.00,   15.00) arcsec
+    Fit 7: weight is 0.028, at ( -15.00,  -15.00) arcsec
+    Fit 8: weight is 0.028, at (  15.00,  -15.00) arcsec
+[00;00mThere are 10 evaluation directions[00;00m at sampling 1/128 m.
+    Evl 0: weight is 0.100, at (   0.00,    0.00) arcsec
+    Evl 1: weight is 0.100, at (   5.00,    0.00) arcsec
+    Evl 2: weight is 0.100, at (  10.00,    0.00) arcsec
+    Evl 3: weight is 0.100, at (  15.00,    0.00) arcsec
+    Evl 4: weight is 0.100, at (  20.00,    0.00) arcsec
+    Evl 5: weight is 0.100, at (  25.00,    0.00) arcsec
+    Evl 6: weight is 0.100, at (  30.00,    0.00) arcsec
+    Evl 7: weight is 0.100, at (  35.00,    0.00) arcsec
+    Evl 8: weight is 0.100, at (  45.00,    0.00) arcsec
+    Evl 9: weight is 0.100, at (  60.00,    0.00) arcsec
+[00;00mSimulation[00;00m start at step 0, end at step 1600, with time step 1/1500s, [00;00mclose loop[00;00m.
+After setup_parms:	1.9 MiB.
+
+*** Preparation started at 2024/05/20 15:31:21 in dragon. ***
+
+Using thread pool with 32 threads
+Reading aperture amplitude map from KECK.fits
+Warning(accphi.c:477): 108578 points not covered by input screen
+iwvl 0: Science PSF is using grid size of 2880. The PSF will sum to 6.95167232824563
+iwvl 1: Science PSF is using grid size of 2880. The PSF will sum to 6.95167232824563
+iwvl 2: Science PSF is using grid size of 2880. The PSF will sum to 6.95167232824563
+iwvl 3: Science PSF is using grid size of 2880. The PSF will sum to 6.95167232824563
+iwvl 4: Science PSF is using grid size of 2880. The PSF will sum to 6.95167232824563
+iwvl 5: Science PSF is using grid size of 2880. The PSF will sum to 6.95167232824563
+iwvl 6: Science PSF is using grid size of 2880. The PSF will sum to 6.95167232824563
+iwvl 7: Science PSF is using grid size of 2880. The PSF will sum to 6.95167232824563
+iwvl 8: Science PSF is using grid size of 2880. The PSF will sum to 6.95167232824563
+After setup_aper:	88.1 MiB.
+
+[00;00mSetting up powfs 0 geom[00;00m
+
+There are 18 points in each subaperture of 0.138m.
+There are 3906 valid subaperture.
+
+[00;00mSetting up powfs 1 geom[00;00m
+
+There are 88 points in each subaperture of 5.5m.
+There are 4 valid subaperture.
+
+[00;00mSetting up powfs 2 geom[00;00m
+
+There are 18 points in each subaperture of 0.563m.
+There are 237 valid subaperture.
+After setup_powfs_init:	207.9 MiB.
+
+[00;00mSetting up reconstructor geometry.[00;00m
+
+PLOC is 163x163, with sampling of 0.07m (not square)
+    DM 0: grid is 85 x 85
+    DM 1: grid is 85 x 79
+    DM 2: grid is 96 x 85
+FLOC is 163x163, with sampling of 0.07m (not square)
+Tomography grid is not square:
+    layer 0: xloc grid is 480 x 480, sampling is 0.069 m, 21117 points
+    layer 1: xloc grid is 480 x 480, sampling is 0.069 m, 21139 points
+    layer 2: xloc grid is 480 x 480, sampling is 0.069 m, 21169 points
+    layer 3: xloc grid is 480 x 480, sampling is 0.069 m, 21187 points
+    layer 4: xloc grid is 480 x 480, sampling is 0.069 m, 21353 points
+    layer 5: xloc grid is 480 x 480, sampling is 0.069 m, 21489 points
+    layer 6: xloc grid is 480 x 480, sampling is 0.069 m, 21652 points
+    layer 7: xloc grid is 480 x 480, sampling is 0.069 m, 21786 points
+    layer 8: xloc grid is 480 x 480, sampling is 0.069 m, 21944 points
+    layer 9: xloc grid is 480 x 480, sampling is 0.068 m, 22681 points
+    layer 10: xloc grid is 480 x 480, sampling is 0.066 m, 30472 points
+    layer 11: xloc grid is 480 x 480, sampling is 0.063 m, 40416 points
+    layer 12: xloc grid is 480 x 480, sampling is 0.059 m, 54059 points
+    layer 13: xloc grid is 480 x 480, sampling is 0.053 m, 89998 points
+
+[00;00mSetting up powfs 0 PO WFS[00;00m
+
+OTF dimension is 36x36 (calculated)
+Uplink FWHM (illt 0, iwvl 0) is 0.581315"
+Downlink FWHM (illt 0, iwvl 0) is 1.41458"
+Generating matched filter for powfs 0
+sa index   location       noise equivalent angle
+    1803: (  1.2,  -0.4) m, ( 97.27,  97.27) mas
+    1379: (  0.0,  -1.4) m, (102.04, 104.54) mas
+    1923: ( -1.8,  -0.1) m, (111.19,  98.81) mas
+    1915: ( -2.9,  -0.1) m, (121.40,  99.91) mas
+    1907: ( -4.0,  -0.1) m, (132.54, 101.07) mas
+    1899: ( -5.1,  -0.1) m, (144.51, 102.27) mas
+    1897: ( -5.4,  -0.1) m, (146.88, 102.52) mas
+sa index   location       noise equivalent angle
+    2297: (  1.1,   0.7) m, (101.32, 101.80) mas
+    1563: (  1.0,  -1.0) m, ( 98.10, 102.67) mas
+    1438: ( -1.2,  -1.2) m, (104.89, 104.89) mas
+    1026: ( -2.1,  -2.1) m, (115.76, 115.60) mas
+     729: ( -2.8,  -2.8) m, (117.00, 117.00) mas
+     442: ( -3.4,  -3.4) m, (122.50, 122.54) mas
+     164: ( -3.0,  -4.3) m, (119.74, 131.60) mas
+sa index   location       noise equivalent angle
+    2540: (  0.3,   1.2) m, ( 97.28,  97.27) mas
+    1988: ( -1.4,   0.0) m, (104.54, 102.04) mas
+    1175: (  0.0,  -1.8) m, ( 98.82, 111.19) mas
+     692: (  0.0,  -2.9) m, ( 99.92, 121.40) mas
+     278: (  0.0,  -4.0) m, (101.08, 132.54) mas
+      94: (  0.0,  -4.5) m, (103.56, 139.52) mas
+      13: ( -2.2,  -4.8) m, (110.51, 142.61) mas
+sa index   location       noise equivalent angle
+    2469: ( -0.7,   1.1) m, ( 97.30,  97.32) mas
+    1560: ( -1.1,  -1.0) m, ( 98.08, 102.67) mas
+    1449: (  1.1,  -1.2) m, (104.98, 104.89) mas
+    1055: (  1.9,  -2.1) m, (113.80, 113.33) mas
+     768: (  2.6,  -2.8) m, (117.12, 117.00) mas
+     491: (  3.3,  -3.4) m, (123.85, 124.29) mas
+     207: (  2.9,  -4.3) m, (119.85, 131.59) mas
+sa index   location       noise equivalent angle
+    2112: ( -1.4,   0.3) m, ( 97.27,  97.27) mas
+    1377: ( -0.3,  -1.4) m, ( 99.55, 101.89) mas
+    1930: (  1.7,  -0.1) m, (111.28,  98.82) mas
+    1938: (  2.8,  -0.1) m, (121.54,  99.93) mas
+    1946: (  3.9,  -0.1) m, (132.66, 101.08) mas
+    1954: (  5.0,  -0.1) m, (144.64, 102.28) mas
+    1956: (  5.3,  -0.1) m, (146.99, 102.53) mas
+sa index   location       noise equivalent angle
+    1442: ( -0.7,  -1.2) m, ( 99.09,  99.49) mas
+    1505: (  0.8,  -1.1) m, (102.72,  98.08) mas
+    2413: (  1.0,   1.0) m, (104.01, 104.01) mas
+    2547: (  1.2,   1.2) m, (105.74, 105.74) mas
+    2951: (  2.1,   2.1) m, (120.94, 122.93) mas
+    3243: (  2.8,   2.8) m, (118.20, 118.20) mas
+    3747: (  2.9,   4.1) m, (119.85, 131.72) mas
+sa index   location       noise equivalent angle
+    1381: (  0.3,  -1.4) m, ( 97.27,  97.27) mas
+    1926: ( -1.4,  -0.1) m, (104.53, 102.09) mas
+    2742: (  0.0,   1.7) m, ( 98.83, 111.29) mas
+    3223: (  0.0,   2.8) m, ( 99.94, 121.54) mas
+    3634: (  0.0,   3.9) m, (101.09, 132.67) mas
+    3772: (  0.0,   4.3) m, (101.47, 136.27) mas
+    3893: (  2.1,   4.7) m, (113.47, 145.88) mas
+sa index   location       noise equivalent angle
+    1564: (  1.1,  -1.0) m, ( 97.29,  97.27) mas
+    2354: (  1.0,   0.8) m, ( 98.10, 102.72) mas
+    2465: ( -1.2,   1.1) m, (104.89, 104.98) mas
+    2859: ( -2.1,   1.9) m, (119.15, 119.98) mas
+    3146: ( -2.8,   2.6) m, (117.00, 117.12) mas
+    3420: ( -3.4,   3.3) m, (125.81, 126.58) mas
+    3704: ( -3.0,   4.1) m, (119.73, 131.73) mas
+
+[00;00mSetting up powfs 2 PO WFS[00;00m
+
+OTF dimension is 36x36 (calculated)
+Generating matched filter for powfs 2
+Use sanea to derive neasim
+Use sanea to derive neasim
+
+[00;00mSetting up reconstructor[00;00m
+
+Recon NEA: cmf(110.83) cmf(110.85) cmf(110.84) cmf(110.82) cmf(110.80) cmf(110.81) cmf(110.82) cmf(110.83) geom(0.31) geom(0.31) geom(0.31) mf(0.83)  mas
+Setup or update control matrix parameters.
+RRtwfs svd threshold is 1e-10
+
+Signal caught: Interrupt: 2 (2)
+maos_signal_handler: Interrupt: 2 (2)
