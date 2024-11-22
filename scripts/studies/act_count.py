@@ -15,10 +15,10 @@ parser.add_argument("--test", action="store_true", help="Run in test mode withou
 args = parser.parse_args()
 
 # Set parameters for actuator study
-config_folder = "master_files/act_count"
+config_folder = "master_files/act_vs_lgs"
 default_output_folder = "studies/act_count/"
 test_folder = "studies/act_count/test"
-act_count = np.array([1500, 1750, 2000, 2250, 2500, 2750, 3000, 3250, 3500, 3750, 4000, 4250, 4500, 4750, 5000])
+act_count = np.array([1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3250, 3500, 3750, 4000, 4250, 4500, 4750, 5000, 5250, 5500, 5750, 6000])
 
 # Choose output folder based on test mode
 output_folder = test_folder if args.test else default_output_folder
@@ -41,7 +41,7 @@ with open(log_file, "w") as log:
 
     for act in act_count:
         output_path = os.path.join(output_folder, f"{act}_actuators")
-        config_file = os.path.join(config_folder, f"kola_{act}act_8_lgs.conf")
+        config_file = os.path.join(config_folder, f"kola_{act}act.conf")
         command = f"maos -o {output_path} -c {config_file} -O"
 
         # Check if the configuration file exists
