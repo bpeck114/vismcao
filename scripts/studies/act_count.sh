@@ -4,7 +4,7 @@
 #SBATCH --qos=regular
 #SBATCH --constraint=gpu
 #SBATCH --nodes=1
-#SBATCH --time=01:30:00
+#SBATCH --time=02:00:00
 #SBATCH --job-name=act_count_study
 #SBATCH --output=act_count.out
 echo "---------------------------"

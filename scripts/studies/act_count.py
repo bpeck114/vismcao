@@ -15,9 +15,9 @@ parser.add_argument("--test", action="store_true", help="Run in test mode withou
 args = parser.parse_args()
 
 # Set parameters for actuator study
-config_folder = "master_files/act_vs_lgs"
-default_output_folder = "studies/act_count/"
-test_folder = "studies/act_count/test"
+config_folder = "master_files/act_vs_lgs/7mag_lgs"
+default_output_folder = "studies/act_count/7mag_lgs/"
+test_folder = "studies/act_count/7mag_lgs/test/"
 act_count = np.array([1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3250, 3500, 3750, 4000, 4250, 4500, 4750, 5000, 5250, 5500, 5750, 6000])
 
 # Choose output folder based on test mode
@@ -45,7 +45,10 @@ with open(log_file, "w") as log:
         command = f"maos -o {output_path} -c {config_file} -O"
 
         # Check if the configuration file exists
-        if not os.path.isfile(config_file):
+        if os.path.isfile(config_file):
+            print(f"Found configuration file: {config_file}")
+            log.write(f"Found configuration file: {config_file}")
+        else: 
             error_message = f"Configuration file not found: {config_file}"
             print(error_message)
             log.write(f"ERROR: {error_message}\n\n")
@@ -57,6 +60,9 @@ with open(log_file, "w") as log:
         if args.test:
             print(f"(TEST MODE) Skipping execution of simulation {act}.")
             log.write(f"(TEST MODE) Skipping execution of simulation {act} actuators.")
+            
+            print(command)
+            log.write(command)
             continue
             
         # Run the simulation and measure time
