@@ -1,0 +1,25 @@
+Actuator Count Study Log - Batch ID: 20241206_124416
+Output Folder: studies/dm_orders/8mag_lgs/test/
+Test Mode: Enabled
+---------------------------------------
+
+Found configuration file: master_files/dm_orders/8mag_lgs/kola_0order.confSIMULATION: 0
+COMMAND: maos -o studies/dm_orders/8mag_lgs/test/0order -c master_files/dm_orders/8mag_lgs/kola_0order.conf -O
+(TEST MODE) Skipping execution of simulation 0 order.maos -o studies/dm_orders/8mag_lgs/test/0order -c master_files/dm_orders/8mag_lgs/kola_0order.conf -OFound configuration file: master_files/dm_orders/8mag_lgs/kola_1order.confSIMULATION: 1
+COMMAND: maos -o studies/dm_orders/8mag_lgs/test/1order -c master_files/dm_orders/8mag_lgs/kola_1order.conf -O
+(TEST MODE) Skipping execution of simulation 1 order.maos -o studies/dm_orders/8mag_lgs/test/1order -c master_files/dm_orders/8mag_lgs/kola_1order.conf -OFound configuration file: master_files/dm_orders/8mag_lgs/kola_2order.confSIMULATION: 2
+COMMAND: maos -o studies/dm_orders/8mag_lgs/test/2order -c master_files/dm_orders/8mag_lgs/kola_2order.conf -O
+(TEST MODE) Skipping execution of simulation 2 order.maos -o studies/dm_orders/8mag_lgs/test/2order -c master_files/dm_orders/8mag_lgs/kola_2order.conf -OFound configuration file: master_files/dm_orders/8mag_lgs/kola_3order.confSIMULATION: 3
+COMMAND: maos -o studies/dm_orders/8mag_lgs/test/3order -c master_files/dm_orders/8mag_lgs/kola_3order.conf -O
+(TEST MODE) Skipping execution of simulation 3 order.maos -o studies/dm_orders/8mag_lgs/test/3order -c master_files/dm_orders/8mag_lgs/kola_3order.conf -OFound configuration file: master_files/dm_orders/8mag_lgs/kola_4order.confSIMULATION: 4
+COMMAND: maos -o studies/dm_orders/8mag_lgs/test/4order -c master_files/dm_orders/8mag_lgs/kola_4order.conf -O
+(TEST MODE) Skipping execution of simulation 4 order.maos -o studies/dm_orders/8mag_lgs/test/4order -c master_files/dm_orders/8mag_lgs/kola_4order.conf -OFound configuration file: master_files/dm_orders/8mag_lgs/kola_5order.confSIMULATION: 5
+COMMAND: maos -o studies/dm_orders/8mag_lgs/test/5order -c master_files/dm_orders/8mag_lgs/kola_5order.conf -O
+(TEST MODE) Skipping execution of simulation 5 order.maos -o studies/dm_orders/8mag_lgs/test/5order -c master_files/dm_orders/8mag_lgs/kola_5order.conf -OFound configuration file: master_files/dm_orders/8mag_lgs/kola_6order.confSIMULATION: 6
+COMMAND: maos -o studies/dm_orders/8mag_lgs/test/6order -c master_files/dm_orders/8mag_lgs/kola_6order.conf -O
+(TEST MODE) Skipping execution of simulation 6 order.maos -o studies/dm_orders/8mag_lgs/test/6order -c master_files/dm_orders/8mag_lgs/kola_6order.conf -OFound configuration file: master_files/dm_orders/8mag_lgs/kola_7order.confSIMULATION: 7
+COMMAND: maos -o studies/dm_orders/8mag_lgs/test/7order -c master_files/dm_orders/8mag_lgs/kola_7order.conf -O
+(TEST MODE) Skipping execution of simulation 7 order.maos -o studies/dm_orders/8mag_lgs/test/7order -c master_files/dm_orders/8mag_lgs/kola_7order.conf -OFound configuration file: master_files/dm_orders/8mag_lgs/kola_8order.confSIMULATION: 8
+COMMAND: maos -o studies/dm_orders/8mag_lgs/test/8order -c master_files/dm_orders/8mag_lgs/kola_8order.conf -O
+(TEST MODE) Skipping execution of simulation 8 order.maos -o studies/dm_orders/8mag_lgs/test/8order -c master_files/dm_orders/8mag_lgs/kola_8order.conf -O---------------------------------------
+---------------------------------------

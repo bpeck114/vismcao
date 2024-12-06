@@ -1,0 +1,112 @@
+Actuator Count Study Log - Batch ID: 20241124_181617
+Output Folder: studies/act_count/7mag_lgs/
+Test Mode: Disabled
+---------------------------------------
+
+Found configuration file: master_files/act_vs_lgs/7mag_lgs/kola_1000act.confSIMULATION: 1000
+COMMAND: maos -o studies/act_count/7mag_lgs/1000_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_1000act.conf -O
+Elapsed Time: 0:2:6.484
+
+Found configuration file: master_files/act_vs_lgs/7mag_lgs/kola_1250act.confSIMULATION: 1250
+COMMAND: maos -o studies/act_count/7mag_lgs/1250_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_1250act.conf -O
+Elapsed Time: 0:2:7.113
+
+Found configuration file: master_files/act_vs_lgs/7mag_lgs/kola_1500act.confSIMULATION: 1500
+COMMAND: maos -o studies/act_count/7mag_lgs/1500_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_1500act.conf -O
+Elapsed Time: 0:2:13.862
+
+Found configuration file: master_files/act_vs_lgs/7mag_lgs/kola_1750act.confSIMULATION: 1750
+COMMAND: maos -o studies/act_count/7mag_lgs/1750_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_1750act.conf -O
+Elapsed Time: 0:2:40.918
+
+Found configuration file: master_files/act_vs_lgs/7mag_lgs/kola_2000act.confSIMULATION: 2000
+COMMAND: maos -o studies/act_count/7mag_lgs/2000_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_2000act.conf -O
+Elapsed Time: 0:2:30.783
+
+Found configuration file: master_files/act_vs_lgs/7mag_lgs/kola_2250act.confSIMULATION: 2250
+COMMAND: maos -o studies/act_count/7mag_lgs/2250_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_2250act.conf -O
+Elapsed Time: 0:2:51.265
+
+Found configuration file: master_files/act_vs_lgs/7mag_lgs/kola_2500act.confSIMULATION: 2500
+COMMAND: maos -o studies/act_count/7mag_lgs/2500_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_2500act.conf -O
+Elapsed Time: 0:2:59.18
+
+Found configuration file: master_files/act_vs_lgs/7mag_lgs/kola_2750act.confSIMULATION: 2750
+COMMAND: maos -o studies/act_count/7mag_lgs/2750_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_2750act.conf -O
+Elapsed Time: 0:3:10.358
+
+Found configuration file: master_files/act_vs_lgs/7mag_lgs/kola_3000act.confSIMULATION: 3000
+COMMAND: maos -o studies/act_count/7mag_lgs/3000_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_3000act.conf -O
+Elapsed Time: 0:3:39.34
+
+Found configuration file: master_files/act_vs_lgs/7mag_lgs/kola_3250act.confSIMULATION: 3250
+COMMAND: maos -o studies/act_count/7mag_lgs/3250_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_3250act.conf -O
+Elapsed Time: 0:3:42.612
+
+Found configuration file: master_files/act_vs_lgs/7mag_lgs/kola_3500act.confSIMULATION: 3500
+COMMAND: maos -o studies/act_count/7mag_lgs/3500_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_3500act.conf -O
+Elapsed Time: 0:3:53.775
+
+Found configuration file: master_files/act_vs_lgs/7mag_lgs/kola_3750act.confSIMULATION: 3750
+COMMAND: maos -o studies/act_count/7mag_lgs/3750_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_3750act.conf -O
+Elapsed Time: 0:4:20.894
+
+Found configuration file: master_files/act_vs_lgs/7mag_lgs/kola_4000act.confSIMULATION: 4000
+COMMAND: maos -o studies/act_count/7mag_lgs/4000_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_4000act.conf -O
+Elapsed Time: 0:4:9.878
+
+Found configuration file: master_files/act_vs_lgs/7mag_lgs/kola_4250act.confSIMULATION: 4250
+COMMAND: maos -o studies/act_count/7mag_lgs/4250_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_4250act.conf -O
+Elapsed Time: 0:4:28.711
+
+Found configuration file: master_files/act_vs_lgs/7mag_lgs/kola_4500act.confSIMULATION: 4500
+COMMAND: maos -o studies/act_count/7mag_lgs/4500_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_4500act.conf -O
+Elapsed Time: 0:4:42.298
+
+Found configuration file: master_files/act_vs_lgs/7mag_lgs/kola_4750act.confSIMULATION: 4750
+COMMAND: maos -o studies/act_count/7mag_lgs/4750_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_4750act.conf -O
+Elapsed Time: 0:5:11.326
+
+Found configuration file: master_files/act_vs_lgs/7mag_lgs/kola_5000act.confSIMULATION: 5000
+COMMAND: maos -o studies/act_count/7mag_lgs/5000_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_5000act.conf -O
+Elapsed Time: 0:4:58.197
+
+Found configuration file: master_files/act_vs_lgs/7mag_lgs/kola_5250act.confSIMULATION: 5250
+COMMAND: maos -o studies/act_count/7mag_lgs/5250_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_5250act.conf -O
+Elapsed Time: 0:5:17.624
+
+Found configuration file: master_files/act_vs_lgs/7mag_lgs/kola_5500act.confSIMULATION: 5500
+COMMAND: maos -o studies/act_count/7mag_lgs/5500_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_5500act.conf -O
+Elapsed Time: 0:5:24.948
+
+Found configuration file: master_files/act_vs_lgs/7mag_lgs/kola_5750act.confSIMULATION: 5750
+COMMAND: maos -o studies/act_count/7mag_lgs/5750_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_5750act.conf -O
+Elapsed Time: 0:5:29.917
+
+Found configuration file: master_files/act_vs_lgs/7mag_lgs/kola_6000act.confSIMULATION: 6000
+COMMAND: maos -o studies/act_count/7mag_lgs/6000_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_6000act.conf -O
+Elapsed Time: 0:6:13.565
+
+---------------------------------------
+SIM (1000) TIME: 0:2:6.484
+SIM (1250) TIME: 0:2:7.113
+SIM (1500) TIME: 0:2:13.862
+SIM (1750) TIME: 0:2:40.918
+SIM (2000) TIME: 0:2:30.783
+SIM (2250) TIME: 0:2:51.265
+SIM (2500) TIME: 0:2:59.18
+SIM (2750) TIME: 0:3:10.358
+SIM (3000) TIME: 0:3:39.34
+SIM (3250) TIME: 0:3:42.612
+SIM (3500) TIME: 0:3:53.775
+SIM (3750) TIME: 0:4:20.894
+SIM (4000) TIME: 0:4:9.878
+SIM (4250) TIME: 0:4:28.711
+SIM (4500) TIME: 0:4:42.298
+SIM (4750) TIME: 0:5:11.326
+SIM (5000) TIME: 0:4:58.197
+SIM (5250) TIME: 0:5:17.624
+SIM (5500) TIME: 0:5:24.948
+SIM (5750) TIME: 0:5:29.917
+SIM (6000) TIME: 0:6:13.565
+---------------------------------------

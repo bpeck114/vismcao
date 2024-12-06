@@ -1,0 +1,6 @@
+Actuator Count Study Log - Batch ID: 20241206_124402
+Output Folder: studies/dm_orders/8mag_lgs/test/
+Test Mode: Enabled
+---------------------------------------
+
+Found configuration file: master_files/dm_orders/8mag_lgs/kola_0order.conf

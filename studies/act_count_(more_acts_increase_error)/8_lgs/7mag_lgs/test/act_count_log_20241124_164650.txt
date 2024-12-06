@@ -1,0 +1,49 @@
+Actuator Count Study Log - Batch ID: 20241124_164650
+Output Folder: studies/act_count/7mag_lgs/test/
+Test Mode: Enabled
+---------------------------------------
+
+SIMULATION: 1000
+COMMAND: maos -o studies/act_count/7mag_lgs/test/1000_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_1000act.conf -O
+(TEST MODE) Skipping execution of simulation 1000 actuators.SIMULATION: 1250
+COMMAND: maos -o studies/act_count/7mag_lgs/test/1250_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_1250act.conf -O
+(TEST MODE) Skipping execution of simulation 1250 actuators.SIMULATION: 1500
+COMMAND: maos -o studies/act_count/7mag_lgs/test/1500_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_1500act.conf -O
+(TEST MODE) Skipping execution of simulation 1500 actuators.SIMULATION: 1750
+COMMAND: maos -o studies/act_count/7mag_lgs/test/1750_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_1750act.conf -O
+(TEST MODE) Skipping execution of simulation 1750 actuators.SIMULATION: 2000
+COMMAND: maos -o studies/act_count/7mag_lgs/test/2000_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_2000act.conf -O
+(TEST MODE) Skipping execution of simulation 2000 actuators.SIMULATION: 2250
+COMMAND: maos -o studies/act_count/7mag_lgs/test/2250_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_2250act.conf -O
+(TEST MODE) Skipping execution of simulation 2250 actuators.SIMULATION: 2500
+COMMAND: maos -o studies/act_count/7mag_lgs/test/2500_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_2500act.conf -O
+(TEST MODE) Skipping execution of simulation 2500 actuators.SIMULATION: 2750
+COMMAND: maos -o studies/act_count/7mag_lgs/test/2750_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_2750act.conf -O
+(TEST MODE) Skipping execution of simulation 2750 actuators.SIMULATION: 3000
+COMMAND: maos -o studies/act_count/7mag_lgs/test/3000_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_3000act.conf -O
+(TEST MODE) Skipping execution of simulation 3000 actuators.SIMULATION: 3250
+COMMAND: maos -o studies/act_count/7mag_lgs/test/3250_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_3250act.conf -O
+(TEST MODE) Skipping execution of simulation 3250 actuators.SIMULATION: 3500
+COMMAND: maos -o studies/act_count/7mag_lgs/test/3500_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_3500act.conf -O
+(TEST MODE) Skipping execution of simulation 3500 actuators.SIMULATION: 3750
+COMMAND: maos -o studies/act_count/7mag_lgs/test/3750_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_3750act.conf -O
+(TEST MODE) Skipping execution of simulation 3750 actuators.SIMULATION: 4000
+COMMAND: maos -o studies/act_count/7mag_lgs/test/4000_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_4000act.conf -O
+(TEST MODE) Skipping execution of simulation 4000 actuators.SIMULATION: 4250
+COMMAND: maos -o studies/act_count/7mag_lgs/test/4250_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_4250act.conf -O
+(TEST MODE) Skipping execution of simulation 4250 actuators.SIMULATION: 4500
+COMMAND: maos -o studies/act_count/7mag_lgs/test/4500_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_4500act.conf -O
+(TEST MODE) Skipping execution of simulation 4500 actuators.SIMULATION: 4750
+COMMAND: maos -o studies/act_count/7mag_lgs/test/4750_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_4750act.conf -O
+(TEST MODE) Skipping execution of simulation 4750 actuators.SIMULATION: 5000
+COMMAND: maos -o studies/act_count/7mag_lgs/test/5000_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_5000act.conf -O
+(TEST MODE) Skipping execution of simulation 5000 actuators.SIMULATION: 5250
+COMMAND: maos -o studies/act_count/7mag_lgs/test/5250_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_5250act.conf -O
+(TEST MODE) Skipping execution of simulation 5250 actuators.SIMULATION: 5500
+COMMAND: maos -o studies/act_count/7mag_lgs/test/5500_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_5500act.conf -O
+(TEST MODE) Skipping execution of simulation 5500 actuators.SIMULATION: 5750
+COMMAND: maos -o studies/act_count/7mag_lgs/test/5750_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_5750act.conf -O
+(TEST MODE) Skipping execution of simulation 5750 actuators.SIMULATION: 6000
+COMMAND: maos -o studies/act_count/7mag_lgs/test/6000_actuators -c master_files/act_vs_lgs/7mag_lgs/kola_6000act.conf -O
+(TEST MODE) Skipping execution of simulation 6000 actuators.---------------------------------------
+---------------------------------------
