@@ -17,7 +17,7 @@ echo "---------------------------"
 cd /global/homes/b/bpeck/work/vismcao
 
 
-srun -N 1 -n 1 -G 1 python /global/homes/b/bpeck/work/vismcao/scripts/studies/act_count_different_dm_orders.py
+srun -N 1 -n 1 -G 1 python /global/homes/b/bpeck/work/vismcao/scripts/studies/act_count.py
  
 date
 echo "All done!"
