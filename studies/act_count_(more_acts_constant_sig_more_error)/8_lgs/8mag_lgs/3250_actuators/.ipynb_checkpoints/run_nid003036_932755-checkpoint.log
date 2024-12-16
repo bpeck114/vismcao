@@ -1,0 +1,51 @@
+Warning(sock.c:516): connect locally (/global/homes/b/bpeck/.aos/tmp/nid003036/scheduler) failed: Invalid argument. 
+/global/u2/b/bpeck/work/vismcao/maos -o studies/act_count/8_lgs/8mag_lgs/3250_actuators -c master_files/dm_orders/8_lgs/8mag_lgs/kola_3250act.conf -O 
+Output folder is 'studies/act_count/8_lgs/8mag_lgs/3250_actuators'.
+SRC: /global/homes/b/bpeck/code/maos v2.9 4c88b7c2 2024-11-13 16:45:33 -0800
+BUILT: /global/homes/b/bpeck/code/maos/optim by GCC (v12) on 2024/11/18 09:40:03 CPU(F64,+O3) with CUDA(v122,F32)
+Launched at 2024/12/06 18:33:18 in nid003036 with PID 932755.
+The web based job monitor can be accessed at http://localhost:10300
+Main config file is /global/u2/b/bpeck/work/vismcao/master_files/dm_orders/8_lgs/8mag_lgs/kola_3250act.conf
+Warning(path.c:48): Path not found: path=/global/u2/b/bpeck/work/vismcao/master_files/dm_orders/8_lgs/8mag_lgs/bin; abspath=/global/u2/b/bpeck/work/vismcao/master_files/dm_orders/8_lgs/8mag_lgs/bin; Ignored.
+Warning(path.c:48): Path not found: path=/global/u2/b/bpeck/work/vismcao/master_files/dm_orders/8_lgs/8mag_lgs/atm; abspath=/global/u2/b/bpeck/work/vismcao/master_files/dm_orders/8_lgs/8mag_lgs/atm; Ignored.
+Warning(readcfg.c:399): sim.apfsm has been renamed to powfs.apfsm.
+Warning(readcfg.c:399): sim.epfsm has been renamed to powfs.epfsm.
+Warning(readcfg.c:399): sim.alfsm has been renamed to powfs.alfsm.
+Warning(readcfg.c:399): sim.commonfsm has been renamed to powfs.commonfsm.
+Warning(readcfg.c:399): sim.idealfsm has been renamed to powfs.idealfsm.
+Warning(readcfg.c:399): sim.zetafsm has been renamed to powfs.zetafsm.
+Warning(readcfg.c:399): sim.f0fsm has been renamed to powfs.f0fsm.
+Warning(readcfg.c:399): tsurf has been renamed to ncpa.tsurf.
+loaded 132 (132 new) records from '/global/u2/b/bpeck/work/vismcao/./keck_sim.conf'
+loaded  19 ( 19 new) records from '/global/u2/b/bpeck/work/vismcao/./dm_none.conf'
+loaded  19 (  0 new) records from '/global/u2/b/bpeck/work/vismcao/./keck_ASM.conf'
+loaded  19 (  0 new) records from '/global/u2/b/bpeck/work/vismcao/./keck_DM2.conf'
+loaded  19 (  0 new) records from '/global/u2/b/bpeck/work/vismcao/./keck_DM3.conf'
+loaded   0 (  0 new) records from '/global/u2/b/bpeck/work/vismcao/./keck_dm_multiple.conf'
+loaded   7 (  5 new) records from '/global/u2/b/bpeck/work/vismcao/./atm_mk13n50p_ground_detail.conf'
+loaded  76 ( 69 new) records from '/global/homes/b/bpeck/code/maos/config/maos/powfs_common.conf'
+loaded  44 ( 38 new) records from '/global/u2/b/bpeck/work/vismcao/./powfs_none.conf'
+loaded  44 (  0 new) records from '/global/u2/b/bpeck/work/vismcao/./keck_shwfs_lgs.conf'
+loaded  44 (  0 new) records from '/global/u2/b/bpeck/work/vismcao/./keck_shwfs_ttf_strap.conf'
+loaded  44 (  0 new) records from '/global/u2/b/bpeck/work/vismcao/./keck_shwfs_twfs_lbwfs.conf'
+loaded   0 (  0 new) records from '/global/u2/b/bpeck/work/vismcao/./keck_wfs_lgs_strap_lbwfs.conf'
+loaded  71 ( 71 new) records from '/global/u2/b/bpeck/work/vismcao/./keck_recon.conf'
+Warning(readcfg.c:399): dbg.na_smooth has been renamed to powfs0_llt.na_smooth.
+Warning(readcfg.c:399): dbg.na_interp has been renamed to powfs0_llt.na_interp.
+Warning(readcfg.c:399): dbg.na_thres has been renamed to powfs0_llt.na_thres.
+Warning(readcfg.c:399): dbg.na_fit_maxit has been renamed to powfs0_llt.na_fit_maxit.
+Warning(readcfg.c:399): dbg.na_fit_svdthres has been renamed to powfs0_llt.na_fit_svdthres.
+Warning(readcfg.c:399): dbg.na_fit_dh has been renamed to powfs0_llt.na_fit_dh.
+Warning(readcfg.c:399): dbg.ncpa_preload has been renamed to ncpa.preload.
+Warning(readcfg.c:399): dbg.ncpa_rmsci has been renamed to ncpa.rmsci.
+Warning(readcfg.c:399): dbg.draw_opdmax has been renamed to plot.opdmax.
+Warning(readcfg.c:399): dbg.draw_gmax has been renamed to plot.gmax.
+loaded  95 ( 93 new) records from '/global/u2/b/bpeck/work/vismcao/./keck_dbg.conf'
+loaded   4 (  4 new) records from '/global/u2/b/bpeck/work/vismcao/./keck_fit_mcao.conf'
+Warning(readcfg.c:399): surf has been renamed to ncpa.surf.
+loaded  36 (  5 new) records from '/global/u2/b/bpeck/work/vismcao/master_files/dm_orders/8_lgs/8mag_lgs/kola_3250act.conf'
+loaded   0 (  0 new) records from 'command line'
+loaded  24 ( 18 new) records from '/global/u2/b/bpeck/work/vismcao/./keck_llt_CL.conf'
+Error(readcfg.c:517): Record powfs0_llt.ox not found
+
+Signal caught: User defined signal 2 (12)
