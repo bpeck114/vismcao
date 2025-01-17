@@ -1,0 +1,58 @@
+/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/maos -o test -c master_files/gradient/10_lgs/8mag_lgs/kola_1000act.conf -O 
+Output folder is 'test'.
+SRC: /u/bpeck/code/maos v3.0 d9f25759 2024-10-05 22:07:23 -0700
+BUILT: /u/bpeck/code/maos/optim by GCC (v12.2.0) on 2024/11/12 19:34:04 CPU(F64,+O3) w/o CUDA
+Launched at 2025/01/17 06:20:55 in elisa with PID 51829.
+The web based job monitor can be accessed at http://localhost:10300
+Main config file is /System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/master_files/gradient/10_lgs/8mag_lgs/kola_1000act.conf
+Warning(path.c:51): Path not found: path=/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/master_files/gradient/10_lgs/8mag_lgs/bin; abspath=/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/master_files/gradient/10_lgs/8mag_lgs/bin; Ignored.
+Warning(path.c:51): Path not found: path=/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/master_files/gradient/10_lgs/8mag_lgs/atm; abspath=/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/master_files/gradient/10_lgs/8mag_lgs/atm; Ignored.
+loaded 132 (131 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/keck_sim.conf'
+loaded   2 (  2 new) records from '/u/bpeck/code/maos/config/maos/dm_none.conf'
+loaded  19 ( 17 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/keck_ASM.conf'
+loaded  19 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/keck_DM2.conf'
+loaded  19 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/keck_DM3.conf'
+loaded   0 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/keck_dm_multiple.conf'
+loaded   7 (  5 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/atm_mk13n50p_ground_detail.conf'
+loaded  86 ( 79 new) records from '/u/bpeck/code/maos/config/maos/powfs_common.conf'
+loaded  38 ( 38 new) records from '/u/bpeck/code/maos/config/maos/powfs_none.conf'
+loaded  44 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/keck_shwfs_lgs.conf'
+loaded  44 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/keck_shwfs_ttf_strap.conf'
+loaded  44 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/keck_shwfs_twfs_lbwfs.conf'
+loaded   0 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/keck_wfs_lgs_strap_lbwfs.conf'
+loaded  71 ( 71 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/keck_recon.conf'
+loaded  95 ( 93 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/keck_dbg.conf'
+loaded   4 (  4 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/keck_fit_mcao.conf'
+loaded  37 (  7 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/master_files/gradient/10_lgs/8mag_lgs/kola_1000act.conf'
+loaded   0 (  0 new) records from 'command line'
+Warning(readcfg.c:522): Record atm.dtrat not found
+Warning(readcfg.c:704): Record for atm.dtrat not found, assume 0.
+Warning(readcfg.c:522): Record atm.interp not found
+Warning(readcfg.c:704): Record for atm.interp not found, assume 0.
+Warning(readstr.c:241): Needs 3 numbers, but more are supplied.
+Warning(readstr.c:430): powfs.misregx=[0 0.05 0 0.42]: read failed
+Warning(readstr.c:241): Needs 3 numbers, but more are supplied.
+Warning(readstr.c:430): powfs.misregy=[0 0.05 0 0.42]: read failed
+Warning(readstr.c:241): Needs 3 numbers, but more are supplied.
+Warning(readstr.c:430): powfs.pixblur=[0.3 0.27 0 0]: read failed
+Adjust Sodium LGS range 90000 by telescope altitude 4145m.
+loaded  24 ( 18 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/keck_llt_CL.conf'
+Warning(parms.c:426): powfs.dsa=[-1/order] is deprecated. Please use powfs.dsa=[-order] instead.
+powfs2: Adjusting dx from 0.03125 to 0.0312778. 
+Warning(readcfg.c:522): Record sim.bzero not found
+Warning(readcfg.c:522): Record recon.petal not found
+Warning(readcfg.c:704): Record for recon.petal not found, assume 0.
+Warning(readcfg.c:522): Record recon.petaldtrat not found
+Warning(readcfg.c:704): Record for recon.petaldtrat not found, assume 0.
+Warning(readcfg.c:522): Record recon.petalstep not found
+Warning(readcfg.c:704): Record for recon.petalstep not found, assume 0.
+Warning(readcfg.c:522): Record recon.petalnpsf not found
+Warning(readcfg.c:704): Record for recon.petalnpsf not found, assume 0.
+Warning(readcfg.c:522): Record recon.petaltt not found
+Warning(readcfg.c:704): Record for recon.petaltt not found, assume 0.
+Warning(readcfg.c:522): Record plot.psfmin not found
+Warning(readcfg.c:720): Record for plot.psfmin not found, assume 0.
+There are 1 valid simulation seeds:  1
+Error(readcfg.c:156): key "dbg.pwfs_flate" is not recognized, value is 0. Set env MAOS_PERMISSIVE=1 to ignore the error.
+
+Signal caught: User defined signal 2: 31 (31)
