@@ -1,0 +1,112 @@
+Actuator Count Study Log - Batch ID: 20250116_224933
+Output Folder: studies/act_count/8_lgs/7mag_lgs/
+Test Mode: Disabled
+---------------------------------------
+
+Found configuration file: master_files/dm_orders/8_lgs/7mag_lgs/kola_1000act.confSIMULATION: 1000
+COMMAND: maos -o studies/act_count/8_lgs/7mag_lgs/1000_actuators -c master_files/dm_orders/8_lgs/7mag_lgs/kola_1000act.conf -O
+Elapsed Time: 0:2:13.783
+
+Found configuration file: master_files/dm_orders/8_lgs/7mag_lgs/kola_1250act.confSIMULATION: 1250
+COMMAND: maos -o studies/act_count/8_lgs/7mag_lgs/1250_actuators -c master_files/dm_orders/8_lgs/7mag_lgs/kola_1250act.conf -O
+Elapsed Time: 0:3:7.809
+
+Found configuration file: master_files/dm_orders/8_lgs/7mag_lgs/kola_1500act.confSIMULATION: 1500
+COMMAND: maos -o studies/act_count/8_lgs/7mag_lgs/1500_actuators -c master_files/dm_orders/8_lgs/7mag_lgs/kola_1500act.conf -O
+Elapsed Time: 0:3:1.588
+
+Found configuration file: master_files/dm_orders/8_lgs/7mag_lgs/kola_1750act.confSIMULATION: 1750
+COMMAND: maos -o studies/act_count/8_lgs/7mag_lgs/1750_actuators -c master_files/dm_orders/8_lgs/7mag_lgs/kola_1750act.conf -O
+Elapsed Time: 0:3:10.268
+
+Found configuration file: master_files/dm_orders/8_lgs/7mag_lgs/kola_2000act.confSIMULATION: 2000
+COMMAND: maos -o studies/act_count/8_lgs/7mag_lgs/2000_actuators -c master_files/dm_orders/8_lgs/7mag_lgs/kola_2000act.conf -O
+Elapsed Time: 0:3:16.361
+
+Found configuration file: master_files/dm_orders/8_lgs/7mag_lgs/kola_2250act.confSIMULATION: 2250
+COMMAND: maos -o studies/act_count/8_lgs/7mag_lgs/2250_actuators -c master_files/dm_orders/8_lgs/7mag_lgs/kola_2250act.conf -O
+Elapsed Time: 0:3:21.758
+
+Found configuration file: master_files/dm_orders/8_lgs/7mag_lgs/kola_2500act.confSIMULATION: 2500
+COMMAND: maos -o studies/act_count/8_lgs/7mag_lgs/2500_actuators -c master_files/dm_orders/8_lgs/7mag_lgs/kola_2500act.conf -O
+Elapsed Time: 0:3:27.325
+
+Found configuration file: master_files/dm_orders/8_lgs/7mag_lgs/kola_2750act.confSIMULATION: 2750
+COMMAND: maos -o studies/act_count/8_lgs/7mag_lgs/2750_actuators -c master_files/dm_orders/8_lgs/7mag_lgs/kola_2750act.conf -O
+Elapsed Time: 0:3:44.89
+
+Found configuration file: master_files/dm_orders/8_lgs/7mag_lgs/kola_3000act.confSIMULATION: 3000
+COMMAND: maos -o studies/act_count/8_lgs/7mag_lgs/3000_actuators -c master_files/dm_orders/8_lgs/7mag_lgs/kola_3000act.conf -O
+Elapsed Time: 0:4:19.472
+
+Found configuration file: master_files/dm_orders/8_lgs/7mag_lgs/kola_3250act.confSIMULATION: 3250
+COMMAND: maos -o studies/act_count/8_lgs/7mag_lgs/3250_actuators -c master_files/dm_orders/8_lgs/7mag_lgs/kola_3250act.conf -O
+Elapsed Time: 0:4:18.342
+
+Found configuration file: master_files/dm_orders/8_lgs/7mag_lgs/kola_3500act.confSIMULATION: 3500
+COMMAND: maos -o studies/act_count/8_lgs/7mag_lgs/3500_actuators -c master_files/dm_orders/8_lgs/7mag_lgs/kola_3500act.conf -O
+Elapsed Time: 0:4:49.14
+
+Found configuration file: master_files/dm_orders/8_lgs/7mag_lgs/kola_3750act.confSIMULATION: 3750
+COMMAND: maos -o studies/act_count/8_lgs/7mag_lgs/3750_actuators -c master_files/dm_orders/8_lgs/7mag_lgs/kola_3750act.conf -O
+Elapsed Time: 0:4:31.459
+
+Found configuration file: master_files/dm_orders/8_lgs/7mag_lgs/kola_4000act.confSIMULATION: 4000
+COMMAND: maos -o studies/act_count/8_lgs/7mag_lgs/4000_actuators -c master_files/dm_orders/8_lgs/7mag_lgs/kola_4000act.conf -O
+Elapsed Time: 0:4:32.811
+
+Found configuration file: master_files/dm_orders/8_lgs/7mag_lgs/kola_4250act.confSIMULATION: 4250
+COMMAND: maos -o studies/act_count/8_lgs/7mag_lgs/4250_actuators -c master_files/dm_orders/8_lgs/7mag_lgs/kola_4250act.conf -O
+Elapsed Time: 0:5:0.513
+
+Found configuration file: master_files/dm_orders/8_lgs/7mag_lgs/kola_4500act.confSIMULATION: 4500
+COMMAND: maos -o studies/act_count/8_lgs/7mag_lgs/4500_actuators -c master_files/dm_orders/8_lgs/7mag_lgs/kola_4500act.conf -O
+Elapsed Time: 0:4:59.907
+
+Found configuration file: master_files/dm_orders/8_lgs/7mag_lgs/kola_4750act.confSIMULATION: 4750
+COMMAND: maos -o studies/act_count/8_lgs/7mag_lgs/4750_actuators -c master_files/dm_orders/8_lgs/7mag_lgs/kola_4750act.conf -O
+Elapsed Time: 0:5:21.341
+
+Found configuration file: master_files/dm_orders/8_lgs/7mag_lgs/kola_5000act.confSIMULATION: 5000
+COMMAND: maos -o studies/act_count/8_lgs/7mag_lgs/5000_actuators -c master_files/dm_orders/8_lgs/7mag_lgs/kola_5000act.conf -O
+Elapsed Time: 0:5:19.444
+
+Found configuration file: master_files/dm_orders/8_lgs/7mag_lgs/kola_5250act.confSIMULATION: 5250
+COMMAND: maos -o studies/act_count/8_lgs/7mag_lgs/5250_actuators -c master_files/dm_orders/8_lgs/7mag_lgs/kola_5250act.conf -O
+Elapsed Time: 0:5:37.518
+
+Found configuration file: master_files/dm_orders/8_lgs/7mag_lgs/kola_5500act.confSIMULATION: 5500
+COMMAND: maos -o studies/act_count/8_lgs/7mag_lgs/5500_actuators -c master_files/dm_orders/8_lgs/7mag_lgs/kola_5500act.conf -O
+Elapsed Time: 0:5:53.701
+
+Found configuration file: master_files/dm_orders/8_lgs/7mag_lgs/kola_5750act.confSIMULATION: 5750
+COMMAND: maos -o studies/act_count/8_lgs/7mag_lgs/5750_actuators -c master_files/dm_orders/8_lgs/7mag_lgs/kola_5750act.conf -O
+Elapsed Time: 0:5:48.91
+
+Found configuration file: master_files/dm_orders/8_lgs/7mag_lgs/kola_6000act.confSIMULATION: 6000
+COMMAND: maos -o studies/act_count/8_lgs/7mag_lgs/6000_actuators -c master_files/dm_orders/8_lgs/7mag_lgs/kola_6000act.conf -O
+Elapsed Time: 0:6:18.111
+
+---------------------------------------
+SIM (1000) TIME: 0:2:13.783
+SIM (1250) TIME: 0:3:7.809
+SIM (1500) TIME: 0:3:1.588
+SIM (1750) TIME: 0:3:10.268
+SIM (2000) TIME: 0:3:16.361
+SIM (2250) TIME: 0:3:21.758
+SIM (2500) TIME: 0:3:27.325
+SIM (2750) TIME: 0:3:44.89
+SIM (3000) TIME: 0:4:19.472
+SIM (3250) TIME: 0:4:18.342
+SIM (3500) TIME: 0:4:49.14
+SIM (3750) TIME: 0:4:31.459
+SIM (4000) TIME: 0:4:32.811
+SIM (4250) TIME: 0:5:0.513
+SIM (4500) TIME: 0:4:59.907
+SIM (4750) TIME: 0:5:21.341
+SIM (5000) TIME: 0:5:19.444
+SIM (5250) TIME: 0:5:37.518
+SIM (5500) TIME: 0:5:53.701
+SIM (5750) TIME: 0:5:48.91
+SIM (6000) TIME: 0:6:18.111
+---------------------------------------
