@@ -1,0 +1,102 @@
+Actuator Count Study Log - Batch ID: 20250124_090101
+Output Folder: studies/siglev/8_lgs/8mag_lgs/
+Test Mode: Disabled
+---------------------------------------
+
+Found configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_10siglev.confSIMULATION: 10
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/10siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_10siglev.conf -O
+Elapsed Time: 0:4:10.576
+
+Found configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_20siglev.confSIMULATION: 20
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/20siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_20siglev.conf -O
+Elapsed Time: 0:4:12.66
+
+Found configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_30siglev.confSIMULATION: 30
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/30siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_30siglev.conf -O
+Elapsed Time: 0:4:6.604
+
+Found configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_40siglev.confSIMULATION: 40
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/40siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_40siglev.conf -O
+Elapsed Time: 0:4:7.144
+
+Found configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_50siglev.confSIMULATION: 50
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/50siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_50siglev.conf -O
+Elapsed Time: 0:4:4.599
+
+Found configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_60siglev.confSIMULATION: 60
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/60siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_60siglev.conf -O
+Elapsed Time: 0:4:3.662
+
+Found configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_70siglev.confSIMULATION: 70
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/70siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_70siglev.conf -O
+Elapsed Time: 0:4:7.115
+
+Found configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_80siglev.confSIMULATION: 80
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/80siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_80siglev.conf -O
+Elapsed Time: 0:4:8.371
+
+Found configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_90siglev.confSIMULATION: 90
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/90siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_90siglev.conf -O
+Elapsed Time: 0:4:7.157
+
+Found configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_100siglev.confSIMULATION: 100
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/100siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_100siglev.conf -O
+Elapsed Time: 0:4:20.467
+
+Found configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_200siglev.confSIMULATION: 200
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/200siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_200siglev.conf -O
+Elapsed Time: 0:4:11.967
+
+Found configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_300siglev.confSIMULATION: 300
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/300siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_300siglev.conf -O
+Elapsed Time: 0:4:7.944
+
+Found configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_400siglev.confSIMULATION: 400
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/400siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_400siglev.conf -O
+Elapsed Time: 0:4:8.711
+
+Found configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_500siglev.confSIMULATION: 500
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/500siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_500siglev.conf -O
+Elapsed Time: 0:4:5.408
+
+Found configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_600siglev.confSIMULATION: 600
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/600siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_600siglev.conf -O
+Elapsed Time: 0:4:7.626
+
+Found configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_700siglev.confSIMULATION: 700
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/700siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_700siglev.conf -O
+Elapsed Time: 0:4:5.533
+
+Found configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_800siglev.confSIMULATION: 800
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/800siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_800siglev.conf -O
+Elapsed Time: 0:4:8.4
+
+Found configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_900siglev.confSIMULATION: 900
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/900siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_900siglev.conf -O
+Elapsed Time: 0:4:17.956
+
+Found configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_1000siglev.confSIMULATION: 1000
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/1000siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_1000siglev.conf -O
+Elapsed Time: 0:4:11.276
+
+---------------------------------------
+SIM (10) TIME: 0:4:10.576
+SIM (20) TIME: 0:4:12.66
+SIM (30) TIME: 0:4:6.604
+SIM (40) TIME: 0:4:7.144
+SIM (50) TIME: 0:4:4.599
+SIM (60) TIME: 0:4:3.662
+SIM (70) TIME: 0:4:7.115
+SIM (80) TIME: 0:4:8.371
+SIM (90) TIME: 0:4:7.157
+SIM (100) TIME: 0:4:20.467
+SIM (200) TIME: 0:4:11.967
+SIM (300) TIME: 0:4:7.944
+SIM (400) TIME: 0:4:8.711
+SIM (500) TIME: 0:4:5.408
+SIM (600) TIME: 0:4:7.626
+SIM (700) TIME: 0:4:5.533
+SIM (800) TIME: 0:4:8.4
+SIM (900) TIME: 0:4:17.956
+SIM (1000) TIME: 0:4:11.276
+---------------------------------------
