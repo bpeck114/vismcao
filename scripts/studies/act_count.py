@@ -15,10 +15,10 @@ parser.add_argument("--test", action="store_true", help="Run in test mode withou
 args = parser.parse_args()
 
 # Set parameters for actuator study
-config_folder = "master_files/gradient/10_lgs/8mag_lgs"
-default_output_folder = "studies/gradient/10_lgs/8mag_lgs/"
-test_folder = "studies/gradient/10_lgs/8mag_lgs/test/"
-act_count = np.array([1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3250, 3500, 3750, 4000, 4250, 4500, 4750, 5000, 5250, 5500, 5750, 6000])
+config_folder = "master_files/center_launch/8_lgs/8mag_lgs"
+default_output_folder = "studies/center_launch/8_lgs/8mag_lgs/"
+test_folder = "studies/center_launch/8_lgs/8mag_lgs/test/"
+act_count = np.array([4000])
 
 # Choose output folder based on test mode
 output_folder = test_folder if args.test else default_output_folder
