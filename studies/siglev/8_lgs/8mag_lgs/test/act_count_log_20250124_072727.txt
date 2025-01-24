@@ -1,0 +1,45 @@
+Actuator Count Study Log - Batch ID: 20250124_072727
+Output Folder: studies/siglev/8_lgs/8mag_lgs/test/
+Test Mode: Enabled
+---------------------------------------
+
+Found configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_10siglev.confSIMULATION: 10
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/test/10siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_10siglev.conf -O
+(TEST MODE) Skipping execution of simulation 10 actuators.maos -o studies/siglev/8_lgs/8mag_lgs/test/10siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_10siglev.conf -OFound configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_20siglev.confSIMULATION: 20
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/test/20siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_20siglev.conf -O
+(TEST MODE) Skipping execution of simulation 20 actuators.maos -o studies/siglev/8_lgs/8mag_lgs/test/20siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_20siglev.conf -OFound configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_30siglev.confSIMULATION: 30
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/test/30siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_30siglev.conf -O
+(TEST MODE) Skipping execution of simulation 30 actuators.maos -o studies/siglev/8_lgs/8mag_lgs/test/30siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_30siglev.conf -OFound configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_40siglev.confSIMULATION: 40
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/test/40siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_40siglev.conf -O
+(TEST MODE) Skipping execution of simulation 40 actuators.maos -o studies/siglev/8_lgs/8mag_lgs/test/40siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_40siglev.conf -OFound configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_50siglev.confSIMULATION: 50
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/test/50siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_50siglev.conf -O
+(TEST MODE) Skipping execution of simulation 50 actuators.maos -o studies/siglev/8_lgs/8mag_lgs/test/50siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_50siglev.conf -OFound configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_60siglev.confSIMULATION: 60
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/test/60siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_60siglev.conf -O
+(TEST MODE) Skipping execution of simulation 60 actuators.maos -o studies/siglev/8_lgs/8mag_lgs/test/60siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_60siglev.conf -OFound configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_70siglev.confSIMULATION: 70
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/test/70siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_70siglev.conf -O
+(TEST MODE) Skipping execution of simulation 70 actuators.maos -o studies/siglev/8_lgs/8mag_lgs/test/70siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_70siglev.conf -OFound configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_80siglev.confSIMULATION: 80
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/test/80siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_80siglev.conf -O
+(TEST MODE) Skipping execution of simulation 80 actuators.maos -o studies/siglev/8_lgs/8mag_lgs/test/80siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_80siglev.conf -OFound configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_90siglev.confSIMULATION: 90
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/test/90siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_90siglev.conf -O
+(TEST MODE) Skipping execution of simulation 90 actuators.maos -o studies/siglev/8_lgs/8mag_lgs/test/90siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_90siglev.conf -OFound configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_100siglev.confSIMULATION: 100
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/test/100siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_100siglev.conf -O
+(TEST MODE) Skipping execution of simulation 100 actuators.maos -o studies/siglev/8_lgs/8mag_lgs/test/100siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_100siglev.conf -OFound configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_200siglev.confSIMULATION: 200
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/test/200siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_200siglev.conf -O
+(TEST MODE) Skipping execution of simulation 200 actuators.maos -o studies/siglev/8_lgs/8mag_lgs/test/200siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_200siglev.conf -OFound configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_300siglev.confSIMULATION: 300
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/test/300siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_300siglev.conf -O
+(TEST MODE) Skipping execution of simulation 300 actuators.maos -o studies/siglev/8_lgs/8mag_lgs/test/300siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_300siglev.conf -OFound configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_400siglev.confSIMULATION: 400
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/test/400siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_400siglev.conf -O
+(TEST MODE) Skipping execution of simulation 400 actuators.maos -o studies/siglev/8_lgs/8mag_lgs/test/400siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_400siglev.conf -OFound configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_500siglev.confSIMULATION: 500
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/test/500siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_500siglev.conf -O
+(TEST MODE) Skipping execution of simulation 500 actuators.maos -o studies/siglev/8_lgs/8mag_lgs/test/500siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_500siglev.conf -OFound configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_600siglev.confSIMULATION: 600
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/test/600siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_600siglev.conf -O
+(TEST MODE) Skipping execution of simulation 600 actuators.maos -o studies/siglev/8_lgs/8mag_lgs/test/600siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_600siglev.conf -OFound configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_700siglev.confSIMULATION: 700
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/test/700siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_700siglev.conf -O
+(TEST MODE) Skipping execution of simulation 700 actuators.maos -o studies/siglev/8_lgs/8mag_lgs/test/700siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_700siglev.conf -OFound configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_800siglev.confSIMULATION: 800
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/test/800siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_800siglev.conf -O
+(TEST MODE) Skipping execution of simulation 800 actuators.maos -o studies/siglev/8_lgs/8mag_lgs/test/800siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_800siglev.conf -OFound configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_900siglev.confSIMULATION: 900
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/test/900siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_900siglev.conf -O
+(TEST MODE) Skipping execution of simulation 900 actuators.maos -o studies/siglev/8_lgs/8mag_lgs/test/900siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_900siglev.conf -OFound configuration file: master_files/siglev/8_lgs/8mag_lgs/kola_1000siglev.confSIMULATION: 1000
+COMMAND: maos -o studies/siglev/8_lgs/8mag_lgs/test/1000siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_1000siglev.conf -O
+(TEST MODE) Skipping execution of simulation 1000 actuators.maos -o studies/siglev/8_lgs/8mag_lgs/test/1000siglev -c master_files/siglev/8_lgs/8mag_lgs/kola_1000siglev.conf -O---------------------------------------
+---------------------------------------
