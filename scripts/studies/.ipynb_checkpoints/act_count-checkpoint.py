@@ -15,10 +15,10 @@ parser.add_argument("--test", action="store_true", help="Run in test mode withou
 args = parser.parse_args()
 
 # Set parameters for actuator study
-config_folder = "master_files/siglev/8_lgs/8mag_lgs"
-default_output_folder = "studies/siglev/8_lgs/8mag_lgs/"
-test_folder = "studies/siglev/8_lgs/8mag_lgs/test/"
-act_count = np.array([10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000])
+config_folder = "master_files/grid/"
+default_output_folder = "studies/grid"
+test_folder = "studies/grid"
+act_count = np.array([4000])
 
 # Choose output folder based on test mode
 output_folder = test_folder if args.test else default_output_folder
@@ -40,8 +40,9 @@ with open(log_file, "w") as log:
     log.write("---------------------------------------\n\n")
 
     for act in act_count:
-        output_path = os.path.join(output_folder, f"{act}siglev")
-        config_file = os.path.join(config_folder, f"kola_{act}siglev.conf")
+        output_path = os.path.join(output_folder, f"{act}count")
+        # config_file = os.path.join(config_folder, f"kola_{act}count.conf")
+        config_file = os.path.join(config_folder, f"kola_grid.conf")
         command = f"maos -o {output_path} -c {config_file} -O"
 
         # Check if the configuration file exists
