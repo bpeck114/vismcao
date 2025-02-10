@@ -1,0 +1,49 @@
+Actuator Count Study Log - Batch ID: 20250209_155503
+Output Folder: studies/misreg/8_lgs/8mag_lgs/test
+Test Mode: Enabled
+---------------------------------------
+
+ERROR: Configuration file not found: master_files/misreg/8_lgs/8mag_lgs/kola_1000count.conf
+
+ERROR: Configuration file not found: master_files/misreg/8_lgs/8mag_lgs/kola_1250count.conf
+
+ERROR: Configuration file not found: master_files/misreg/8_lgs/8mag_lgs/kola_1500count.conf
+
+ERROR: Configuration file not found: master_files/misreg/8_lgs/8mag_lgs/kola_1750count.conf
+
+ERROR: Configuration file not found: master_files/misreg/8_lgs/8mag_lgs/kola_2000count.conf
+
+ERROR: Configuration file not found: master_files/misreg/8_lgs/8mag_lgs/kola_2250count.conf
+
+ERROR: Configuration file not found: master_files/misreg/8_lgs/8mag_lgs/kola_2500count.conf
+
+ERROR: Configuration file not found: master_files/misreg/8_lgs/8mag_lgs/kola_2750count.conf
+
+ERROR: Configuration file not found: master_files/misreg/8_lgs/8mag_lgs/kola_3000count.conf
+
+ERROR: Configuration file not found: master_files/misreg/8_lgs/8mag_lgs/kola_3250count.conf
+
+ERROR: Configuration file not found: master_files/misreg/8_lgs/8mag_lgs/kola_3500count.conf
+
+ERROR: Configuration file not found: master_files/misreg/8_lgs/8mag_lgs/kola_3750count.conf
+
+ERROR: Configuration file not found: master_files/misreg/8_lgs/8mag_lgs/kola_4000count.conf
+
+ERROR: Configuration file not found: master_files/misreg/8_lgs/8mag_lgs/kola_4250count.conf
+
+ERROR: Configuration file not found: master_files/misreg/8_lgs/8mag_lgs/kola_4500count.conf
+
+ERROR: Configuration file not found: master_files/misreg/8_lgs/8mag_lgs/kola_4750count.conf
+
+ERROR: Configuration file not found: master_files/misreg/8_lgs/8mag_lgs/kola_5000count.conf
+
+ERROR: Configuration file not found: master_files/misreg/8_lgs/8mag_lgs/kola_5250count.conf
+
+ERROR: Configuration file not found: master_files/misreg/8_lgs/8mag_lgs/kola_5500count.conf
+
+ERROR: Configuration file not found: master_files/misreg/8_lgs/8mag_lgs/kola_5750count.conf
+
+ERROR: Configuration file not found: master_files/misreg/8_lgs/8mag_lgs/kola_6000count.conf
+
+---------------------------------------
+---------------------------------------

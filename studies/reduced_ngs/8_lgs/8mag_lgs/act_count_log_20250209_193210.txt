@@ -1,0 +1,112 @@
+Actuator Count Study Log - Batch ID: 20250209_193210
+Output Folder: studies/reduced_ngs/8_lgs/8mag_lgs
+Test Mode: Disabled
+---------------------------------------
+
+Found configuration file: master_files/reduced_ngs/8_lgs/8mag_lgs/kola_1000act.confSIMULATION: 1000
+COMMAND: maos -o studies/reduced_ngs/8_lgs/8mag_lgs/1000count -c master_files/reduced_ngs/8_lgs/8mag_lgs/kola_1000act.conf -O
+Elapsed Time: 0:2:14.544
+
+Found configuration file: master_files/reduced_ngs/8_lgs/8mag_lgs/kola_1250act.confSIMULATION: 1250
+COMMAND: maos -o studies/reduced_ngs/8_lgs/8mag_lgs/1250count -c master_files/reduced_ngs/8_lgs/8mag_lgs/kola_1250act.conf -O
+Elapsed Time: 0:2:0.975
+
+Found configuration file: master_files/reduced_ngs/8_lgs/8mag_lgs/kola_1500act.confSIMULATION: 1500
+COMMAND: maos -o studies/reduced_ngs/8_lgs/8mag_lgs/1500count -c master_files/reduced_ngs/8_lgs/8mag_lgs/kola_1500act.conf -O
+Elapsed Time: 0:2:1.303
+
+Found configuration file: master_files/reduced_ngs/8_lgs/8mag_lgs/kola_1750act.confSIMULATION: 1750
+COMMAND: maos -o studies/reduced_ngs/8_lgs/8mag_lgs/1750count -c master_files/reduced_ngs/8_lgs/8mag_lgs/kola_1750act.conf -O
+Elapsed Time: 0:2:16.341
+
+Found configuration file: master_files/reduced_ngs/8_lgs/8mag_lgs/kola_2000act.confSIMULATION: 2000
+COMMAND: maos -o studies/reduced_ngs/8_lgs/8mag_lgs/2000count -c master_files/reduced_ngs/8_lgs/8mag_lgs/kola_2000act.conf -O
+Elapsed Time: 0:2:26.868
+
+Found configuration file: master_files/reduced_ngs/8_lgs/8mag_lgs/kola_2250act.confSIMULATION: 2250
+COMMAND: maos -o studies/reduced_ngs/8_lgs/8mag_lgs/2250count -c master_files/reduced_ngs/8_lgs/8mag_lgs/kola_2250act.conf -O
+Elapsed Time: 0:2:38.526
+
+Found configuration file: master_files/reduced_ngs/8_lgs/8mag_lgs/kola_2500act.confSIMULATION: 2500
+COMMAND: maos -o studies/reduced_ngs/8_lgs/8mag_lgs/2500count -c master_files/reduced_ngs/8_lgs/8mag_lgs/kola_2500act.conf -O
+Elapsed Time: 0:2:44.785
+
+Found configuration file: master_files/reduced_ngs/8_lgs/8mag_lgs/kola_2750act.confSIMULATION: 2750
+COMMAND: maos -o studies/reduced_ngs/8_lgs/8mag_lgs/2750count -c master_files/reduced_ngs/8_lgs/8mag_lgs/kola_2750act.conf -O
+Elapsed Time: 0:2:53.361
+
+Found configuration file: master_files/reduced_ngs/8_lgs/8mag_lgs/kola_3000act.confSIMULATION: 3000
+COMMAND: maos -o studies/reduced_ngs/8_lgs/8mag_lgs/3000count -c master_files/reduced_ngs/8_lgs/8mag_lgs/kola_3000act.conf -O
+Elapsed Time: 0:3:6.882
+
+Found configuration file: master_files/reduced_ngs/8_lgs/8mag_lgs/kola_3250act.confSIMULATION: 3250
+COMMAND: maos -o studies/reduced_ngs/8_lgs/8mag_lgs/3250count -c master_files/reduced_ngs/8_lgs/8mag_lgs/kola_3250act.conf -O
+Elapsed Time: 0:3:20.178
+
+Found configuration file: master_files/reduced_ngs/8_lgs/8mag_lgs/kola_3500act.confSIMULATION: 3500
+COMMAND: maos -o studies/reduced_ngs/8_lgs/8mag_lgs/3500count -c master_files/reduced_ngs/8_lgs/8mag_lgs/kola_3500act.conf -O
+Elapsed Time: 0:3:30.890
+
+Found configuration file: master_files/reduced_ngs/8_lgs/8mag_lgs/kola_3750act.confSIMULATION: 3750
+COMMAND: maos -o studies/reduced_ngs/8_lgs/8mag_lgs/3750count -c master_files/reduced_ngs/8_lgs/8mag_lgs/kola_3750act.conf -O
+Elapsed Time: 0:3:28.689
+
+Found configuration file: master_files/reduced_ngs/8_lgs/8mag_lgs/kola_4000act.confSIMULATION: 4000
+COMMAND: maos -o studies/reduced_ngs/8_lgs/8mag_lgs/4000count -c master_files/reduced_ngs/8_lgs/8mag_lgs/kola_4000act.conf -O
+Elapsed Time: 0:3:44.807
+
+Found configuration file: master_files/reduced_ngs/8_lgs/8mag_lgs/kola_4250act.confSIMULATION: 4250
+COMMAND: maos -o studies/reduced_ngs/8_lgs/8mag_lgs/4250count -c master_files/reduced_ngs/8_lgs/8mag_lgs/kola_4250act.conf -O
+Elapsed Time: 0:4:1.651
+
+Found configuration file: master_files/reduced_ngs/8_lgs/8mag_lgs/kola_4500act.confSIMULATION: 4500
+COMMAND: maos -o studies/reduced_ngs/8_lgs/8mag_lgs/4500count -c master_files/reduced_ngs/8_lgs/8mag_lgs/kola_4500act.conf -O
+Elapsed Time: 0:4:11.456
+
+Found configuration file: master_files/reduced_ngs/8_lgs/8mag_lgs/kola_4750act.confSIMULATION: 4750
+COMMAND: maos -o studies/reduced_ngs/8_lgs/8mag_lgs/4750count -c master_files/reduced_ngs/8_lgs/8mag_lgs/kola_4750act.conf -O
+Elapsed Time: 0:4:21.698
+
+Found configuration file: master_files/reduced_ngs/8_lgs/8mag_lgs/kola_5000act.confSIMULATION: 5000
+COMMAND: maos -o studies/reduced_ngs/8_lgs/8mag_lgs/5000count -c master_files/reduced_ngs/8_lgs/8mag_lgs/kola_5000act.conf -O
+Elapsed Time: 0:4:30.891
+
+Found configuration file: master_files/reduced_ngs/8_lgs/8mag_lgs/kola_5250act.confSIMULATION: 5250
+COMMAND: maos -o studies/reduced_ngs/8_lgs/8mag_lgs/5250count -c master_files/reduced_ngs/8_lgs/8mag_lgs/kola_5250act.conf -O
+Elapsed Time: 0:4:31.916
+
+Found configuration file: master_files/reduced_ngs/8_lgs/8mag_lgs/kola_5500act.confSIMULATION: 5500
+COMMAND: maos -o studies/reduced_ngs/8_lgs/8mag_lgs/5500count -c master_files/reduced_ngs/8_lgs/8mag_lgs/kola_5500act.conf -O
+Elapsed Time: 0:4:33.372
+
+Found configuration file: master_files/reduced_ngs/8_lgs/8mag_lgs/kola_5750act.confSIMULATION: 5750
+COMMAND: maos -o studies/reduced_ngs/8_lgs/8mag_lgs/5750count -c master_files/reduced_ngs/8_lgs/8mag_lgs/kola_5750act.conf -O
+Elapsed Time: 0:4:58.254
+
+Found configuration file: master_files/reduced_ngs/8_lgs/8mag_lgs/kola_6000act.confSIMULATION: 6000
+COMMAND: maos -o studies/reduced_ngs/8_lgs/8mag_lgs/6000count -c master_files/reduced_ngs/8_lgs/8mag_lgs/kola_6000act.conf -O
+Elapsed Time: 0:5:27.674
+
+---------------------------------------
+SIM (1000) TIME: 0:2:14.544
+SIM (1250) TIME: 0:2:0.975
+SIM (1500) TIME: 0:2:1.303
+SIM (1750) TIME: 0:2:16.341
+SIM (2000) TIME: 0:2:26.868
+SIM (2250) TIME: 0:2:38.526
+SIM (2500) TIME: 0:2:44.785
+SIM (2750) TIME: 0:2:53.361
+SIM (3000) TIME: 0:3:6.882
+SIM (3250) TIME: 0:3:20.178
+SIM (3500) TIME: 0:3:30.890
+SIM (3750) TIME: 0:3:28.689
+SIM (4000) TIME: 0:3:44.807
+SIM (4250) TIME: 0:4:1.651
+SIM (4500) TIME: 0:4:11.456
+SIM (4750) TIME: 0:4:21.698
+SIM (5000) TIME: 0:4:30.891
+SIM (5250) TIME: 0:4:31.916
+SIM (5500) TIME: 0:4:33.372
+SIM (5750) TIME: 0:4:58.254
+SIM (6000) TIME: 0:5:27.674
+---------------------------------------
