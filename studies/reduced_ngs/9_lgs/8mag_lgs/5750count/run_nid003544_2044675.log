@@ -1,0 +1,12 @@
+Warning(sock.c:516): connect locally (/global/homes/b/bpeck/.aos/tmp/nid003544/scheduler) failed: Invalid argument. 
+/global/u2/b/bpeck/work/vismcao/maos -o studies/reduced_ngs/9_lgs/8mag_lgs/5750count -c master_files/reduced_ngs/9_lgs/8mag_lgs/kola_5750act.conf -O 
+Output folder is 'studies/reduced_ngs/9_lgs/8mag_lgs/5750count'.
+ CPU(F64,+O3) with CUDA(v122,F32)
+ 1
+
+
+wvl: []
+
+
+]
+
