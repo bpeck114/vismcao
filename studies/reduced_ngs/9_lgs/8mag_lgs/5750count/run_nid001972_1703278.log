@@ -1,0 +1,545 @@
+Warning(sock.c:516): connect locally (/global/homes/b/bpeck/.aos/tmp/nid001972/scheduler) failed: Invalid argument. 
+/global/cfs/cdirs/ulens/vismcao/maos -o studies/reduced_ngs/9_lgs/8mag_lgs/5750count -c master_files/reduced_ngs/9_lgs/8mag_lgs/kola_5750act.conf -O 
+Output folder is 'studies/reduced_ngs/9_lgs/8mag_lgs/5750count'.
+SRC: /global/homes/b/bpeck/code/maos v2.9 4c88b7c2 2024-11-13 16:45:33 -0800
+BUILT: /global/homes/b/bpeck/code/maos/optim by GCC (v12) on 2024/11/18 09:40:03 CPU(F64,+O3) with CUDA(v122,F32)
+Launched at 2025/02/17 15:49:22 in nid001972 with PID 1703278.
+The web based job monitor can be accessed at http://localhost:10300
+Main config file is /global/cfs/cdirs/ulens/vismcao/master_files/reduced_ngs/9_lgs/8mag_lgs/kola_5750act.conf
+Warning(path.c:48): Path not found: path=/global/cfs/cdirs/ulens/vismcao/master_files/reduced_ngs/9_lgs/8mag_lgs/bin; abspath=/global/cfs/cdirs/ulens/vismcao/master_files/reduced_ngs/9_lgs/8mag_lgs/bin; Ignored.
+Warning(path.c:48): Path not found: path=/global/cfs/cdirs/ulens/vismcao/master_files/reduced_ngs/9_lgs/8mag_lgs/atm; abspath=/global/cfs/cdirs/ulens/vismcao/master_files/reduced_ngs/9_lgs/8mag_lgs/atm; Ignored.
+Warning(readcfg.c:399): sim.apfsm has been renamed to powfs.apfsm.
+Warning(readcfg.c:399): sim.epfsm has been renamed to powfs.epfsm.
+Warning(readcfg.c:399): sim.alfsm has been renamed to powfs.alfsm.
+Warning(readcfg.c:399): sim.commonfsm has been renamed to powfs.commonfsm.
+Warning(readcfg.c:399): sim.idealfsm has been renamed to powfs.idealfsm.
+Warning(readcfg.c:399): sim.zetafsm has been renamed to powfs.zetafsm.
+Warning(readcfg.c:399): sim.f0fsm has been renamed to powfs.f0fsm.
+Warning(readcfg.c:399): tsurf has been renamed to ncpa.tsurf.
+loaded 132 (132 new) records from '/global/cfs/cdirs/ulens/vismcao/./keck_sim.conf'
+loaded  19 ( 19 new) records from '/global/cfs/cdirs/ulens/vismcao/./dm_none.conf'
+loaded  19 (  0 new) records from '/global/cfs/cdirs/ulens/vismcao/./keck_ASM.conf'
+loaded  19 (  0 new) records from '/global/cfs/cdirs/ulens/vismcao/./keck_DM2.conf'
+loaded  19 (  0 new) records from '/global/cfs/cdirs/ulens/vismcao/./keck_DM3.conf'
+loaded   0 (  0 new) records from '/global/cfs/cdirs/ulens/vismcao/./keck_dm_multiple.conf'
+loaded   7 (  5 new) records from '/global/cfs/cdirs/ulens/vismcao/./atm_mk13n50p_ground_detail.conf'
+loaded  76 ( 69 new) records from '/global/homes/b/bpeck/code/maos/config/maos/powfs_common.conf'
+loaded  44 ( 38 new) records from '/global/cfs/cdirs/ulens/vismcao/./powfs_none.conf'
+loaded  44 (  0 new) records from '/global/cfs/cdirs/ulens/vismcao/./keck_shwfs_lgs.conf'
+loaded  44 (  0 new) records from '/global/cfs/cdirs/ulens/vismcao/./keck_shwfs_ttf_strap.conf'
+loaded  44 (  0 new) records from '/global/cfs/cdirs/ulens/vismcao/./keck_shwfs_twfs_lbwfs.conf'
+loaded   0 (  0 new) records from '/global/cfs/cdirs/ulens/vismcao/./keck_wfs_lgs_strap_lbwfs.conf'
+loaded  71 ( 71 new) records from '/global/cfs/cdirs/ulens/vismcao/./keck_recon.conf'
+Warning(readcfg.c:399): dbg.na_smooth has been renamed to powfs0_llt.na_smooth.
+Warning(readcfg.c:399): dbg.na_interp has been renamed to powfs0_llt.na_interp.
+Warning(readcfg.c:399): dbg.na_thres has been renamed to powfs0_llt.na_thres.
+Warning(readcfg.c:399): dbg.na_fit_maxit has been renamed to powfs0_llt.na_fit_maxit.
+Warning(readcfg.c:399): dbg.na_fit_svdthres has been renamed to powfs0_llt.na_fit_svdthres.
+Warning(readcfg.c:399): dbg.na_fit_dh has been renamed to powfs0_llt.na_fit_dh.
+Warning(readcfg.c:399): dbg.ncpa_preload has been renamed to ncpa.preload.
+Warning(readcfg.c:399): dbg.ncpa_rmsci has been renamed to ncpa.rmsci.
+Warning(readcfg.c:399): dbg.draw_opdmax has been renamed to plot.opdmax.
+Warning(readcfg.c:399): dbg.draw_gmax has been renamed to plot.gmax.
+loaded  95 ( 93 new) records from '/global/cfs/cdirs/ulens/vismcao/./keck_dbg.conf'
+loaded   4 (  4 new) records from '/global/cfs/cdirs/ulens/vismcao/./keck_fit_mcao.conf'
+Warning(readcfg.c:399): surf has been renamed to ncpa.surf.
+loaded  39 (  7 new) records from '/global/cfs/cdirs/ulens/vismcao/master_files/reduced_ngs/9_lgs/8mag_lgs/kola_5750act.conf'
+loaded   0 (  0 new) records from 'command line'
+loaded  24 ( 18 new) records from '/global/cfs/cdirs/ulens/vismcao/./keck_llt_CL.conf'
+Adjust LGS range by telescope altitude 4145m.
+Zenith angle is 30 degree.
+    Scaling turbulence height and LGS hs by sec(za).
+    Scaling r0 by cos(za)^(3/5).
+    Scaling wind speed and LGS signal level by cos(za).
+powfs0: Adjusting dx from 0.0078125 to 0.0080625. 
+powfs0.llt.fsm: f0=0 Hz, LPF ep=0
+powfs0.epfsm is set to 0.517618 (auto)
+powfs2: Adjusting dx from 0.03125 to 0.0312778. 
+powfs2 is TWFS for powfs0
+sim.ephi is set to 0.427717 (auto)
+sim.eplo is set to 0.427717 (auto)
+Warning(parms.c:2296): Layer 1 at 17.3205m is very close to layer 0 at 0m (OK).
+Warning(parms.c:2296): Layer 2 at 34.641m is very close to layer 1 at 17.3205m (OK).
+Warning(parms.c:2296): Layer 3 at 51.9615m is very close to layer 2 at 34.641m (OK).
+dm 0: stroke=30 um is provided in micron.
+dm 0: assume ia stroke=2 um is provided in micron.
+dm 1: stroke=7 um is provided in micron.
+dm 1: assume ia stroke=2 um is provided in micron.
+dm 2: stroke=7 um is provided in micron.
+dm 2: assume ia stroke=2 um is provided in micron.
+Focus blending is not implemented yet for integrated tomography
+parms->sim.mffocus is reset to 0
+There are 1 valid simulation seeds:  1
+Output PSF for 1 directions
+Used 449 of 456 supplied keys
+Warning(readcfg.c:158): key "dbg.pwfs_flate" is not recognized, value is 0
+Warning(readcfg.c:158): key "dbg.pwfs_flatv" is not recognized, value is 0
+Warning(readcfg.c:158): key "dbg.pwfs_psx" is not recognized, value is [0 0 0 0]
+Warning(readcfg.c:158): key "dbg.pwfs_psy" is not recognized, value is [0 0 0 0]
+Warning(readcfg.c:158): key "dbg.pwfs_pupelong" is not recognized, value is 0
+Warning(readcfg.c:158): key "dbg.pwfs_raw" is not recognized, value is 0
+Warning(readcfg.c:158): key "dbg.pwfs_side" is not recognized, value is 4
+[00;00mAperture[00;00m is 11 m with sampling 1/128 m
+[00;00mTurbulence at 30 degree zenith angle:[00;00m r0=0.128424m, L0=30m, 14 layers.
+    Greenwood freq is 25.1Hz, anisoplanatic angle is 1.58 as
+    Sampled 8192x8192 at 1/128m. wind dir is randomized.
+    layer 0: ht=      0 m, wt= 0.302, ws=  4.8 m/s
+    layer 1: ht=     17 m, wt= 0.154, ws=  5.0 m/s
+    layer 2: ht=     35 m, wt= 0.041, ws=  5.4 m/s
+    layer 3: ht=     52 m, wt= 0.002, ws=  6.6 m/s
+    layer 4: ht=    139 m, wt= 0.021, ws=  6.1 m/s
+    layer 5: ht=    231 m, wt= 0.010, ws=  6.1 m/s
+    layer 6: ht=    323 m, wt= 0.008, ws=  6.1 m/s
+    layer 7: ht=    416 m, wt= 0.005, ws=  6.1 m/s
+    layer 8: ht=    508 m, wt= 0.001, ws=  6.1 m/s
+    layer 9: ht=    932 m, wt= 0.107, ws=  5.6 m/s
+    layer 10: ht=   5022 m, wt= 0.144, ws= 11.1 m/s
+    layer 11: ht=   9238 m, wt= 0.093, ws= 19.1 m/s
+    layer 12: ht=  13856 m, wt= 0.075, ws=  8.2 m/s
+    layer 13: ht=  22518 m, wt= 0.036, ws=  4.8 m/s
+[00;00mReconstruction[00;00m: r0=0.128424m L0=30m. 14 layers. use cone coordinate.
+    layer 0: ht=      0 m, wt= 0.302
+    layer 1: ht=     17 m, wt= 0.154
+    layer 2: ht=     35 m, wt= 0.041
+    layer 3: ht=     52 m, wt= 0.002
+    layer 4: ht=    139 m, wt= 0.021
+    layer 5: ht=    231 m, wt= 0.010
+    layer 6: ht=    323 m, wt= 0.008
+    layer 7: ht=    416 m, wt= 0.005
+    layer 8: ht=    508 m, wt= 0.001
+    layer 9: ht=    932 m, wt= 0.107
+    layer 10: ht=   5022 m, wt= 0.144
+    layer 11: ht=   9238 m, wt= 0.093
+    layer 12: ht=  13856 m, wt= 0.075
+    layer 13: ht=  22518 m, wt= 0.036
+[00;00mThere are 3 powfs[00;00m
+  powfs0: Order 86, LGS at 99.1 km. Sampling 1/124.031 m. Thres 30%. [00;00mT/T is removed in right hand side in tomography.[00;00m
+    CCD image is 25x25 @ 500x500 mas, blur 27% (sigma), 1500Hz, wvl: [ 5.89e-07]
+    Gtilt in reconstruction. Physical optics start at 0 with [00;00m'matched filter'[00;00m [00;00m(noisy)[00;00m
+  powfs1: Order  2, NGS at inf km. Sampling 1/16 m. Thres 30%. 
+    Ztilt in reconstruction. Geomtric optics start at 2 with ztilt [00;00m(noisy)[00;00m
+  powfs2: Order 20, NGS at inf km. Sampling 1/31.9716 m. Thres 50%. 
+    CCD image is 4x4 @ 1500x1500 mas, blur 0% (sigma), 0.015Hz, wvl: [ 7.2e-07]
+    Gtilt in reconstruction. Geomtric optics start at 50 with gtilt Physical optics start at 0 with [00;00m'matched filter'[00;00m [00;00m(noisy)[00;00m
+[00;00mThere are 13 wfs[00;00m
+    wfs 0: type 0, at (  30.00,    0.00) arcsec,  99 km, siglev is 19.9532 bkgrnd is 0.1
+    wfs 1: type 0, at (  22.98,   19.28) arcsec,  99 km, siglev is 19.9532 bkgrnd is 0.1
+    wfs 2: type 0, at (   5.21,   29.54) arcsec,  99 km, siglev is 19.9532 bkgrnd is 0.1
+    wfs 3: type 0, at ( -15.00,   25.98) arcsec,  99 km, siglev is 19.9532 bkgrnd is 0.1
+    wfs 4: type 0, at ( -28.19,   10.26) arcsec,  99 km, siglev is 19.9532 bkgrnd is 0.1
+    wfs 5: type 0, at ( -28.19,  -10.26) arcsec,  99 km, siglev is 19.9532 bkgrnd is 0.1
+    wfs 6: type 0, at ( -15.00,  -25.98) arcsec,  99 km, siglev is 19.9532 bkgrnd is 0.1
+    wfs 7: type 0, at (   5.21,  -29.54) arcsec,  99 km, siglev is 19.9532 bkgrnd is 0.1
+    wfs 8: type 0, at (  22.98,  -19.28) arcsec,  99 km, siglev is 19.9532 bkgrnd is 0.1
+    wfs 9: type 1, at (   5.00,    8.66) arcsec, inf km, siglev is 42387.6 bkgrnd is 1.056
+    wfs 10: type 1, at ( -10.00,    0.00) arcsec, inf km, siglev is 42387.6 bkgrnd is 1.056
+    wfs 11: type 1, at (   5.00,   -8.66) arcsec, inf km, siglev is 42387.6 bkgrnd is 1.056
+    wfs 12: type 2, at (   0.00,    0.00) arcsec, inf km, siglev is 4.1558e+06 bkgrnd is 0.001
+[00;00mThere are 3 DMs[00;00m
+  DM 0 at -0.1km, actuator pitch 0.129m, offset   0, with 30.000000 micron stroke.
+    Normalized cubic influence function with inter-actuator coupling of 0.223
+  DM 1 at    6km, actuator pitch 0.168m, offset   0, with 7.000000 micron stroke.
+    Normalized cubic influence function with inter-actuator coupling of 0.223
+  DM 2 at   10km, actuator pitch 0.168m, offset   0, with 7.000000 micron stroke.
+    Normalized cubic influence function with inter-actuator coupling of 0.223
+[00;00mTomography[00;00m is using CG, with [00;00mFourer Domain[00;00m preconditioner, [00;00m12[00;00m iterations, integrated tomo.
+[00;00mDM Fitting [00;00mis using CG, with [00;00mNo[00;00m preconditioner, [00;00m10[00;00m iterations
+[00;00mThere are 9 fit directions[00;00m
+    Fit 0: weight is 0.444, at (   0.00,    0.00) arcsec
+    Fit 1: weight is 0.111, at (  15.00,    0.00) arcsec
+    Fit 2: weight is 0.111, at (   0.00,   15.00) arcsec
+    Fit 3: weight is 0.111, at ( -15.00,    0.00) arcsec
+    Fit 4: weight is 0.111, at (   0.00,  -15.00) arcsec
+    Fit 5: weight is 0.028, at (  15.00,   15.00) arcsec
+    Fit 6: weight is 0.028, at ( -15.00,   15.00) arcsec
+    Fit 7: weight is 0.028, at ( -15.00,  -15.00) arcsec
+    Fit 8: weight is 0.028, at (  15.00,  -15.00) arcsec
+[00;00mThere are 1 evaluation directions[00;00m at sampling 1/128 m.
+    Evl 0: weight is 1.000, at (   0.00,    0.00) arcsec
+[00;00mSimulation[00;00m start at step 0, end at step 1600, with time step 1/1500s, [00;00mclose loop[00;00m.
+After setup_parms:	120.4 MiB.
+Warning(sock.c:516): connect locally (/global/homes/b/bpeck/.aos/tmp/nid001972/scheduler) failed: Invalid argument. 
+CUDA: minimum memory requirement is 0.3GB
+GPU 0 is NVIDIA A100-SXM4-40GB with arch 8.0, 38.9GB free, 39.3GB total device memory.
+Using GPU 0
+Use 1 GPUs for WFS Tomo Fit Evl
+
+*** Preparation started at 2025/02/17 15:49:22 in nid001972. ***
+
+Using OpenMP version 201511 with 128 threads
+Reading aperture amplitude map from KECK.fits
+Warning(accphi.c:477): 108268 points not covered by input screen
+Warning(sock.c:516): connect locally (/global/homes/b/bpeck/.aos/tmp/nid001972/scheduler) failed: Invalid argument. 
+ ->maos.c:447->setup.c:148->aper.c:74->utils.c:478->accphi.c:478
+iwvl 0: Science PSF is using grid size of 2880. The PSF will sum to 6.95167232825486
+iwvl 1: Science PSF is using grid size of 2880. The PSF will sum to 6.95167232825486
+iwvl 2: Science PSF is using grid size of 2880. The PSF will sum to 6.95167232825486
+iwvl 3: Science PSF is using grid size of 2880. The PSF will sum to 6.95167232825486
+iwvl 4: Science PSF is using grid size of 2880. The PSF will sum to 6.95167232825486
+iwvl 5: Science PSF is using grid size of 2880. The PSF will sum to 6.95167232825486
+iwvl 6: Science PSF is using grid size of 2880. The PSF will sum to 6.95167232825486
+iwvl 7: Science PSF is using grid size of 2880. The PSF will sum to 6.95167232825486
+iwvl 8: Science PSF is using grid size of 2880. The PSF will sum to 6.95167232825486
+After setup_aper:	340.9 MiB.
+
+[00;00mSetting up powfs 0 geom[00;00m
+
+There are 16 points in each subaperture of 0.129m.
+There are 4460 valid subaperture.
+
+[00;00mSetting up powfs 1 geom[00;00m
+
+There are 88 points in each subaperture of 5.5m.
+There are 4 valid subaperture.
+
+[00;00mSetting up powfs 2 geom[00;00m
+
+There are 18 points in each subaperture of 0.563m.
+There are 236 valid subaperture.
+After setup_powfs_init:	415.1 MiB.
+
+[00;00mSetting up reconstructor geometry.[00;00m
+
+PLOC is 175x175, with sampling of 0.06m (square)
+    DM 0: grid is 89 x 89
+    DM 1: grid is 75 x 75
+    DM 2: grid is 80 x 79
+FLOC is 175x175, with sampling of 0.06m (not square)
+Tomography grid is square:
+    layer 0: xloc grid is 320 x 320, sampling is 0.065 m, 102400 points
+    layer 1: xloc grid is 320 x 320, sampling is 0.064 m, 102400 points
+    layer 2: xloc grid is 320 x 320, sampling is 0.064 m, 102400 points
+    layer 3: xloc grid is 320 x 320, sampling is 0.064 m, 102400 points
+    layer 4: xloc grid is 320 x 320, sampling is 0.064 m, 102400 points
+    layer 5: xloc grid is 320 x 320, sampling is 0.064 m, 102400 points
+    layer 6: xloc grid is 320 x 320, sampling is 0.064 m, 102400 points
+    layer 7: xloc grid is 320 x 320, sampling is 0.064 m, 102400 points
+    layer 8: xloc grid is 320 x 320, sampling is 0.064 m, 102400 points
+    layer 9: xloc grid is 320 x 320, sampling is 0.064 m, 102400 points
+    layer 10: xloc grid is 320 x 320, sampling is 0.061 m, 102400 points
+    layer 11: xloc grid is 320 x 320, sampling is 0.058 m, 102400 points
+    layer 12: xloc grid is 320 x 320, sampling is 0.055 m, 102400 points
+    layer 13: xloc grid is 320 x 320, sampling is 0.050 m, 102400 points
+
+[00;00mSetting up powfs 0 PO WFS[00;00m
+
+OTF dimension is 32x32 (calculated)
+Uplink FWHM (illt 0, iwvl 0) is 0.578379"
+Downlink FWHM (illt 0, iwvl 0) is 0"
+Generating matched filter for powfs 0
+sa index   location       noise equivalent angle
+    2228: (  4.9,  -0.1) m, (5000.00, 5000.00) mas
+    2219: (  3.7,  -0.1) m, (5000.00, 5000.00) mas
+    2211: (  2.7,  -0.1) m, (5000.00, 5000.00) mas
+    2202: (  1.5,  -0.1) m, (5000.00, 5000.00) mas
+    2200: (  1.3,  -0.1) m, (5000.00, 5000.00) mas
+    1607: ( -0.5,  -1.3) m, (5000.00, 5000.00) mas
+    2194: ( -1.8,  -0.1) m, (5000.00, 5000.00) mas
+    2186: ( -2.8,  -0.1) m, (5000.00, 5000.00) mas
+    2177: ( -4.0,  -0.1) m, (5000.00, 5000.00) mas
+    2169: ( -5.0,  -0.1) m, (5000.00, 5000.00) mas
+    2166: ( -5.4,  -0.1) m, (5000.00, 5000.00) mas
+sa index   location       noise equivalent angle
+    3813: (  3.7,   3.0) m, (5000.00, 5000.00) mas
+    3563: (  3.0,   2.5) m, (5000.00, 5000.00) mas
+    3235: (  2.2,   1.8) m, (5000.00, 5000.00) mas
+    2865: (  1.4,   1.2) m, (5000.00, 5000.00) mas
+    2724: (  1.0,   0.9) m, (5000.00, 5000.00) mas
+    1614: (  0.4,  -1.3) m, (5000.00, 5000.00) mas
+    1739: ( -1.3,  -1.0) m, (5000.00, 5000.00) mas
+    1599: ( -1.5,  -1.3) m, (5000.00, 5000.00) mas
+     901: ( -3.1,  -2.6) m, (5000.00, 5000.00) mas
+     590: ( -3.9,  -3.2) m, (5000.00, 5000.00) mas
+     188: ( -3.1,  -4.3) m, (5000.00, 5000.00) mas
+sa index   location       noise equivalent angle
+    4454: (  0.8,   4.8) m, (5000.00, 5000.00) mas
+    4209: (  0.6,   4.0) m, (5000.00, 5000.00) mas
+    3604: (  0.4,   2.6) m, (5000.00, 5000.00) mas
+    3220: (  0.3,   1.8) m, (5000.00, 5000.00) mas
+    2928: (  0.1,   1.3) m, (5000.00, 5000.00) mas
+    2061: ( -1.4,  -0.4) m, (5000.00, 5000.00) mas
+    1316: ( -0.4,  -1.8) m, (5000.00, 5000.00) mas
+    1243: ( -0.4,  -1.9) m, (5000.00, 5000.00) mas
+     556: ( -0.6,  -3.4) m, (5000.00, 5000.00) mas
+       5: ( -0.9,  -4.9) m, (5000.00, 5000.00) mas
+       2: ( -2.3,  -4.9) m, (5000.00, 5000.00) mas
+sa index   location       noise equivalent angle
+    4375: ( -2.7,   4.5) m, (5000.00, 5000.00) mas
+    4138: ( -2.3,   3.9) m, (5000.00, 5000.00) mas
+    3770: ( -1.8,   3.0) m, (5000.00, 5000.00) mas
+    3344: ( -1.3,   2.1) m, (5000.00, 5000.00) mas
+    2848: ( -0.8,   1.2) m, (5000.00, 5000.00) mas
+    2336: (  1.3,   0.1) m, (5000.00, 5000.00) mas
+    1616: (  0.6,  -1.3) m, (5000.00, 5000.00) mas
+    1119: (  1.2,  -2.2) m, (5000.00, 5000.00) mas
+     694: (  1.7,  -3.1) m, (5000.00, 5000.00) mas
+     325: (  2.2,  -4.0) m, (5000.00, 5000.00) mas
+      88: (  2.6,  -4.6) m, (5000.00, 5000.00) mas
+sa index   location       noise equivalent angle
+    3037: ( -4.6,   1.5) m, (5000.00, 5000.00) mas
+    3038: ( -4.5,   1.5) m, (5000.00, 5000.00) mas
+    2765: ( -3.1,   1.0) m, (5000.00, 5000.00) mas
+    2531: ( -1.7,   0.5) m, (5000.00, 5000.00) mas
+    2469: ( -1.3,   0.4) m, (5000.00, 5000.00) mas
+    1538: (  0.0,  -1.4) m, (5000.00, 5000.00) mas
+    1934: (  1.5,  -0.6) m, (5000.00, 5000.00) mas
+    1757: (  2.6,  -1.0) m, (5000.00, 5000.00) mas
+    1699: (  3.0,  -1.2) m, (5000.00, 5000.00) mas
+    1426: (  4.4,  -1.7) m, (5000.00, 5000.00) mas
+    2027: (  5.2,  -0.5) m, (5000.00, 5000.00) mas
+sa index   location       noise equivalent angle
+    1356: ( -4.6,  -1.7) m, (5000.00, 5000.00) mas
+    1357: ( -4.5,  -1.7) m, (5000.00, 5000.00) mas
+    1660: ( -3.1,  -1.2) m, (5000.00, 5000.00) mas
+    1925: ( -1.7,  -0.6) m, (5000.00, 5000.00) mas
+    1995: ( -1.3,  -0.5) m, (5000.00, 5000.00) mas
+    2927: (  0.0,   1.3) m, (5000.00, 5000.00) mas
+    2540: (  1.5,   0.5) m, (5000.00, 5000.00) mas
+    2736: (  2.6,   0.9) m, (5000.00, 5000.00) mas
+    2804: (  3.0,   1.0) m, (5000.00, 5000.00) mas
+    3107: (  4.4,   1.5) m, (5000.00, 5000.00) mas
+    2501: (  5.2,   0.4) m, (5000.00, 5000.00) mas
+sa index   location       noise equivalent angle
+      51: ( -2.7,  -4.6) m, (5000.00, 5000.00) mas
+     290: ( -2.3,  -4.0) m, (5000.00, 5000.00) mas
+     667: ( -1.8,  -3.1) m, (5000.00, 5000.00) mas
+    1100: ( -1.3,  -2.2) m, (5000.00, 5000.00) mas
+    1605: ( -0.8,  -1.3) m, (5000.00, 5000.00) mas
+    2132: (  1.3,  -0.3) m, (5000.00, 5000.00) mas
+    2859: (  0.6,   1.2) m, (5000.00, 5000.00) mas
+    3363: (  1.2,   2.1) m, (5000.00, 5000.00) mas
+    3797: (  1.7,   3.0) m, (5000.00, 5000.00) mas
+    4173: (  2.2,   3.9) m, (5000.00, 5000.00) mas
+    4410: (  2.6,   4.5) m, (5000.00, 5000.00) mas
+sa index   location       noise equivalent angle
+      10: (  0.8,  -4.9) m, (5000.00, 5000.00) mas
+     265: (  0.6,  -4.1) m, (5000.00, 5000.00) mas
+     867: (  0.4,  -2.7) m, (5000.00, 5000.00) mas
+    1248: (  0.3,  -1.9) m, (5000.00, 5000.00) mas
+    1539: (  0.1,  -1.4) m, (5000.00, 5000.00) mas
+    2401: ( -1.4,   0.3) m, (5000.00, 5000.00) mas
+    3143: ( -0.4,   1.7) m, (5000.00, 5000.00) mas
+    3215: ( -0.4,   1.8) m, (5000.00, 5000.00) mas
+    3898: ( -0.6,   3.2) m, (5000.00, 5000.00) mas
+    4449: ( -0.9,   4.8) m, (5000.00, 5000.00) mas
+    4446: ( -2.3,   4.8) m, (5000.00, 5000.00) mas
+sa index   location       noise equivalent angle
+     710: (  3.7,  -3.1) m, (5000.00, 5000.00) mas
+     948: (  3.0,  -2.6) m, (5000.00, 5000.00) mas
+    1263: (  2.2,  -1.9) m, (5000.00, 5000.00) mas
+    1622: (  1.4,  -1.3) m, (5000.00, 5000.00) mas
+    1745: (  1.0,  -1.0) m, (5000.00, 5000.00) mas
+    2857: (  0.4,   1.2) m, (5000.00, 5000.00) mas
+    2718: ( -1.3,   0.9) m, (5000.00, 5000.00) mas
+    2842: ( -1.5,   1.2) m, (5000.00, 5000.00) mas
+    3516: ( -3.1,   2.5) m, (5000.00, 5000.00) mas
+    3576: ( -3.2,   2.6) m, (5000.00, 5000.00) mas
+    4228: ( -3.1,   4.1) m, (5000.00, 5000.00) mas
+
+[00;00mSetting up powfs 2 PO WFS[00;00m
+
+OTF dimension is 48x48 (calculated)
+Generating matched filter for powfs 2
+Use sanea to derive neasim
+Use sanea to derive neasim
+
+[00;00mSetting up reconstructor[00;00m
+
+Recon NEA: cmf(5000.00) cmf(5000.00) cmf(5000.00) cmf(5000.00) cmf(5000.00) cmf(5000.00) cmf(5000.00) cmf(5000.00) cmf(5000.00) geom(0.31) geom(0.31) geom(0.31) mf(0.14)  mas
+Setup or update control matrix parameters.
+RRtwfs svd threshold is 1e-10
+Replacing HA by HA*fit->actextrap
+Adding piston cr to fit matrix
+Adding TT cr on upper DMs to fit matrix.
+Before assembling fit matrix:	6326.9 MiB.
+Building fit->FR
+Building fit->FL
+Adding tikhonov constraint of 1.0e-07 to FLM
+The maximum eigen value is estimated to be around 2.5e-04
+DM Fit number of Low rank terms: 16 in LHS
+After assemble fit matrix:	8716.5 MiB.
+After setup_recon:	8716.5 MiB.
+GPU 0: mem used 1564 MB (wfs init)
+GPU 0: mem used 3068 MB (recon init)
+GPU 0: mem used 3098 MB (perf init)
+
+*** Simulation started at 2025/02/17 15:51:27 in nid001972. ***
+
+Running seed 1
+GPU 0: mem used 3098 MB (wfs seeding)
+Wind dir: 267.3 261.7 167.0 130.5 300.7  32.3 119.8 139.0 150.8 277.7 203.0 133.1  45.9 265.1 deg
+Using /global/homes/b/bpeck/.aos/cache/atm/vonkarman_14_8192x8192_0.0078125_1115374592d.bin
+After genatm:	8553.3 MiB.
+Step     #  Open Loop  PR TT  On axis  PR TT  Field RMS PR TT     Timing 
+Step     0: OL  884.6  248.3  OA  884.6 248.3 CL  884.6 248.3 nm  0.122 s
+Step    11: OL  901.5  252.7  OA  795.0 244.3 CL  795.0 244.3 nm  0.095 s
+Step    22: OL  918.5  256.5  OA  800.1 243.3 CL  800.1 243.3 nm  0.106 s
+Step    32: OL  933.9  259.2  OA  803.4 240.8 CL  803.4 240.8 nm  0.110 s
+Step    42: OL  949.0  260.8  OA  805.2 237.8 CL  805.2 237.8 nm  0.100 s
+Step    52: OL  963.7  261.3  OA  805.3 234.0 CL  805.3 234.0 nm  0.101 s
+Step    62: OL  978.7  260.8  OA  805.8 229.2 CL  805.8 229.2 nm  0.099 s
+Step    72: OL  994.0  259.8  OA  804.3 224.3 CL  804.3 224.3 nm  0.102 s
+Step    82: OL 1009.7  258.8  OA  803.7 218.6 CL  803.7 218.6 nm  0.100 s
+Step    92: OL 1025.6  258.1  OA  806.3 214.5 CL  806.3 214.5 nm  0.103 s
+Step   102: OL 1041.6  257.7  OA  809.1 210.4 CL  809.1 210.4 nm  0.109 s
+Step   112: OL 1057.6  258.1  OA  815.9 206.8 CL  815.9 206.8 nm  0.101 s
+Step   122: OL 1073.3  259.1  OA  821.9 203.2 CL  821.9 203.2 nm  0.099 s
+Step   132: OL 1088.3  261.2  OA  828.5 200.2 CL  828.5 200.2 nm  0.100 s
+Step   142: OL 1102.7  264.6  OA  836.8 198.7 CL  836.8 198.7 nm  0.115 s
+Step   152: OL 1116.1  268.7  OA  843.2 198.5 CL  843.2 198.5 nm  0.098 s
+Step   162: OL 1128.2  273.8  OA  850.0 198.9 CL  850.0 198.9 nm  0.102 s
+Step   172: OL 1139.2  279.6  OA  853.2 201.7 CL  853.2 201.7 nm  0.100 s
+Step   182: OL 1148.8  285.9  OA  856.7 204.5 CL  856.7 204.5 nm  0.099 s
+Step   192: OL 1156.9  292.4  OA  859.4 208.5 CL  859.4 208.5 nm  0.107 s
+Step   202: OL 1163.7  298.8  OA  860.8 212.5 CL  860.8 212.5 nm  0.103 s
+Step   212: OL 1169.6  305.2  OA  863.2 217.8 CL  863.2 217.8 nm  0.100 s
+Step   222: OL 1174.3  311.7  OA  866.3 223.4 CL  866.3 223.4 nm  0.109 s
+Step   232: OL 1177.7  318.2  OA  870.0 229.0 CL  870.0 229.0 nm  0.101 s
+Step   242: OL 1179.8  325.0  OA  873.2 236.5 CL  873.2 236.5 nm  0.114 s
+Step   252: OL 1180.1  332.1  OA  874.5 243.9 CL  874.5 243.9 nm  0.102 s
+Step   255 updated high order loop gain: 0.424
+Step   262: OL 1178.2  339.3  OA  876.7 252.3 CL  876.7 252.3 nm  0.098 s
+Step   272: OL 1174.0  346.6  OA  876.5 261.0 CL  876.5 261.0 nm  0.104 s
+Step   282: OL 1168.0  353.9  OA  874.4 269.5 CL  874.4 269.5 nm  0.107 s
+Step   292: OL 1160.9  362.0  OA  872.7 280.1 CL  872.7 280.1 nm  0.104 s
+Step   302: OL 1153.0  370.8  OA  870.7 290.1 CL  870.7 290.1 nm  0.099 s
+Step   312: OL 1144.0  379.9  OA  867.9 301.2 CL  867.9 301.2 nm  0.103 s
+Step   322: OL 1133.7  389.6  OA  864.3 312.5 CL  864.3 312.5 nm  0.102 s
+Step   332: OL 1122.8  400.2  OA  861.2 324.7 CL  861.2 324.7 nm  0.103 s
+Step   342: OL 1111.7  411.8  OA  858.4 337.7 CL  858.4 337.7 nm  0.100 s
+Step   352: OL 1100.4  424.5  OA  857.0 352.4 CL  857.0 352.4 nm  0.102 s
+Step   362: OL 1089.3  438.1  OA  858.2 367.4 CL  858.2 367.4 nm  0.099 s
+Step   372: OL 1078.6  452.3  OA  859.4 382.7 CL  859.4 382.7 nm  0.100 s
+Step   382: OL 1068.0  466.7  OA  859.8 398.1 CL  859.8 398.1 nm  0.107 s
+Step   392: OL 1057.7  481.2  OA  860.4 413.2 CL  860.4 413.2 nm  0.101 s
+Step   402: OL 1047.1  495.6  OA  862.0 428.3 CL  862.0 428.3 nm  0.106 s
+Step   412: OL 1036.1  509.6  OA  862.7 443.1 CL  862.7 443.1 nm  0.100 s
+Step   422: OL 1024.7  523.1  OA  864.0 458.0 CL  864.0 458.0 nm  0.101 s
+Step   432: OL 1013.2  536.4  OA  863.0 472.0 CL  863.0 472.0 nm  0.100 s
+Step   442: OL 1002.0  549.5  OA  862.3 485.3 CL  862.3 485.3 nm  0.104 s
+Step   452: OL  991.6  562.4  OA  860.0 498.3 CL  860.0 498.3 nm  0.103 s
+Step   462: OL  982.7  575.6  OA  858.6 511.4 CL  858.6 511.4 nm  0.104 s
+Step   472: OL  975.6  588.5  OA  861.2 524.1 CL  861.2 524.1 nm  0.099 s
+Step   482: OL  970.8  601.2  OA  864.7 536.9 CL  864.7 536.9 nm  0.104 s
+Step   492: OL  968.2  613.5  OA  869.3 549.2 CL  869.3 549.2 nm  0.106 s
+Step   502: OL  967.1  625.1  OA  876.7 561.4 CL  876.7 561.4 nm  0.100 s
+Step   511 updated high order loop gain: 0.426
+Step   512: OL  966.9  635.9  OA  882.4 570.8 CL  882.4 570.8 nm  0.112 s
+Step   522: OL  967.9  645.5  OA  890.4 580.5 CL  890.4 580.5 nm  0.101 s
+Step   532: OL  969.8  653.6  OA  896.9 587.6 CL  896.9 587.6 nm  0.098 s
+Step   542: OL  973.1  659.9  OA  903.3 591.9 CL  903.3 591.9 nm  0.100 s
+Step   552: OL  977.6  664.7  OA  910.0 595.9 CL  910.0 595.9 nm  0.109 s
+Step   562: OL  983.4  668.1  OA  915.2 598.2 CL  915.2 598.2 nm  0.102 s
+Step   572: OL  990.2  670.2  OA  919.5 598.4 CL  919.5 598.4 nm  0.102 s
+Step   582: OL  998.0  671.3  OA  923.1 597.4 CL  923.1 597.4 nm  0.101 s
+Step   592: OL 1006.9  671.1  OA  926.4 595.0 CL  926.4 595.0 nm  0.102 s
+Step   602: OL 1016.5  669.1  OA  929.2 591.1 CL  929.2 591.1 nm  0.108 s
+Step   612: OL 1026.5  665.5  OA  930.3 585.4 CL  930.3 585.4 nm  0.100 s
+Step   622: OL 1036.7  660.4  OA  931.0 577.8 CL  931.0 577.8 nm  0.100 s
+Step   632: OL 1046.7  654.0  OA  929.4 568.8 CL  929.4 568.8 nm  0.110 s
+Step   642: OL 1056.3  646.3  OA  926.4 558.7 CL  926.4 558.7 nm  0.099 s
+Step   652: OL 1064.8  637.5  OA  920.9 547.4 CL  920.9 547.4 nm  0.099 s
+Step   662: OL 1072.7  627.9  OA  915.3 536.4 CL  915.3 536.4 nm  0.103 s
+Step   672: OL 1079.9  617.6  OA  908.2 523.5 CL  908.2 523.5 nm  0.101 s
+Step   682: OL 1086.7  607.2  OA  901.1 509.4 CL  901.1 509.4 nm  0.107 s
+Step   692: OL 1092.9  596.6  OA  893.9 494.8 CL  893.9 494.8 nm  0.101 s
+Step   702: OL 1097.9  585.3  OA  887.3 478.9 CL  887.3 478.9 nm  0.104 s
+Step   712: OL 1101.6  573.4  OA  879.9 461.2 CL  879.9 461.2 nm  0.103 s
+Step   722: OL 1103.6  561.0  OA  872.3 444.0 CL  872.3 444.0 nm  0.097 s
+Step   732: OL 1104.0  548.6  OA  866.1 426.2 CL  866.1 426.2 nm  0.101 s
+Step   742: OL 1102.5  536.3  OA  858.6 408.8 CL  858.6 408.8 nm  0.101 s
+Step   752: OL 1099.5  524.1  OA  850.0 392.5 CL  850.0 392.5 nm  0.099 s
+Step   762: OL 1095.0  512.4  OA  842.3 376.4 CL  842.3 376.4 nm  0.108 s
+Step   767 updated high order loop gain: 0.427
+Step   772: OL 1089.1  500.9  OA  833.9 361.6 CL  833.9 361.6 nm  0.100 s
+Step   782: OL 1081.3  489.7  OA  825.3 347.7 CL  825.3 347.7 nm  0.100 s
+Step   792: OL 1071.8  478.5  OA  816.4 334.1 CL  816.4 334.1 nm  0.109 s
+Step   802: OL 1060.8  467.3  OA  806.8 321.2 CL  806.8 321.2 nm  0.101 s
+Step   812: OL 1048.7  456.2  OA  798.5 309.0 CL  798.5 309.0 nm  0.103 s
+Step   822: OL 1035.3  445.0  OA  789.5 296.3 CL  789.5 296.3 nm  0.108 s
+Step   832: OL 1020.5  434.1  OA  781.0 285.0 CL  781.0 285.0 nm  0.100 s
+Step   842: OL 1005.2  423.6  OA  771.5 275.1 CL  771.5 275.1 nm  0.100 s
+Step   852: OL  989.7  413.6  OA  763.3 265.4 CL  763.3 265.4 nm  0.100 s
+Step   862: OL  974.4  404.2  OA  754.9 257.5 CL  754.9 257.5 nm  0.102 s
+Step   872: OL  959.9  395.7  OA  747.5 251.2 CL  747.5 251.2 nm  0.111 s
+Step   882: OL  946.5  388.0  OA  740.2 247.3 CL  740.2 247.3 nm  0.101 s
+Step   892: OL  933.4  381.1  OA  734.9 244.5 CL  734.9 244.5 nm  0.104 s
+Step   902: OL  920.0  374.7  OA  727.5 242.8 CL  727.5 242.8 nm  0.110 s
+Step   912: OL  906.2  369.2  OA  718.4 243.3 CL  718.4 243.3 nm  0.101 s
+Step   922: OL  892.6  364.3  OA  709.2 243.4 CL  709.2 243.4 nm  0.099 s
+Step   932: OL  879.3  359.5  OA  698.6 244.0 CL  698.6 244.0 nm  0.105 s
+Step   942: OL  866.5  354.8  OA  689.4 244.7 CL  689.4 244.7 nm  0.104 s
+Step   952: OL  854.2  349.9  OA  680.0 245.4 CL  680.0 245.4 nm  0.104 s
+Step   962: OL  842.9  344.6  OA  670.8 245.7 CL  670.8 245.7 nm  0.125 s
+Step   972: OL  833.2  338.9  OA  664.8 245.2 CL  664.8 245.2 nm  0.098 s
+Step   982: OL  824.7  332.8  OA  657.6 244.2 CL  657.6 244.2 nm  0.105 s
+Step   992: OL  816.9  326.0  OA  653.7 242.5 CL  653.7 242.5 nm  0.099 s
+Step  1002: OL  809.6  318.8  OA  649.2 239.7 CL  649.2 239.7 nm  0.101 s
+Step  1012: OL  802.7  311.2  OA  642.5 236.1 CL  642.5 236.1 nm  0.106 s
+Step  1022: OL  796.6  303.5  OA  636.6 232.6 CL  636.6 232.6 nm  0.102 s
+Step  1023 updated high order loop gain: 0.427
+Step  1032: OL  791.1  295.6  OA  630.9 228.5 CL  630.9 228.5 nm  0.109 s
+Step  1042: OL  786.0  287.1  OA  626.6 223.4 CL  626.6 223.4 nm  0.098 s
+Step  1052: OL  780.7  278.2  OA  619.5 217.7 CL  619.5 217.7 nm  0.100 s
+Step  1062: OL  775.2  268.6  OA  614.5 210.6 CL  614.5 210.6 nm  0.107 s
+Step  1072: OL  770.2  257.9  OA  607.5 202.4 CL  607.5 202.4 nm  0.104 s
+Step  1082: OL  766.2  246.4  OA  603.1 192.8 CL  603.1 192.8 nm  0.103 s
+Step  1092: OL  763.3  234.8  OA  598.5 182.2 CL  598.5 182.2 nm  0.102 s
+Step  1102: OL  761.1  223.7  OA  595.6 171.8 CL  595.6 171.8 nm  0.101 s
+Step  1112: OL  759.5  213.5  OA  593.9 161.9 CL  593.9 161.9 nm  0.104 s
+Step  1122: OL  758.3  204.0  OA  594.4 152.9 CL  594.4 152.9 nm  0.099 s
+Step  1132: OL  757.5  195.8  OA  595.5 145.1 CL  595.5 145.1 nm  0.100 s
+Step  1142: OL  756.6  188.7  OA  596.2 138.2 CL  596.2 138.2 nm  0.103 s
+Step  1152: OL  755.8  182.6  OA  598.8 132.6 CL  598.8 132.6 nm  0.098 s
+Step  1162: OL  754.8  177.7  OA  601.8 129.2 CL  601.8 129.2 nm  0.101 s
+Step  1172: OL  753.8  174.0  OA  604.2 126.3 CL  604.2 126.3 nm  0.105 s
+Step  1182: OL  753.5  171.4  OA  608.2 124.0 CL  608.2 124.0 nm  0.099 s
+Step  1192: OL  753.9  169.1  OA  614.1 122.0 CL  614.1 122.0 nm  0.097 s
+Step  1202: OL  754.4  167.1  OA  619.7 120.8 CL  619.7 120.8 nm  0.111 s
+Step  1212: OL  754.9  165.3  OA  624.9 119.1 CL  624.9 119.1 nm  0.101 s
+Step  1222: OL  755.6  164.2  OA  629.4 117.9 CL  629.4 117.9 nm  0.100 s
+Step  1232: OL  756.0  164.0  OA  634.4 118.1 CL  634.4 118.1 nm  0.105 s
+Step  1242: OL  755.9  164.9  OA  636.8 120.2 CL  636.8 120.2 nm  0.100 s
+Step  1252: OL  756.0  167.0  OA  640.0 122.3 CL  640.0 122.3 nm  0.123 s
+Step  1262: OL  756.8  170.5  OA  642.5 126.0 CL  642.5 126.0 nm  0.101 s
+Step  1272: OL  757.8  175.1  OA  645.0 129.9 CL  645.0 129.9 nm  0.100 s
+Step  1279 updated high order loop gain: 0.428
+Step  1282: OL  759.5  180.6  OA  646.6 135.2 CL  646.6 135.2 nm  0.107 s
+Step  1292: OL  762.0  186.7  OA  648.6 138.8 CL  648.6 138.8 nm  0.103 s
+Step  1302: OL  764.6  193.4  OA  649.2 143.7 CL  649.2 143.7 nm  0.101 s
+Step  1312: OL  767.0  200.7  OA  648.0 148.4 CL  648.0 148.4 nm  0.101 s
+Step  1322: OL  769.3  208.7  OA  643.7 153.6 CL  643.7 153.6 nm  0.100 s
+Step  1332: OL  772.3  217.2  OA  642.5 158.8 CL  642.5 158.8 nm  0.101 s
+Step  1342: OL  776.1  226.3  OA  639.3 164.3 CL  639.3 164.3 nm  0.099 s
+Step  1352: OL  780.9  235.4  OA  635.3 169.1 CL  635.3 169.1 nm  0.100 s
+Step  1362: OL  786.8  244.0  OA  635.5 173.1 CL  635.5 173.1 nm  0.106 s
+Step  1372: OL  793.2  251.4  OA  634.2 175.8 CL  634.2 175.8 nm  0.099 s
+Step  1382: OL  800.1  257.7  OA  634.2 178.3 CL  634.2 178.3 nm  0.099 s
+Step  1392: OL  807.6  263.0  OA  636.6 179.3 CL  636.6 179.3 nm  0.110 s
+Step  1402: OL  816.0  267.3  OA  638.2 179.3 CL  638.2 179.3 nm  0.104 s
+Step  1412: OL  825.0  270.6  OA  641.8 179.5 CL  641.8 179.5 nm  0.099 s
+Step  1422: OL  834.5  273.2  OA  645.1 179.1 CL  645.1 179.1 nm  0.111 s
+Step  1432: OL  843.9  275.5  OA  647.2 178.8 CL  647.2 178.8 nm  0.099 s
+Step  1442: OL  852.9  277.4  OA  647.7 178.6 CL  647.7 178.6 nm  0.103 s
+Step  1452: OL  861.6  278.9  OA  649.6 178.0 CL  649.6 178.0 nm  0.102 s
+Step  1462: OL  869.5  279.6  OA  650.1 176.5 CL  650.1 176.5 nm  0.105 s
+Step  1472: OL  876.0  279.4  OA  650.2 176.0 CL  650.2 176.0 nm  0.109 s
+Step  1482: OL  880.4  278.1  OA  649.4 175.3 CL  649.4 175.3 nm  0.099 s
+Step  1492: OL  882.8  275.7  OA  646.3 174.5 CL  646.3 174.5 nm  0.101 s
+Step  1502: OL  883.3  272.3  OA  643.9 172.4 CL  643.9 172.4 nm  0.118 s
+Step  1512: OL  882.3  268.1  OA  636.9 171.1 CL  636.9 171.1 nm  0.111 s
+Step  1522: OL  880.1  263.3  OA  633.1 170.0 CL  633.1 170.0 nm  0.104 s
+Step  1532: OL  876.6  257.8  OA  628.9 167.7 CL  628.9 167.7 nm  0.105 s
+Step  1535 updated high order loop gain: 0.428
+Step  1542: OL  872.2  251.5  OA  627.0 165.1 CL  627.0 165.1 nm  0.113 s
+Step  1552: OL  867.4  244.9  OA  625.1 162.8 CL  625.1 162.8 nm  0.110 s
+Step  1562: OL  862.6  238.3  OA  626.5 160.7 CL  626.5 160.7 nm  0.100 s
+Step  1572: OL  857.6  232.3  OA  627.0 159.7 CL  627.0 159.7 nm  0.106 s
+Step  1582: OL  852.3  226.9  OA  625.2 159.4 CL  625.2 159.4 nm  0.099 s
+Step  1592: OL  846.5  222.5  OA  627.8 160.4 CL  627.8 160.4 nm  0.103 s
+Step 1599: Output PSF
+Step  1599: OL  842.4  219.6  OA  629.0 161.6 CL  629.0 161.6 nm  1.922 s
+Mean: 747.98 338.09 667.22  nm.
+
+*** Simulation Finished at 2025/02/17 15:54:22 in nid001972. ***
+
