@@ -15,9 +15,9 @@ parser.add_argument("--test", action="store_true", help="Run in test mode withou
 args = parser.parse_args()
 
 # Set parameters for actuator study
-config_folder = "master_files/reduced_ngs/9_lgs/8mag_lgs"
-default_output_folder = "studies/reduced_ngs/9_lgs/8mag_lgs"
-test_folder = "studies/reduced_ngs/9_lgs/8mag_lgs/test"
+config_folder = "master_files/reduced_ngs_with_misreg/9_lgs/8mag_lgs"
+default_output_folder = "studies/reduced_ngs_with_misreg/9_lgs/8mag_lgs"
+test_folder = "studies/reduced_ngs_with_misreg/9_lgs/8mag_lgs/test"
 act_count = np.array([1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3250, 3500, 3750, 4000, 4250, 4500, 4750, 5000, 5250, 5500, 5750, 6000])
 
 # Choose output folder based on test mode
