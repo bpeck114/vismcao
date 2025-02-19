@@ -1,0 +1,12 @@
+Actuator Count Study Log - Batch ID: 20250218_210950
+Output Folder: studies/reduced_ngs/10_lgs/8mag_lgs
+Test Mode: Disabled
+---------------------------------------
+
+Found configuration file: master_files/reduced_ngs/10_lgs/8mag_lgs/kola_4000act.confSIMULATION: 4000
+COMMAND: maos -o studies/reduced_ngs/10_lgs/8mag_lgs/4000count -c master_files/reduced_ngs/10_lgs/8mag_lgs/kola_4000act.conf -O
+Elapsed Time: 0:4:26.913
+
+---------------------------------------
+SIM (4000) TIME: 0:4:26.913
+---------------------------------------

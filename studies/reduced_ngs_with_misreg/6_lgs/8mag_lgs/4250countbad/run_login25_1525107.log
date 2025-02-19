@@ -1,0 +1,13 @@
+Warning(sock.c:516): connect locally (/global/homes/b/bpeck/.aos/tmp/login25/scheduler) failed: No such file or directory. 
+Warning(daemonize.c:230): Error redirect stdout
+Warning(daemonize.c:231): Error redirect stderr
+/global/cfs/cdirs/ulens/vismcao/maos -o studies/reduced_ngs_with_misreg/6_lgs/8mag_lgs/4250count -c master_files/studies/reduced_ngs_with_misreg/6_lgs/8mag_lgs/kola_4250act.conf -O 
+Output folder is 'studies/reduced_ngs_with_misreg/6_lgs/8mag_lgs/4250count'.
+SRC: /global/homes/b/bpeck/code/maos v2.9 4c88b7c2 2024-11-13 16:45:33 -0800
+BUILT: /global/homes/b/bpeck/code/maos/optim by GCC (v12) on 2024/11/18 09:40:03 CPU(F64,+O3) with CUDA(v122,F32)
+Launched at 2025/02/18 20:30:57 in login25 with PID 1525107.
+The web based job monitor can be accessed at http://localhost:10300
+Main config file is master_files/studies/reduced_ngs_with_misreg/6_lgs/8mag_lgs/kola_4250act.conf
+Error(readcfg.c:230): Cannot open file master_files/studies/reduced_ngs_with_misreg/6_lgs/8mag_lgs/kola_4250act.conf for reading.
+
+Signal caught: User defined signal 2 (12)
