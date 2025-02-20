@@ -1,0 +1,1847 @@
+/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/maos -o test -c master_files/A_vismcao.conf -O plot.all=1 
+Output folder is 'test'.
+SRC: /g/lu/code/maos v2.9 164342f4 2023-11-17 17:33:58 -0800
+BUILT: /g/lu/code/maos/build by CLANG (v14.0.0) on 2024/03/08 14:47:10 CPU(F64,+O3) w/o CUDA
+Launched at 2025/02/19 11:09:36 in elisa with PID 16117.
+The web based job monitor can be accessed at http://localhost:10300
+Main config file is /System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/master_files/A_vismcao.conf
+Warning(path.c:48): Path not found: path=/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/master_files/bin; abspath=/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/master_files/bin; Ignored.
+Warning(path.c:48): Path not found: path=/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/master_files/atm; abspath=/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/master_files/atm; Ignored.
+Warning(readcfg.c:405): sim.apfsm has been renamed to powfs.apfsm.
+Warning(readcfg.c:405): sim.epfsm has been renamed to powfs.epfsm.
+Warning(readcfg.c:405): sim.alfsm has been renamed to powfs.alfsm.
+Warning(readcfg.c:405): sim.commonfsm has been renamed to powfs.commonfsm.
+Warning(readcfg.c:405): sim.idealfsm has been renamed to powfs.idealfsm.
+Warning(readcfg.c:405): sim.zetafsm has been renamed to powfs.zetafsm.
+Warning(readcfg.c:405): sim.f0fsm has been renamed to powfs.f0fsm.
+Warning(readcfg.c:405): tsurf has been renamed to ncpa.tsurf.
+loaded 132 (132 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./keck_sim.conf'
+loaded  19 ( 19 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./dm_none.conf'
+loaded  19 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./keck_ASM.conf'
+loaded  19 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./keck_DM2.conf'
+loaded  19 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./keck_DM3.conf'
+loaded   0 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./keck_dm_multiple.conf'
+loaded   7 (  5 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./atm_mk13n50p_ground_detail.conf'
+loaded  81 ( 74 new) records from '/g/lu/code/maos/config/maos/powfs_common.conf'
+loaded  44 ( 38 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./powfs_none.conf'
+loaded  44 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./keck_shwfs_lgs.conf'
+loaded  44 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./keck_shwfs_ttf_strap.conf'
+loaded  44 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./keck_shwfs_twfs_lbwfs.conf'
+loaded   0 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./keck_wfs_lgs_strap_lbwfs.conf'
+loaded  71 ( 71 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./keck_recon.conf'
+Warning(readcfg.c:405): dbg.na_smooth has been renamed to powfs0_llt.na_smooth.
+Warning(readcfg.c:405): dbg.na_interp has been renamed to powfs0_llt.na_interp.
+Warning(readcfg.c:405): dbg.na_thres has been renamed to powfs0_llt.na_thres.
+Warning(readcfg.c:405): dbg.na_fit_maxit has been renamed to powfs0_llt.na_fit_maxit.
+Warning(readcfg.c:405): dbg.na_fit_svdthres has been renamed to powfs0_llt.na_fit_svdthres.
+Warning(readcfg.c:405): dbg.na_fit_dh has been renamed to powfs0_llt.na_fit_dh.
+Warning(readcfg.c:405): dbg.ncpa_preload has been renamed to ncpa.preload.
+Warning(readcfg.c:405): dbg.ncpa_rmsci has been renamed to ncpa.rmsci.
+Warning(readcfg.c:405): dbg.draw_opdmax has been renamed to plot.opdmax.
+Warning(readcfg.c:405): dbg.draw_gmax has been renamed to plot.gmax.
+loaded  95 ( 93 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./keck_dbg.conf'
+loaded   4 (  4 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./keck_fit_mcao.conf'
+Warning(readcfg.c:405): surf has been renamed to ncpa.surf.
+loaded  38 (  8 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/master_files/A_vismcao.conf'
+Overriding plot.all            	0 --> 1
+loaded   1 (  0 new) records from 'command line'
+loaded  24 ( 18 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./keck_llt_CL.conf'
+Warning(parms.c:682): computing siglev from powfs.mag
+draw_helper started
+Adjust LGS range by telescope altitude 4145m.
+Zenith angle is 30 degree.
+    Scaling turbulence height and LGS hs by sec(za).
+    Scaling r0 by cos(za)^(3/5).
+    Scaling wind speed and LGS signal level by cos(za).
+powfs0.epfsm is set to 0.517618 (auto)
+powfs2: Adjusting dx from 0.03125 to 0.0312778. 
+powfs2 is TWFS for powfs0
+sim.ephi is set to 0.427717 (auto)
+sim.eplo is set to 0.427717 (auto)
+Warning(parms.c:2411): Layer 1 at 17.3205m is very close to layer 0 at 0m (OK).
+Warning(parms.c:2411): Layer 2 at 34.641m is very close to layer 1 at 17.3205m (OK).
+Warning(parms.c:2411): Layer 3 at 51.9615m is very close to layer 2 at 34.641m (OK).
+dm 0: stroke=30 um is provided in micron.
+dm 0: assume ia stroke=2 um is provided in micron.
+dm 1: stroke=7 um is provided in micron.
+dm 1: assume ia stroke=2 um is provided in micron.
+dm 2: stroke=7 um is provided in micron.
+dm 2: assume ia stroke=2 um is provided in micron.
+Focus blending is not implemented yet for integrated tomography
+parms->sim.mffocus is reset to 0
+There are 1 valid simulation seeds:  1
+Output PSF for 10 directions
+Warning(readcfg.c:158): key "dbg.pwfs_flate" is not recognized, value is 0
+Warning(readcfg.c:158): key "dbg.pwfs_flatv" is not recognized, value is 0
+Warning(readcfg.c:158): key "dbg.pwfs_psx" is not recognized, value is [0 0 0 0]
+Warning(readcfg.c:158): key "dbg.pwfs_psy" is not recognized, value is [0 0 0 0]
+Warning(readcfg.c:158): key "dbg.pwfs_pupelong" is not recognized, value is 0
+Warning(readcfg.c:158): key "dbg.pwfs_raw" is not recognized, value is 0
+Warning(readcfg.c:158): key "dbg.pwfs_side" is not recognized, value is 4
+[00;00mAperture[00;00m is 11 m with sampling 1/128 m
+[00;00mTurbulence at 30 degree zenith angle:[00;00m r0=0.128424m, L0=30m, 14 layers.
+    Greenwood freq is 25.1Hz, anisoplanatic angle is 1.58 as
+    Sampled 8192x8192 at 1/128m. wind dir is randomized.
+    layer 0: ht=      0 m, wt= 0.302, ws=  4.8 m/s
+    layer 1: ht=     17 m, wt= 0.154, ws=  5.0 m/s
+    layer 2: ht=     35 m, wt= 0.041, ws=  5.4 m/s
+    layer 3: ht=     52 m, wt= 0.002, ws=  6.6 m/s
+    layer 4: ht=    139 m, wt= 0.021, ws=  6.1 m/s
+    layer 5: ht=    231 m, wt= 0.010, ws=  6.1 m/s
+    layer 6: ht=    323 m, wt= 0.008, ws=  6.1 m/s
+    layer 7: ht=    416 m, wt= 0.005, ws=  6.1 m/s
+    layer 8: ht=    508 m, wt= 0.001, ws=  6.1 m/s
+    layer 9: ht=    932 m, wt= 0.107, ws=  5.6 m/s
+    layer 10: ht=   5022 m, wt= 0.144, ws= 11.1 m/s
+    layer 11: ht=   9238 m, wt= 0.093, ws= 19.1 m/s
+    layer 12: ht=  13856 m, wt= 0.075, ws=  8.2 m/s
+    layer 13: ht=  22518 m, wt= 0.036, ws=  4.8 m/s
+[00;00mReconstruction[00;00m: r0=0.128424m L0=30m. 14 layers. use cone coordinate.
+    layer 0: ht=      0 m, wt= 0.302
+    layer 1: ht=     17 m, wt= 0.154
+    layer 2: ht=     35 m, wt= 0.041
+    layer 3: ht=     52 m, wt= 0.002
+    layer 4: ht=    139 m, wt= 0.021
+    layer 5: ht=    231 m, wt= 0.010
+    layer 6: ht=    323 m, wt= 0.008
+    layer 7: ht=    416 m, wt= 0.005
+    layer 8: ht=    508 m, wt= 0.001
+    layer 9: ht=    932 m, wt= 0.107
+    layer 10: ht=   5022 m, wt= 0.144
+    layer 11: ht=   9238 m, wt= 0.093
+    layer 12: ht=  13856 m, wt= 0.075
+    layer 13: ht=  22518 m, wt= 0.036
+[00;00mThere are 3 powfs[00;00m
+  powfs0: Order 22, LGS at 99.1 km. Sampling 1/128 m. Thres 30%. [00;00mT/T is removed in right hand side in tomography.[00;00m
+    CCD image is 25x25 @ 500x500 mas, blur 27% (sigma), 1500Hz, wvl: [ 5.89e-07]
+    Gtilt in reconstruction. Physical optics start at 0 with [00;00m'matched filter'[00;00m [00;00m(noisy)[00;00m
+  powfs1: Order  2, NGS at inf km. Sampling 1/16 m. Thres 30%. 
+    Ztilt in reconstruction. Geomtric optics start at 2 with ztilt [00;00m(noisy)[00;00m
+  powfs2: Order 20, NGS at inf km. Sampling 1/31.9716 m. Thres 50%. 
+    CCD image is 4x4 @ 1500x1500 mas, blur 0% (sigma), 0.015Hz, wvl: [ 7.2e-07]
+    Gtilt in reconstruction. Geomtric optics start at 50 with gtilt Physical optics start at 0 with [00;00m'matched filter'[00;00m [00;00m(noisy)[00;00m
+[00;00mThere are 12 wfs[00;00m
+    wfs 0: type 0, at (  30.00,    0.00) arcsec,  99 km, siglev is 71.4289 bkgrnd is 0.1
+    wfs 1: type 0, at (  21.21,   21.21) arcsec,  99 km, siglev is 71.4289 bkgrnd is 0.1
+    wfs 2: type 0, at (   0.00,   30.00) arcsec,  99 km, siglev is 71.4289 bkgrnd is 0.1
+    wfs 3: type 0, at ( -21.21,   21.21) arcsec,  99 km, siglev is 71.4289 bkgrnd is 0.1
+    wfs 4: type 0, at ( -30.00,    0.00) arcsec,  99 km, siglev is 71.4289 bkgrnd is 0.1
+    wfs 5: type 0, at ( -21.21,  -21.21) arcsec,  99 km, siglev is 71.4289 bkgrnd is 0.1
+    wfs 6: type 0, at (   0.00,  -30.00) arcsec,  99 km, siglev is 71.4289 bkgrnd is 0.1
+    wfs 7: type 0, at (  21.21,  -21.21) arcsec,  99 km, siglev is 71.4289 bkgrnd is 0.1
+    wfs 8: type 1, at (  15.00,   25.98) arcsec, inf km, siglev is 42387.6 bkgrnd is 1.056
+    wfs 9: type 1, at ( -30.00,    0.00) arcsec, inf km, siglev is 42387.6 bkgrnd is 1.056
+    wfs 10: type 1, at (  15.00,  -25.98) arcsec, inf km, siglev is 42387.6 bkgrnd is 1.056
+    wfs 11: type 2, at (   0.00,    0.00) arcsec, inf km, siglev is 4.1558e+06 bkgrnd is 0.001
+[00;00mThere are 3 DMs[00;00m
+  DM 0 at -0.1km, actuator pitch 0.154m, offset   0, with 30.000000 micron stroke.
+    Normalized cubic influence function with inter-actuator coupling of 0.223
+  DM 1 at    6km, actuator pitch 0.168m, offset   0, with 7.000000 micron stroke.
+    Normalized cubic influence function with inter-actuator coupling of 0.223
+  DM 2 at   10km, actuator pitch 0.168m, offset   0, with 7.000000 micron stroke.
+    Normalized cubic influence function with inter-actuator coupling of 0.223
+[00;00mTomography[00;00m is using CG, with [00;00mFourer Domain[00;00m preconditioner, [00;00m12[00;00m iterations, integrated tomo.
+[00;00mDM Fitting [00;00mis using CG, with [00;00mNo[00;00m preconditioner, [00;00m10[00;00m iterations
+[00;00mThere are 9 fit directions[00;00m
+    Fit 0: weight is 0.444, at (   0.00,    0.00) arcsec
+    Fit 1: weight is 0.111, at (  15.00,    0.00) arcsec
+    Fit 2: weight is 0.111, at (   0.00,   15.00) arcsec
+    Fit 3: weight is 0.111, at ( -15.00,    0.00) arcsec
+    Fit 4: weight is 0.111, at (   0.00,  -15.00) arcsec
+    Fit 5: weight is 0.028, at (  15.00,   15.00) arcsec
+    Fit 6: weight is 0.028, at ( -15.00,   15.00) arcsec
+    Fit 7: weight is 0.028, at ( -15.00,  -15.00) arcsec
+    Fit 8: weight is 0.028, at (  15.00,  -15.00) arcsec
+[00;00mThere are 10 evaluation directions[00;00m at sampling 1/128 m.
+    Evl 0: weight is 0.100, at (   0.00,    0.00) arcsec
+    Evl 1: weight is 0.100, at (   5.00,    0.00) arcsec
+    Evl 2: weight is 0.100, at (  10.00,    0.00) arcsec
+    Evl 3: weight is 0.100, at (  15.00,    0.00) arcsec
+    Evl 4: weight is 0.100, at (  20.00,    0.00) arcsec
+    Evl 5: weight is 0.100, at (  25.00,    0.00) arcsec
+    Evl 6: weight is 0.100, at (  30.00,    0.00) arcsec
+    Evl 7: weight is 0.100, at (  35.00,    0.00) arcsec
+    Evl 8: weight is 0.100, at (  45.00,    0.00) arcsec
+    Evl 9: weight is 0.100, at (  60.00,    0.00) arcsec
+[00;00mSimulation[00;00m start at step 0, end at step 1600, with time step 1/1500s, [00;00mclose loop[00;00m.
+After setup_parms:	1.9 MiB.
+
+*** Preparation started at 2025/02/19 11:09:36 in elisa. ***
+
+Using thread pool with 8 threads
+Reading aperture amplitude map from KECK.fits
+Warning(accphi.c:477): 108578 points not covered by input screen
+iwvl 0: Science PSF is using grid size of 2880. The PSF will sum to 6.95167232824563
+iwvl 1: Science PSF is using grid size of 2880. The PSF will sum to 6.95167232824563
+iwvl 2: Science PSF is using grid size of 2880. The PSF will sum to 6.95167232824563
+iwvl 3: Science PSF is using grid size of 2880. The PSF will sum to 6.95167232824563
+iwvl 4: Science PSF is using grid size of 2880. The PSF will sum to 6.95167232824563
+iwvl 5: Science PSF is using grid size of 2880. The PSF will sum to 6.95167232824563
+iwvl 6: Science PSF is using grid size of 2880. The PSF will sum to 6.95167232824563
+iwvl 7: Science PSF is using grid size of 2880. The PSF will sum to 6.95167232824563
+iwvl 8: Science PSF is using grid size of 2880. The PSF will sum to 6.95167232824563
+After setup_aper:	87.7 MiB.
+
+[00;00mSetting up powfs 0 geom[00;00m
+
+There are 64 points in each subaperture of 0.5m.
+There are 311 valid subaperture.
+
+[00;00mSetting up powfs 1 geom[00;00m
+
+There are 88 points in each subaperture of 5.5m.
+There are 4 valid subaperture.
+
+[00;00mSetting up powfs 2 geom[00;00m
+
+There are 18 points in each subaperture of 0.563m.
+There are 237 valid subaperture.
+After setup_powfs_init:	186.2 MiB.
+
+[00;00mSetting up reconstructor geometry.[00;00m
+
+PLOC is 47x47, with sampling of 0.25m (not square)
+    DM 0: grid is 75 x 75
+    DM 1: grid is 85 x 79
+    DM 2: grid is 96 x 85
+FLOC is 47x47, with sampling of 0.25m (not square)
+Tomography grid is not square:
+    layer 0: xloc grid is 128 x 128, sampling is 0.250 m,  1845 points
+    layer 1: xloc grid is 128 x 128, sampling is 0.250 m,  1847 points
+    layer 2: xloc grid is 128 x 128, sampling is 0.250 m,  1859 points
+    layer 3: xloc grid is 128 x 128, sampling is 0.250 m,  1861 points
+    layer 4: xloc grid is 128 x 128, sampling is 0.250 m,  1875 points
+    layer 5: xloc grid is 128 x 128, sampling is 0.249 m,  1881 points
+    layer 6: xloc grid is 128 x 128, sampling is 0.249 m,  1897 points
+    layer 7: xloc grid is 128 x 128, sampling is 0.249 m,  1907 points
+    layer 8: xloc grid is 128 x 128, sampling is 0.249 m,  1917 points
+    layer 9: xloc grid is 128 x 128, sampling is 0.248 m,  1970 points
+    layer 10: xloc grid is 128 x 128, sampling is 0.237 m,  2612 points
+    layer 11: xloc grid is 128 x 128, sampling is 0.227 m,  3421 points
+    layer 12: xloc grid is 128 x 128, sampling is 0.215 m,  4501 points
+    layer 13: xloc grid is 128 x 128, sampling is 0.193 m,  7372 points
+
+[00;00mSetting up powfs 0 PO WFS[00;00m
+
+OTF dimension is 128x128 (calculated)
+Uplink FWHM (illt 0, iwvl 0) is 0.58285"
+Downlink FWHM (illt 0, iwvl 0) is 1.04206"
+Generating matched filter for powfs 0
+sa index   location       noise equivalent angle
+     154: (  3.5,  -0.5) m, ( 77.34,  70.73) mas
+     152: (  2.5,  -0.5) m, ( 83.10,  71.28) mas
+     150: (  1.5,  -0.5) m, ( 90.18,  71.93) mas
+     115: (  0.5,  -1.5) m, (102.26,  77.21) mas
+      94: ( -0.5,  -2.0) m, (112.62,  78.74) mas
+     147: ( -2.0,  -0.5) m, (118.40,  74.14) mas
+     145: ( -3.0,  -0.5) m, (127.08,  74.74) mas
+     143: ( -4.0,  -0.5) m, (136.49,  75.37) mas
+     141: ( -5.0,  -0.5) m, (145.60,  75.88) mas
+     140: ( -5.5,  -0.5) m, (150.52,  76.47) mas
+sa index   location       noise equivalent angle
+     259: (  2.5,   2.5) m, ( 73.46,  73.46) mas
+     242: (  2.0,   2.0) m, ( 78.67,  78.34) mas
+     204: (  1.0,   1.0) m, ( 80.98,  80.98) mas
+     184: (  1.0,   0.5) m, ( 87.54,  92.51) mas
+     115: (  0.5,  -1.5) m, ( 88.65, 103.16) mas
+      94: ( -0.5,  -2.0) m, ( 95.79, 107.19) mas
+      91: ( -2.0,  -2.0) m, (105.81, 105.29) mas
+      55: ( -3.0,  -3.0) m, (110.25, 110.25) mas
+      38: ( -3.5,  -3.5) m, (115.11, 115.22) mas
+sa index   location       noise equivalent angle
+     284: ( -0.5,   3.5) m, ( 73.23,  80.30) mas
+     253: ( -0.5,   2.5) m, ( 73.51,  86.15) mas
+     220: ( -0.5,   1.5) m, ( 75.43,  95.01) mas
+     200: ( -1.0,   1.0) m, ( 74.88,  96.82) mas
+     147: ( -2.0,  -0.5) m, ( 75.17, 105.67) mas
+      94: ( -0.5,  -2.0) m, ( 77.48, 124.22) mas
+      60: ( -0.5,  -3.0) m, ( 77.24, 132.00) mas
+      30: ( -0.5,  -4.0) m, ( 78.74, 143.02) mas
+      17: ( -0.5,  -4.5) m, ( 78.17, 146.49) mas
+sa index   location       noise equivalent angle
+     248: ( -3.0,   2.5) m, ( 73.64,  73.48) mas
+     233: ( -2.5,   2.0) m, ( 78.69,  78.14) mas
+     199: ( -1.5,   1.0) m, ( 81.27,  80.98) mas
+     200: ( -1.0,   1.0) m, ( 87.03,  83.82) mas
+     184: (  1.0,   0.5) m, (106.46,  94.32) mas
+     115: (  0.5,  -1.5) m, ( 99.60, 103.32) mas
+      98: (  1.5,  -2.0) m, (105.24, 104.94) mas
+      66: (  2.5,  -3.0) m, (110.66, 110.25) mas
+      51: (  3.0,  -3.5) m, (116.83, 116.57) mas
+sa index   location       noise equivalent angle
+     140: ( -5.5,  -0.5) m, ( 71.62,  70.27) mas
+     142: ( -4.5,  -0.5) m, ( 74.99,  70.46) mas
+     145: ( -3.0,  -0.5) m, ( 83.43,  71.31) mas
+     147: ( -2.0,  -0.5) m, ( 90.52,  71.96) mas
+     200: ( -1.0,   1.0) m, (101.12,  76.15) mas
+      95: (  0.0,  -2.0) m, (107.01,  75.85) mas
+     184: (  1.0,   0.5) m, (123.27,  82.83) mas
+     152: (  2.5,  -0.5) m, (127.50,  74.77) mas
+     154: (  3.5,  -0.5) m, (136.99,  75.40) mas
+     156: (  4.5,  -0.5) m, (146.06,  75.91) mas
+sa index   location       noise equivalent angle
+      38: ( -3.5,  -3.5) m, ( 72.27,  72.33) mas
+      72: ( -2.5,  -2.5) m, ( 78.33,  78.26) mas
+      91: ( -2.0,  -2.0) m, ( 81.27,  80.72) mas
+      94: ( -0.5,  -2.0) m, ( 92.44,  82.47) mas
+     200: ( -1.0,   1.0) m, ( 87.63, 102.01) mas
+     184: (  1.0,   0.5) m, (106.48, 104.15) mas
+     204: (  1.0,   1.0) m, ( 98.73,  98.73) mas
+     242: (  2.0,   2.0) m, (110.71, 110.40) mas
+     259: (  2.5,   2.5) m, (110.66, 110.66) mas
+     303: (  2.5,   4.0) m, (110.54, 123.39) mas
+sa index   location       noise equivalent angle
+      17: ( -0.5,  -4.5) m, ( 72.62,  77.70) mas
+      60: ( -0.5,  -3.0) m, ( 73.55,  86.48) mas
+      94: ( -0.5,  -2.0) m, ( 75.05,  94.85) mas
+     115: (  0.5,  -1.5) m, ( 76.14,  98.68) mas
+     165: ( -2.0,   0.0) m, ( 75.20, 106.09) mas
+     200: ( -1.0,   1.0) m, ( 76.52, 118.31) mas
+     253: ( -0.5,   2.5) m, ( 77.27, 132.44) mas
+     284: ( -0.5,   3.5) m, ( 78.35, 142.84) mas
+     297: ( -0.5,   4.0) m, ( 78.24, 147.03) mas
+sa index   location       noise equivalent angle
+      66: (  2.5,  -3.0) m, ( 73.48,  73.64) mas
+      81: (  2.0,  -2.5) m, ( 78.25,  78.30) mas
+     116: (  1.0,  -1.5) m, ( 80.98,  81.27) mas
+     115: (  0.5,  -1.5) m, ( 88.00,  85.37) mas
+     203: (  0.5,   1.0) m, ( 85.92, 100.42) mas
+     200: ( -1.0,   1.0) m, ( 97.72, 102.15) mas
+     217: ( -2.0,   1.5) m, (105.81, 105.90) mas
+     248: ( -3.0,   2.5) m, (110.25, 110.66) mas
+     263: ( -3.5,   3.0) m, (117.79, 118.44) mas
+
+[00;00mSetting up powfs 2 PO WFS[00;00m
+
+OTF dimension is 48x48 (calculated)
+Generating matched filter for powfs 2
+Use sanea to derive neasim
+Use sanea to derive neasim
+
+[00;00mSetting up reconstructor[00;00m
+
+Recon NEA: cmf(95.27) cmf(95.12) cmf(95.01) cmf(95.08) cmf(95.21) cmf(95.31) cmf(95.34) cmf(95.35) geom(0.31) geom(0.31) geom(0.31) mf(0.14)  mas
+Setup or update control matrix parameters.
+RRtwfs svd threshold is 1e-10
+Replacing HA by HA*fit->actextrap
+Adding piston cr to fit matrix
+Adding TT cr on upper DMs to fit matrix.
+Before assembling fit matrix:	3253.8 MiB.
+Building fit->FR
+Building fit->FL
+Adding tikhonov constraint of 1.0e-07 to FLM
+The maximum eigen value is estimated to be around 2.5e-04
+DM Fit number of Low rank terms: 16 in LHS
+After assemble fit matrix:	3987.8 MiB.
+After setup_recon:	3987.8 MiB.
+
+*** Simulation started at 2025/02/19 11:10:11 in elisa. ***
+
+Running seed 1
+DM cache with grid 1/25.974m 1/23.8095m 1/23.8095m
+Wind dir: 267.3 261.7 167.0 130.5 300.7  32.3 119.8 139.0 150.8 277.7 203.0 133.1  45.9 265.1 deg
+Using /u/bpeck/.aos/cache/atm/vonkarman_14_8192x8192_0.0078125_1115374592d.bin
+After genatm:	4077.5 MiB.
+Step     #  Open Loop  PR TT  On axis  PR TT  Field RMS PR TT     Timing 
+Step     0: OL  885.7  246.9  OA  884.6 248.3 CL  885.7 246.9 nm  0.857 s
+Step     1: OL  886.2  246.8  OA  886.1 248.7 CL  886.2 246.8 nm  1.174 s
+Step     2: OL  886.8  246.6  OA  750.0 301.4 CL  757.5 296.6 nm  1.000 s
+Step     3: OL  887.4  246.4  OA  729.4 512.0 CL  722.6 490.3 nm  1.025 s
+Step     4: OL  888.0  246.3  OA  659.4 537.5 CL  645.8 508.6 nm  1.017 s
+Step     5: OL  888.6  246.1  OA  524.8 424.5 CL  519.9 388.8 nm  1.066 s
+Step     6: OL  889.1  245.9  OA  408.1 283.2 CL  434.1 242.7 nm  1.082 s
+Step 6, DM 1: 5 actuators over ia limit. trials=2: success.
+Step     7: OL  889.7  245.8  OA  336.2 184.0 CL  413.9 164.1 nm  1.067 s
+Step 7, DM 1: 8 actuators over ia limit. trials=2: success.
+Step     8: OL  890.3  245.6  OA  305.1 148.2 CL  428.5 174.4 nm  1.125 s
+Step 8, DM 1: 8 actuators over ia limit. trials=2: success.
+Step     9: OL  890.9  245.4  OA  289.5 120.5 CL  433.1 174.8 nm  1.101 s
+Step 9, DM 1: 8 actuators over ia limit. trials=2: success.
+Step 10, DM 1: 8 actuators over ia limit. trials=2: success.
+Step    11: OL  892.0  245.1  OA  281.6  76.9 CL  412.3 124.4 nm  1.107 s
+Step 11, DM 1: 9 actuators over ia limit. trials=2: success.
+Step    12: OL  892.6  244.9  OA  283.6 106.8 CL  398.7 115.7 nm  1.048 s
+Step 12, DM 1: 9 actuators over ia limit. trials=2: success.
+Step    13: OL  893.2  244.7  OA  283.0 126.0 CL  388.9 117.4 nm  1.067 s
+Step 13, DM 1: 10 actuators over ia limit. trials=2: success.
+Step    14: OL  893.8  244.6  OA  276.5 129.7 CL  384.0 117.8 nm  1.048 s
+Step 14, DM 1: 10 actuators over ia limit. trials=2: success.
+Step    15: OL  894.4  244.4  OA  266.6 117.6 CL  383.0 115.0 nm  1.089 s
+Step 15, DM 0: 1 actuators over ia limit. trials=2: success.
+Step 15, DM 1: 10 actuators over ia limit. trials=2: success.
+Step    16: OL  894.9  244.2  OA  258.7 101.8 CL  385.8 114.3 nm  1.075 s
+Step 16, DM 0: 2 actuators over ia limit. trials=2: success.
+Step 16, DM 1: 10 actuators over ia limit. trials=2: success.
+Step    17: OL  895.5  244.0  OA  257.5  93.4 CL  387.8 115.6 nm  1.026 s
+Step 17, DM 0: 3 actuators over ia limit. trials=2: success.
+Step 17, DM 1: 11 actuators over ia limit. trials=2: success.
+Step    18: OL  896.1  243.8  OA  258.9  92.7 CL  388.9 117.2 nm  1.095 s
+Step 18, DM 0: 3 actuators over ia limit. trials=2: success.
+Step 18, DM 1: 14 actuators over ia limit. trials=2: success.
+Step    19: OL  896.7  243.7  OA  261.5  94.3 CL  389.8 118.2 nm  1.105 s
+Step 19, DM 0: 4 actuators over ia limit. trials=2: success.
+Step 19, DM 1: 18 actuators over ia limit. trials=2: success.
+Step    20: OL  897.2  243.5  OA  264.6  97.3 CL  390.0 119.1 nm  4.883 s
+Step 20, DM 0: 4 actuators over ia limit. trials=2: success.
+Step 20, DM 1: 20 actuators over ia limit. trials=2: success.
+Step    21: OL  897.8  243.3  OA  267.3  99.0 CL  390.6 120.0 nm  4.654 s
+Step 21, DM 0: 5 actuators over ia limit. trials=2: success.
+Step 21, DM 1: 22 actuators over ia limit. trials=2: success.
+Step    22: OL  898.4  243.1  OA  270.2 101.4 CL  391.6 120.8 nm  4.601 s
+Step 22, DM 0: 6 actuators over ia limit. trials=2: success.
+Step 22, DM 1: 25 actuators over ia limit. trials=2: success.
+Step    23: OL  898.9  242.9  OA  273.1 102.4 CL  394.6 122.6 nm  4.448 s
+Step 23, DM 0: 7 actuators over ia limit. trials=2: success.
+Step 23, DM 1: 29 actuators over ia limit. trials=2: success.
+Step    24: OL  899.5  242.7  OA  275.1 101.4 CL  398.4 122.9 nm  4.528 s
+step 24 DM 1: 2 actuators clipped
+Step 24, DM 0: 8 actuators over ia limit. trials=2: success.
+Step 24, DM 1: 33 actuators over ia limit. trials=2: success.
+Step    25: OL  900.1  242.5  OA  277.2 102.5 CL  400.4 122.9 nm  4.473 s
+step 25 DM 1: 3 actuators clipped
+Step 25, DM 0: 8 actuators over ia limit. trials=2: success.
+Step 25, DM 1: 37 actuators over ia limit. trials=2: success.
+Step 25, DM 2: 1 actuators over ia limit. trials=2: success.
+Step    26: OL  900.7  242.3  OA  277.5  99.6 CL  405.6 123.2 nm  4.532 s
+step 26 DM 1: 6 actuators clipped
+Step 26, DM 0: 8 actuators over ia limit. trials=2: success.
+Step 26, DM 1: 45 actuators over ia limit. trials=2: success.
+Step 26, DM 2: 3 actuators over ia limit. trials=2: success.
+Step    27: OL  901.2  242.1  OA  279.1  93.8 CL  413.5 125.9 nm  4.401 s
+Step 27, DM 0: 9 actuators over ia limit. trials=2: success.
+Step 27, DM 1: 49 actuators over ia limit. trials=2: success.
+Step 27, DM 2: 4 actuators over ia limit. trials=2: success.
+Step    28: OL  901.8  241.9  OA  283.6  96.7 CL  419.9 128.3 nm  4.384 s
+Step 28, DM 0: 11 actuators over ia limit. trials=2: success.
+Step 28, DM 1: 55 actuators over ia limit. trials=2: success.
+Step 28, DM 2: 8 actuators over ia limit. trials=2: success.
+Step    29: OL  902.4  241.8  OA  288.6 103.0 CL  424.5 130.4 nm  4.479 s
+step 29 DM 1: 7 actuators clipped
+Step 29, DM 0: 11 actuators over ia limit. trials=2: success.
+Step 29, DM 1: 60 actuators over ia limit. trials=2: success.
+Step 29, DM 2: 9 actuators over ia limit. trials=2: success.
+Step    30: OL  902.9  241.6  OA  293.0 108.2 CL  430.6 134.0 nm  4.432 s
+step 30 DM 1: 8 actuators clipped
+Step 30, DM 0: 11 actuators over ia limit. trials=2: success.
+Step 30, DM 1: 63 actuators over ia limit. trials=2: success.
+Step 30, DM 2: 10 actuators over ia limit. trials=2: success.
+Step    31: OL  903.5  241.4  OA  297.6 115.3 CL  436.5 140.0 nm  4.485 s
+Step 31, DM 0: 14 actuators over ia limit. trials=2: success.
+Step 31, DM 1: 65 actuators over ia limit. trials=2: success.
+Step 31, DM 2: 11 actuators over ia limit. trials=2: success.
+Step    32: OL  904.0  241.2  OA  302.2 119.6 CL  443.2 146.0 nm  4.430 s
+Step 32, DM 0: 15 actuators over ia limit. trials=2: success.
+Step 32, DM 1: 66 actuators over ia limit. trials=2: success.
+Step 32, DM 2: 13 actuators over ia limit. trials=2: success.
+Step    33: OL  904.5  241.0  OA  305.3 116.9 CL  451.7 149.8 nm  4.501 s
+step 33 DM 1: 9 actuators clipped
+Step 33, DM 0: 17 actuators over ia limit. trials=2: success.
+Step 33, DM 1: 65 actuators over ia limit. trials=2: success.
+Step 33, DM 2: 19 actuators over ia limit. trials=2: success.
+Step    34: OL  905.1  240.8  OA  307.3 106.3 CL  460.5 150.7 nm  4.409 s
+step 34 DM 1: 10 actuators clipped
+Step 34, DM 0: 19 actuators over ia limit. trials=2: success.
+Step 34, DM 1: 65 actuators over ia limit. trials=2: success.
+Step 34, DM 2: 24 actuators over ia limit. trials=2: success.
+Step    35: OL  905.6  240.6  OA  310.2  96.8 CL  466.5 148.2 nm  4.524 s
+Step 35, DM 0: 19 actuators over ia limit. trials=2: success.
+Step 35, DM 1: 68 actuators over ia limit. trials=2: success.
+Step 35, DM 2: 25 actuators over ia limit. trials=2: success.
+Step    36: OL  906.2  240.4  OA  317.6 103.2 CL  465.9 142.1 nm  4.424 s
+Step 36, DM 0: 20 actuators over ia limit. trials=2: success.
+Step 36, DM 1: 69 actuators over ia limit. trials=2: success.
+Step 36, DM 2: 25 actuators over ia limit. trials=7: success.
+Step    37: OL  906.7  240.2  OA  326.1 111.1 CL  466.4 139.0 nm  4.520 s
+Step 37, DM 0: 21 actuators over ia limit. trials=2: success.
+Step 37, DM 1: 72 actuators over ia limit. trials=2: success.
+Step 37, DM 2: 30 actuators over ia limit. trials=3: success.
+Step    38: OL  907.2  240.0  OA  334.0 119.4 CL  470.1 137.7 nm  4.452 s
+step 38 DM 1: 11 actuators clipped
+Step 38, DM 0: 22 actuators over ia limit. trials=2: success.
+Step 38, DM 1: 71 actuators over ia limit. trials=2: success.
+Step 38, DM 2: 34 actuators over ia limit. trials=7: success.
+Step    39: OL  907.8  239.8  OA  342.3 128.8 CL  474.7 138.2 nm  4.509 s
+Step 39, DM 0: 23 actuators over ia limit. trials=2: success.
+Step 39, DM 1: 76 actuators over ia limit. trials=2: success.
+Step 39, DM 2: 35 actuators over ia limit. trials=7: success.
+Step    40: OL  908.3  239.6  OA  349.9 136.2 CL  481.1 138.5 nm  4.421 s
+step 40 DM 1: 13 actuators clipped
+Step 40, DM 0: 25 actuators over ia limit. trials=2: success.
+Step 40, DM 1: 77 actuators over ia limit. trials=2: success.
+Step 40, DM 2: 40 actuators over ia limit. trials=7: success.
+Step    41: OL  908.8  239.4  OA  356.9 138.6 CL  488.2 138.9 nm  4.442 s
+step 41 DM 1: 16 actuators clipped
+Step 41, DM 0: 25 actuators over ia limit. trials=2: success.
+Step 41, DM 1: 82 actuators over ia limit. trials=2: success.
+Step 41, DM 2: 46 actuators over ia limit. trials=7: success.
+Step    42: OL  909.4  239.2  OA  361.4 133.0 CL  496.3 140.7 nm  4.516 s
+step 42 DM 1: 17 actuators clipped
+Step 42, DM 0: 27 actuators over ia limit. trials=2: success.
+Step 42, DM 1: 86 actuators over ia limit. trials=2: success.
+Step 42, DM 2: 48 actuators over ia limit. trials=7: success.
+Step    43: OL  909.9  239.0  OA  366.4 126.5 CL  504.8 143.9 nm  4.417 s
+step 43 DM 1: 20 actuators clipped
+Step 43, DM 0: 28 actuators over ia limit. trials=2: success.
+Step 43, DM 1: 89 actuators over ia limit. trials=2: success.
+Step 43, DM 2: 53 actuators over ia limit. trials=7: success.
+Step    44: OL  910.4  238.7  OA  373.3 122.6 CL  514.8 148.4 nm  4.477 s
+step 44 DM 1: 22 actuators clipped
+Step 44, DM 0: 32 actuators over ia limit. trials=2: success.
+Step 44, DM 1: 94 actuators over ia limit. trials=2: success.
+Step 44, DM 2: 56 actuators over ia limit. trials=7: success.
+Step    45: OL  911.0  238.5  OA  381.7 124.5 CL  524.9 152.7 nm  4.400 s
+step 45 DM 1: 23 actuators clipped
+Step 45, DM 0: 33 actuators over ia limit. trials=2: success.
+Step 45, DM 1: 102 actuators over ia limit. trials=2: success.
+Step 45, DM 2: 56 actuators over ia limit. trials=4: success.
+Step    46: OL  911.5  238.3  OA  388.1 121.7 CL  538.2 159.7 nm  4.461 s
+Step 46, DM 0: 33 actuators over ia limit. trials=2: success.
+Step 46, DM 1: 110 actuators over ia limit. trials=2: success.
+Step 46, DM 2: 58 actuators over ia limit. trials=2: success.
+Step    47: OL  912.0  238.1  OA  393.5 115.5 CL  552.2 169.1 nm  4.505 s
+step 47 DM 1: 26 actuators clipped
+Step 47, DM 0: 33 actuators over ia limit. trials=2: success.
+Step 47, DM 1: 120 actuators over ia limit. trials=2: success.
+Step 47, DM 2: 63 actuators over ia limit. trials=3: success.
+Step    48: OL  912.5  237.9  OA  402.4 114.9 CL  566.2 177.9 nm  4.504 s
+step 48 DM 1: 28 actuators clipped
+Step 48, DM 0: 34 actuators over ia limit. trials=2: success.
+Step 48, DM 1: 125 actuators over ia limit. trials=2: success.
+Step 48, DM 2: 71 actuators over ia limit. trials=7: success.
+Step    49: OL  913.1  237.7  OA  410.6 115.2 CL  579.0 183.7 nm  4.486 s
+Step 49, DM 0: 35 actuators over ia limit. trials=2: success.
+Step 49, DM 1: 128 actuators over ia limit. trials=2: success.
+Step 49, DM 2: 72 actuators over ia limit. trials=8: success.
+Step    50: OL  913.6  237.5  OA  418.5 112.1 CL  592.2 189.7 nm  4.464 s
+step 50 DM 1: 30 actuators clipped
+Step 50, DM 0: 36 actuators over ia limit. trials=2: success.
+Step 50, DM 1: 131 actuators over ia limit. trials=2: success.
+Step 50, DM 2: 79 actuators over ia limit. trials=8: success.
+Step    51: OL  914.1  237.3  OA  427.4 110.1 CL  604.3 192.1 nm  4.431 s
+Step 51, DM 0: 38 actuators over ia limit. trials=2: success.
+Step 51, DM 1: 139 actuators over ia limit. trials=2: success.
+Step 51, DM 2: 88 actuators over ia limit. trials=8: success.
+Step    52: OL  914.6  237.1  OA  435.3 103.4 CL  617.9 193.5 nm  4.402 s
+step 52 DM 1: 34 actuators clipped
+Step 52, DM 0: 45 actuators over ia limit. trials=2: success.
+Step 52, DM 1: 142 actuators over ia limit. trials=2: success.
+Step 52, DM 2: 93 actuators over ia limit. trials=9: success.
+Step    53: OL  915.2  236.9  OA  442.3  96.8 CL  632.5 198.3 nm  4.525 s
+Step 53, DM 0: 46 actuators over ia limit. trials=2: success.
+Step 53, DM 1: 148 actuators over ia limit. trials=2: success.
+Step 53, DM 2: 92 actuators over ia limit. trials=9: success.
+Step    54: OL  915.7  236.7  OA  448.5  88.5 CL  647.2 205.1 nm  4.489 s
+Step 54, DM 0: 46 actuators over ia limit. trials=2: success.
+Step 54, DM 1: 149 actuators over ia limit. trials=3: success.
+Step 54, DM 2: 96 actuators over ia limit. trials=9: success.
+Step    55: OL  916.2  236.5  OA  456.1  80.1 CL  663.8 213.8 nm  4.433 s
+step 55 DM 1: 35 actuators clipped
+Step 55, DM 0: 46 actuators over ia limit. trials=2: success.
+Step 55, DM 1: 151 actuators over ia limit. trials=3: success.
+Step 55, DM 2: 101 actuators over ia limit. trials=9: success.
+Step    56: OL  916.7  236.3  OA  464.2  79.4 CL  678.0 217.8 nm  4.523 s
+step 56 DM 1: 36 actuators clipped
+Step 56, DM 0: 52 actuators over ia limit. trials=2: success.
+Step 56, DM 1: 161 actuators over ia limit. trials=3: success.
+Step 56, DM 2: 105 actuators over ia limit. trials=9: success.
+Step    57: OL  917.2  236.1  OA  473.2  77.7 CL  692.3 223.4 nm  4.474 s
+step 57 DM 1: 37 actuators clipped
+Step 57, DM 0: 55 actuators over ia limit. trials=2: success.
+Step 57, DM 1: 163 actuators over ia limit. trials=3: success.
+Step 57, DM 2: 106 actuators over ia limit. trials=9: success.
+Step    58: OL  917.7  235.9  OA  483.8  80.6 CL  704.3 226.1 nm  4.536 s
+step 58 DM 1: 39 actuators clipped
+Step 58, DM 0: 58 actuators over ia limit. trials=2: success.
+Step 58, DM 1: 170 actuators over ia limit. trials=3: success.
+Step 58, DM 2: 112 actuators over ia limit. trials=9: success.
+Step    59: OL  918.2  235.7  OA  496.6  82.8 CL  717.9 229.9 nm  4.425 s
+step 59 DM 1: 41 actuators clipped
+Step 59, DM 0: 64 actuators over ia limit. trials=2: success.
+Step 59, DM 1: 170 actuators over ia limit. trials=3: success.
+Step 59, DM 2: 122 actuators over ia limit. trials=9: success.
+Step    60: OL  918.7  235.5  OA  508.4  79.1 CL  733.4 234.2 nm  4.544 s
+step 60 DM 1: 43 actuators clipped
+Step 60, DM 0: 66 actuators over ia limit. trials=2: success.
+Step 60, DM 1: 176 actuators over ia limit. trials=3: success.
+Step 60, DM 2: 131 actuators over ia limit. trials=9: success.
+Step    61: OL  919.3  235.3  OA  520.9  77.1 CL  748.5 239.3 nm  4.478 s
+step 61 DM 1: 44 actuators clipped
+Step 61, DM 0: 68 actuators over ia limit. trials=2: success.
+Step 61, DM 1: 180 actuators over ia limit. trials=3: success.
+Step 61, DM 2: 140 actuators over ia limit. trials=9: success.
+Step    62: OL  919.8  235.1  OA  533.2  79.3 CL  760.9 239.2 nm  4.437 s
+step 62 DM 1: 46 actuators clipped
+Step 62, DM 0: 70 actuators over ia limit. trials=3: success.
+Step 62, DM 1: 187 actuators over ia limit. trials=3: success.
+Step 62, DM 2: 149 actuators over ia limit. trials=9: success.
+Step    63: OL  920.3  234.9  OA  545.7  85.8 CL  774.3 238.3 nm  4.461 s
+step 63 DM 1: 49 actuators clipped
+Step 63, DM 0: 73 actuators over ia limit. trials=3: success.
+Step 63, DM 1: 190 actuators over ia limit. trials=3: success.
+Step 63, DM 2: 157 actuators over ia limit. trials=13: success.
+Step    64: OL  920.8  234.7  OA  558.4  85.3 CL  790.5 240.2 nm  4.409 s
+step 64 DM 1: 50 actuators clipped
+Step 64, DM 0: 75 actuators over ia limit. trials=3: success.
+Step 64, DM 1: 192 actuators over ia limit. trials=3: success.
+Step 64, DM 2: 171 actuators over ia limit. trials=14: success.
+Step    65: OL  921.3  234.5  OA  573.2  83.1 CL  807.4 244.9 nm  4.418 s
+step 65 DM 1: 52 actuators clipped
+Step 65, DM 0: 78 actuators over ia limit. trials=3: success.
+Step 65, DM 1: 198 actuators over ia limit. trials=3: success.
+Step 65, DM 2: 181 actuators over ia limit. trials=14: success.
+Step    66: OL  921.8  234.3  OA  588.5  79.4 CL  823.6 248.0 nm  4.477 s
+step 66 DM 1: 56 actuators clipped
+Step 66, DM 0: 82 actuators over ia limit. trials=3: success.
+Step 66, DM 1: 205 actuators over ia limit. trials=3: success.
+Step 66, DM 2: 186 actuators over ia limit. trials=15: success.
+Step    67: OL  922.4  234.2  OA  604.3  81.0 CL  837.3 245.0 nm  4.456 s
+step 67 DM 1: 58 actuators clipped
+Step 67, DM 0: 89 actuators over ia limit. trials=3: success.
+Step 67, DM 1: 211 actuators over ia limit. trials=3: success.
+Step 67, DM 2: 192 actuators over ia limit. trials=15: success.
+Step    68: OL  922.9  234.0  OA  621.9  82.0 CL  853.0 241.9 nm  4.528 s
+step 68 DM 1: 60 actuators clipped
+Step 68, DM 0: 92 actuators over ia limit. trials=14: success.
+Step 68, DM 1: 217 actuators over ia limit. trials=3: success.
+Step 68, DM 2: 200 actuators over ia limit. trials=15: success.
+Step    69: OL  923.4  233.8  OA  641.0  82.7 CL  870.6 242.5 nm  4.470 s
+step 69 DM 1: 62 actuators clipped
+Step 69, DM 0: 93 actuators over ia limit. trials=15: success.
+Step 69, DM 1: 220 actuators over ia limit. trials=3: success.
+Step 69, DM 2: 204 actuators over ia limit. trials=15: success.
+Step    70: OL  924.0  233.6  OA  660.2  87.2 CL  886.4 241.0 nm  4.385 s
+step 70 DM 1: 63 actuators clipped
+step 70 DM 2: 73 actuators clipped
+Step 70, DM 0: 100 actuators over ia limit. trials=16: success.
+Step 70, DM 1: 224 actuators over ia limit. trials=3: success.
+Step 70, DM 2: 211 actuators over ia limit. trials=15: success.
+Step    71: OL  924.5  233.4  OA  683.5  93.3 CL  904.7 240.4 nm  4.562 s
+step 71 DM 2: 80 actuators clipped
+Step 71, DM 0: 106 actuators over ia limit. trials=16: success.
+Step 71, DM 1: 229 actuators over ia limit. trials=3: success.
+Step 71, DM 2: 218 actuators over ia limit. trials=15: success.
+Step    72: OL  925.0  233.2  OA  707.9  94.1 CL  924.8 242.9 nm  4.394 s
+step 72 DM 2: 93 actuators clipped
+Step 72, DM 0: 108 actuators over ia limit. trials=17: success.
+Step 72, DM 1: 233 actuators over ia limit. trials=3: success.
+Step 72, DM 2: 227 actuators over ia limit. trials=15: success.
+Step    73: OL  925.5  233.1  OA  733.7  99.1 CL  944.9 243.7 nm  4.477 s
+step 73 DM 2: 99 actuators clipped
+Step 73, DM 0: 113 actuators over ia limit. trials=23: success.
+Step 73, DM 1: 242 actuators over ia limit. trials=3: success.
+Step 73, DM 2: 240 actuators over ia limit. trials=15: success.
+Step    74: OL  926.1  232.9  OA  759.8 112.2 CL  962.9 237.3 nm  4.520 s
+step 74 DM 2: 111 actuators clipped
+Step 74, DM 0: 114 actuators over ia limit. trials=24: success.
+Step 74, DM 1: 246 actuators over ia limit. trials=3: success.
+Step 74, DM 2: 252 actuators over ia limit. trials=15: success.
+Step    75: OL  926.6  232.7  OA  785.6 129.5 CL  980.2 231.4 nm  4.545 s
+step 75 DM 2: 115 actuators clipped
+Step 75, DM 0: 119 actuators over ia limit. trials=24: success.
+Step 75, DM 1: 255 actuators over ia limit. trials=3: success.
+Step 75, DM 2: 261 actuators over ia limit. trials=15: success.
+Step    76: OL  927.1  232.6  OA  812.6 138.8 CL 1001.8 230.3 nm  4.453 s
+step 76 DM 2: 122 actuators clipped
+Step 76, DM 0: 124 actuators over ia limit. trials=25: success.
+Step 76, DM 1: 258 actuators over ia limit. trials=3: success.
+Step 76, DM 2: 270 actuators over ia limit. trials=15: success.
+Step    77: OL  927.7  232.4  OA  840.2 146.4 CL 1024.0 232.1 nm  4.434 s
+step 77 DM 2: 136 actuators clipped
+Step 77, DM 0: 128 actuators over ia limit. trials=25: success.
+Step 77, DM 1: 259 actuators over ia limit. trials=3: success.
+Step 77, DM 2: 275 actuators over ia limit. trials=15: success.
+Step    78: OL  928.2  232.2  OA  869.6 152.0 CL 1048.7 233.7 nm  4.497 s
+step 78 DM 2: 146 actuators clipped
+Step 78, DM 0: 131 actuators over ia limit. trials=25: success.
+Step 78, DM 1: 261 actuators over ia limit. trials=3: success.
+Step 78, DM 2: 283 actuators over ia limit. trials=15: success.
+Step    79: OL  928.8  232.1  OA  900.4 156.2 CL 1074.9 237.1 nm  4.496 s
+step 79 DM 2: 152 actuators clipped
+Step 79, DM 0: 136 actuators over ia limit. trials=26: success.
+Step 79, DM 1: 267 actuators over ia limit. trials=3: success.
+Step 79, DM 2: 287 actuators over ia limit. trials=15: success.
+Step    80: OL  929.3  231.9  OA  935.2 168.4 CL 1101.2 233.6 nm  4.441 s
+step 80 DM 2: 159 actuators clipped
+Step 80, DM 0: 139 actuators over ia limit. trials=26: success.
+Step 80, DM 1: 271 actuators over ia limit. trials=3: success.
+Step 80, DM 2: 297 actuators over ia limit. trials=15: success.
+Step    81: OL  929.8  231.8  OA  971.2 189.4 CL 1124.9 227.0 nm  4.430 s
+step 81 DM 2: 161 actuators clipped
+Step 81, DM 0: 144 actuators over ia limit. trials=26: success.
+Step 81, DM 1: 275 actuators over ia limit. trials=3: success.
+Step 81, DM 2: 305 actuators over ia limit. trials=15: success.
+Step    82: OL  930.4  231.6  OA 1006.8 203.9 CL 1150.1 222.8 nm  4.490 s
+step 82 DM 2: 166 actuators clipped
+Step 82, DM 0: 145 actuators over ia limit. trials=34: success.
+Step 82, DM 1: 277 actuators over ia limit. trials=3: success.
+Step 82, DM 2: 310 actuators over ia limit. trials=15: success.
+Step    83: OL  930.9  231.4  OA 1040.7 217.4 CL 1175.5 222.0 nm  4.512 s
+step 83 DM 2: 168 actuators clipped
+Step 83, DM 0: 147 actuators over ia limit. trials=35: success.
+Step 83, DM 1: 280 actuators over ia limit. trials=3: success.
+Step 83, DM 2: 314 actuators over ia limit. trials=15: success.
+Step    84: OL  931.5  231.3  OA 1074.0 231.8 CL 1201.5 220.1 nm  4.512 s
+step 84 DM 2: 169 actuators clipped
+Step 84, DM 0: 153 actuators over ia limit. trials=36: success.
+Step 84, DM 1: 287 actuators over ia limit. trials=3: success.
+Step 84, DM 2: 323 actuators over ia limit. trials=15: success.
+Step    85: OL  932.1  231.2  OA 1105.5 250.2 CL 1224.6 218.7 nm  4.547 s
+step 85 DM 2: 171 actuators clipped
+Step 85, DM 0: 158 actuators over ia limit. trials=37: success.
+Step 85, DM 1: 293 actuators over ia limit. trials=3: success.
+Step 85, DM 2: 327 actuators over ia limit. trials=15: success.
+Step    86: OL  932.6  231.0  OA 1137.8 269.2 CL 1249.1 216.6 nm  4.500 s
+step 86 DM 2: 173 actuators clipped
+Step 86, DM 0: 164 actuators over ia limit. trials=37: success.
+Step 86, DM 1: 297 actuators over ia limit. trials=3: success.
+Step 86, DM 2: 336 actuators over ia limit. trials=15: success.
+Step    87: OL  933.2  230.9  OA 1173.6 297.4 CL 1274.1 215.2 nm  4.453 s
+step 87 DM 2: 177 actuators clipped
+Step 87, DM 0: 170 actuators over ia limit. trials=37: success.
+Step 87, DM 1: 299 actuators over ia limit. trials=3: success.
+Step 87, DM 2: 339 actuators over ia limit. trials=15: success.
+Step    88: OL  933.8  230.7  OA 1211.6 327.1 CL 1301.0 215.5 nm  4.408 s
+step 88 DM 2: 178 actuators clipped
+Step 88, DM 0: 175 actuators over ia limit. trials=38: success.
+Step 88, DM 1: 303 actuators over ia limit. trials=3: success.
+Step 88, DM 2: 343 actuators over ia limit. trials=15: success.
+Step    89: OL  934.4  230.6  OA 1250.9 354.9 CL 1329.1 218.5 nm  4.487 s
+step 89 DM 2: 180 actuators clipped
+Step 89, DM 0: 182 actuators over ia limit. trials=38: success.
+Step 89, DM 1: 310 actuators over ia limit. trials=3: success.
+Step 89, DM 2: 347 actuators over ia limit. trials=15: success.
+Step    90: OL  935.0  230.4  OA 1292.2 380.5 CL 1359.4 221.0 nm  4.444 s
+step 90 DM 2: 182 actuators clipped
+Step 90, DM 0: 188 actuators over ia limit. trials=38: success.
+Step 90, DM 1: 320 actuators over ia limit. trials=3: success.
+Step 90, DM 2: 348 actuators over ia limit. trials=15: success.
+Step    91: OL  935.5  230.3  OA 1339.5 418.1 CL 1391.2 226.0 nm  4.566 s
+Step 91, DM 0: 195 actuators over ia limit. trials=39: success.
+Step 91, DM 1: 327 actuators over ia limit. trials=3: success.
+Step 91, DM 2: 354 actuators over ia limit. trials=14: success.
+Step    92: OL  936.2  230.2  OA 1390.6 461.6 CL 1425.1 235.1 nm  4.409 s
+step 92 DM 2: 183 actuators clipped
+Step 92, DM 0: 198 actuators over ia limit. trials=39: success.
+Step 92, DM 1: 342 actuators over ia limit. trials=3: success.
+Step 92, DM 2: 359 actuators over ia limit. trials=14: success.
+Step    93: OL  936.8  230.0  OA 1441.5 501.0 CL 1459.9 249.4 nm  4.556 s
+Step 93, DM 0: 208 actuators over ia limit. trials=39: success.
+Step 93, DM 1: 362 actuators over ia limit. trials=3: success.
+Step 93, DM 2: 365 actuators over ia limit. trials=14: success.
+Step    94: OL  937.4  229.9  OA 1491.7 539.6 CL 1494.7 268.4 nm  4.512 s
+step 94 DM 2: 184 actuators clipped
+Step 94, DM 0: 216 actuators over ia limit. trials=39: success.
+Step 94, DM 1: 373 actuators over ia limit. trials=3: success.
+Step 94, DM 2: 377 actuators over ia limit. trials=14: success.
+Step    95: OL  938.1  229.8  OA 1540.8 579.0 CL 1529.6 292.0 nm  4.424 s
+step 95 DM 2: 187 actuators clipped
+Step 95, DM 0: 229 actuators over ia limit. trials=39: success.
+Step 95, DM 1: 384 actuators over ia limit. trials=3: success.
+Step 95, DM 2: 388 actuators over ia limit. trials=14: success.
+Step    96: OL  938.7  229.7  OA 1590.4 616.0 CL 1567.1 317.3 nm  4.460 s
+step 96 DM 2: 191 actuators clipped
+Step 96, DM 0: 233 actuators over ia limit. trials=39: success.
+Step 96, DM 1: 392 actuators over ia limit. trials=3: success.
+Step 96, DM 2: 406 actuators over ia limit. trials=14: success.
+Step    97: OL  939.4  229.6  OA 1639.8 652.6 CL 1604.4 343.8 nm  4.418 s
+step 97 DM 2: 199 actuators clipped
+Step 97, DM 0: 243 actuators over ia limit. trials=39: success.
+Step 97, DM 1: 403 actuators over ia limit. trials=3: success.
+Step 97, DM 2: 429 actuators over ia limit. trials=14: success.
+Step    98: OL  940.1  229.4  OA 1689.7 692.2 CL 1641.9 375.5 nm  4.415 s
+step 98 DM 2: 208 actuators clipped
+Step 98, DM 0: 249 actuators over ia limit. trials=39: success.
+Step 98, DM 1: 407 actuators over ia limit. trials=3: success.
+Step 98, DM 2: 444 actuators over ia limit. trials=14: success.
+Step    99: OL  940.8  229.3  OA 1743.3 738.5 CL 1682.0 413.9 nm  4.494 s
+step 99 DM 2: 210 actuators clipped
+Step 99, DM 0: 257 actuators over ia limit. trials=40: success.
+Step 99, DM 1: 419 actuators over ia limit. trials=3: success.
+Step 99, DM 2: 454 actuators over ia limit. trials=14: success.
+Step   100: OL  941.5  229.2  OA 1801.0 791.5 CL 1725.3 462.8 nm  4.457 s
+step 100 DM 2: 218 actuators clipped
+Step 100, DM 0: 261 actuators over ia limit. trials=40: success.
+Step 100, DM 1: 430 actuators over ia limit. trials=3: success.
+Step 100, DM 2: 463 actuators over ia limit. trials=13: success.
+Step   101: OL  942.2  229.1  OA 1863.0 850.0 CL 1773.8 518.9 nm  4.504 s
+step 101 DM 2: 220 actuators clipped
+Step 101, DM 0: 271 actuators over ia limit. trials=40: success.
+Step 101, DM 1: 445 actuators over ia limit. trials=3: success.
+Step 101, DM 2: 473 actuators over ia limit. trials=13: success.
+Step   102: OL  943.0  229.0  OA 1920.1 898.2 CL 1821.0 568.6 nm  4.478 s
+step 102 DM 2: 223 actuators clipped
+Step 102, DM 0: 280 actuators over ia limit. trials=40: success.
+Step 102, DM 1: 453 actuators over ia limit. trials=3: success.
+Step 102, DM 2: 481 actuators over ia limit. trials=13: success.
+Step   103: OL  943.7  229.0  OA 1975.7 942.7 CL 1868.4 615.0 nm  4.505 s
+step 103 DM 2: 227 actuators clipped
+Step 103, DM 0: 294 actuators over ia limit. trials=40: success.
+Step 103, DM 1: 458 actuators over ia limit. trials=3: success.
+Step 103, DM 2: 485 actuators over ia limit. trials=13: success.
+Step   104: OL  944.5  228.9  OA 2026.1 980.9 CL 1912.8 658.7 nm  4.454 s
+step 104 DM 2: 229 actuators clipped
+Step 104, DM 0: 297 actuators over ia limit. trials=40: success.
+Step 104, DM 1: 467 actuators over ia limit. trials=3: success.
+Step 104, DM 2: 494 actuators over ia limit. trials=13: success.
+Step   105: OL  945.4  228.8  OA 2079.8 1024.7 CL 1961.0 708.7 nm  4.543 s
+Step 105, DM 0: 307 actuators over ia limit. trials=40: success.
+Step 105, DM 1: 471 actuators over ia limit. trials=3: success.
+Step 105, DM 2: 502 actuators over ia limit. trials=13: success.
+Step   106: OL  946.2  228.7  OA 2132.5 1069.8 CL 2008.9 762.2 nm  4.449 s
+step 106 DM 2: 233 actuators clipped
+Step 106, DM 0: 317 actuators over ia limit. trials=40: success.
+Step 106, DM 1: 481 actuators over ia limit. trials=3: success.
+Step 106, DM 2: 510 actuators over ia limit. trials=13: success.
+Step   107: OL  947.0  228.7  OA 2186.4 1116.7 CL 2060.2 818.0 nm  4.447 s
+step 107 DM 2: 236 actuators clipped
+Step 107, DM 0: 323 actuators over ia limit. trials=40: success.
+Step 107, DM 1: 486 actuators over ia limit. trials=3: success.
+Step 107, DM 2: 518 actuators over ia limit. trials=13: success.
+Step   108: OL  947.9  228.6  OA 2238.0 1157.5 CL 2113.3 873.6 nm  4.443 s
+step 108 DM 2: 240 actuators clipped
+Step 108, DM 0: 334 actuators over ia limit. trials=40: success.
+Step 108, DM 1: 493 actuators over ia limit. trials=3: success.
+Step 108, DM 2: 523 actuators over ia limit. trials=13: success.
+Step   109: OL  948.8  228.5  OA 2293.6 1198.8 CL 2174.3 933.9 nm  4.437 s
+step 109 DM 2: 243 actuators clipped
+Step 109, DM 0: 341 actuators over ia limit. trials=40: success.
+Step 109, DM 1: 499 actuators over ia limit. trials=3: success.
+Step 109, DM 2: 529 actuators over ia limit. trials=13: success.
+Step   110: OL  949.7  228.5  OA 2342.4 1228.0 CL 2232.3 986.0 nm  4.493 s
+Step 110, DM 0: 351 actuators over ia limit. trials=40: success.
+Step 110, DM 1: 503 actuators over ia limit. trials=3: success.
+Step 110, DM 2: 538 actuators over ia limit. trials=13: success.
+Step   111: OL  950.7  228.4  OA 2386.3 1251.2 CL 2285.7 1030.8 nm  4.427 s
+step 111 DM 2: 244 actuators clipped
+Step 111, DM 0: 361 actuators over ia limit. trials=41: success.
+Step 111, DM 1: 507 actuators over ia limit. trials=3: success.
+Step 111, DM 2: 546 actuators over ia limit. trials=13: success.
+Step   112: OL  951.6  228.4  OA 2426.4 1271.4 CL 2335.5 1072.9 nm  4.399 s
+Step 112, DM 0: 369 actuators over ia limit. trials=41: success.
+Step 112, DM 1: 515 actuators over ia limit. trials=3: success.
+Step 112, DM 2: 556 actuators over ia limit. trials=13: success.
+Step   113: OL  952.6  228.4  OA 2468.6 1296.0 CL 2387.2 1117.2 nm  4.471 s
+step 113 DM 2: 246 actuators clipped
+Step 113, DM 0: 385 actuators over ia limit. trials=41: success.
+Step 113, DM 1: 520 actuators over ia limit. trials=3: success.
+Step 113, DM 2: 564 actuators over ia limit. trials=13: success.
+Step   114: OL  953.6  228.4  OA 2507.6 1315.0 CL 2436.4 1158.6 nm  4.453 s
+step 114 DM 2: 248 actuators clipped
+Step 114, DM 0: 396 actuators over ia limit. trials=41: success.
+Step 114, DM 1: 525 actuators over ia limit. trials=3: success.
+Step 114, DM 2: 570 actuators over ia limit. trials=13: success.
+Step   115: OL  954.5  228.3  OA 2554.3 1335.9 CL 2497.0 1206.3 nm  4.482 s
+step 115 DM 2: 249 actuators clipped
+Step 115, DM 0: 405 actuators over ia limit. trials=41: success.
+Step 115, DM 1: 530 actuators over ia limit. trials=3: success.
+Step 115, DM 2: 570 actuators over ia limit. trials=13: success.
+Step   116: OL  955.6  228.3  OA 2601.7 1355.8 CL 2559.9 1257.2 nm  4.495 s
+Step 116, DM 0: 415 actuators over ia limit. trials=41: success.
+Step 116, DM 1: 534 actuators over ia limit. trials=3: success.
+Step 116, DM 2: 573 actuators over ia limit. trials=13: success.
+Step   117: OL  956.6  228.3  OA 2652.0 1379.9 CL 2626.2 1313.0 nm  4.533 s
+step 117 DM 2: 253 actuators clipped
+Step 117, DM 0: 426 actuators over ia limit. trials=41: success.
+Step 117, DM 1: 538 actuators over ia limit. trials=3: success.
+Step 117, DM 2: 577 actuators over ia limit. trials=14: success.
+Step   118: OL  957.6  228.3  OA 2695.4 1395.9 CL 2685.4 1361.2 nm  4.460 s
+Step 118, DM 0: 432 actuators over ia limit. trials=41: success.
+Step 118, DM 1: 542 actuators over ia limit. trials=3: success.
+Step 118, DM 2: 578 actuators over ia limit. trials=14: success.
+Step   119: OL  958.6  228.3  OA 2729.0 1397.5 CL 2734.1 1393.9 nm  4.474 s
+Step 119, DM 0: 439 actuators over ia limit. trials=41: success.
+Step 119, DM 1: 542 actuators over ia limit. trials=3: success.
+Step 119, DM 2: 577 actuators over ia limit. trials=14: success.
+Step   120: OL  959.6  228.3  OA 2756.3 1393.5 CL 2775.4 1420.1 nm  4.431 s
+step 120 DM 2: 254 actuators clipped
+Step 120, DM 0: 442 actuators over ia limit. trials=41: success.
+Step 120, DM 1: 543 actuators over ia limit. trials=3: success.
+Step 120, DM 2: 578 actuators over ia limit. trials=14: success.
+Step   121: OL  960.7  228.4  OA 2780.5 1388.6 CL 2811.3 1441.7 nm  4.520 s
+step 121 DM 2: 255 actuators clipped
+Step 121, DM 0: 448 actuators over ia limit. trials=41: success.
+Step 121, DM 1: 547 actuators over ia limit. trials=3: success.
+Step 121, DM 2: 573 actuators over ia limit. trials=14: success.
+Step   122: OL  961.7  228.4  OA 2798.6 1376.1 CL 2839.7 1454.4 nm  4.408 s
+Step 122, DM 0: 456 actuators over ia limit. trials=41: success.
+Step 122, DM 1: 548 actuators over ia limit. trials=3: success.
+Step 122, DM 2: 574 actuators over ia limit. trials=14: success.
+Step   123: OL  962.8  228.4  OA 2817.1 1363.4 CL 2866.5 1463.5 nm  4.393 s
+step 123 DM 2: 256 actuators clipped
+Step 123, DM 0: 464 actuators over ia limit. trials=41: success.
+Step 123, DM 1: 546 actuators over ia limit. trials=3: success.
+Step 123, DM 2: 574 actuators over ia limit. trials=14: success.
+Step   124: OL  963.8  228.5  OA 2834.6 1349.1 CL 2892.0 1471.6 nm  4.398 s
+step 124 DM 2: 257 actuators clipped
+Step 124, DM 0: 472 actuators over ia limit. trials=41: success.
+Step 124, DM 1: 541 actuators over ia limit. trials=3: success.
+Step 124, DM 2: 579 actuators over ia limit. trials=14: success.
+Step   125: OL  964.9  228.5  OA 2852.3 1331.8 CL 2918.5 1477.8 nm  4.446 s
+step 125 DM 2: 260 actuators clipped
+Step 125, DM 0: 477 actuators over ia limit. trials=41: success.
+Step 125, DM 1: 540 actuators over ia limit. trials=3: success.
+Step 125, DM 2: 580 actuators over ia limit. trials=14: success.
+Step   126: OL  965.9  228.6  OA 2866.9 1307.9 CL 2942.4 1479.9 nm  4.548 s
+step 126 DM 2: 261 actuators clipped
+Step 126, DM 0: 481 actuators over ia limit. trials=41: success.
+Step 126, DM 1: 542 actuators over ia limit. trials=6: success.
+Step 126, DM 2: 588 actuators over ia limit. trials=14: success.
+Step   127: OL  967.0  228.6  OA 2880.1 1278.9 CL 2964.3 1476.8 nm  4.501 s
+step 127 DM 2: 263 actuators clipped
+Step 127, DM 0: 484 actuators over ia limit. trials=41: success.
+Step 127, DM 1: 542 actuators over ia limit. trials=8: success.
+Step 127, DM 2: 593 actuators over ia limit. trials=14: success.
+Step   128: OL  968.1  228.7  OA 2891.1 1247.3 CL 2983.3 1471.4 nm  4.467 s
+step 128 DM 2: 268 actuators clipped
+Step 128, DM 0: 487 actuators over ia limit. trials=41: success.
+Step 128, DM 1: 540 actuators over ia limit. trials=8: success.
+Step 128, DM 2: 593 actuators over ia limit. trials=14: success.
+Step   129: OL  969.1  228.8  OA 2910.3 1223.1 CL 3010.1 1475.3 nm  4.529 s
+step 129 DM 2: 270 actuators clipped
+Step 129, DM 0: 492 actuators over ia limit. trials=41: success.
+Step 129, DM 1: 545 actuators over ia limit. trials=9: success.
+Step 129, DM 2: 599 actuators over ia limit. trials=14: success.
+Step   130: OL  970.2  228.8  OA 2930.9 1198.0 CL 3038.0 1481.4 nm  4.431 s
+step 130 DM 2: 274 actuators clipped
+Step 130, DM 0: 496 actuators over ia limit. trials=41: success.
+Step 130, DM 1: 545 actuators over ia limit. trials=9: success.
+Step 130, DM 2: 601 actuators over ia limit. trials=14: success.
+Step   131: OL  971.3  228.9  OA 2948.5 1171.7 CL 3063.8 1485.7 nm  4.478 s
+step 131 DM 2: 281 actuators clipped
+Step 131, DM 0: 499 actuators over ia limit. trials=41: success.
+Step 131, DM 1: 551 actuators over ia limit. trials=9: success.
+Step 131, DM 2: 603 actuators over ia limit. trials=14: success.
+Step   132: OL  972.3  229.0  OA 2960.0 1132.6 CL 3082.8 1478.3 nm  4.463 s
+step 132 DM 2: 283 actuators clipped
+Step 132, DM 0: 503 actuators over ia limit. trials=41: success.
+Step 132, DM 1: 556 actuators over ia limit. trials=9: success.
+Step 132, DM 2: 611 actuators over ia limit. trials=15: success.
+Step   133: OL  973.3  229.1  OA 2966.4 1081.0 CL 3094.0 1457.1 nm  4.489 s
+Step 133, DM 0: 508 actuators over ia limit. trials=41: success.
+Step 133, DM 1: 555 actuators over ia limit. trials=9: success.
+Step 133, DM 2: 613 actuators over ia limit. trials=15: success.
+Step   134: OL  974.3  229.2  OA 2971.3 1031.8 CL 3104.0 1437.9 nm  4.439 s
+step 134 DM 2: 287 actuators clipped
+Step 134, DM 0: 510 actuators over ia limit. trials=41: success.
+Step 134, DM 1: 558 actuators over ia limit. trials=9: success.
+Step 134, DM 2: 609 actuators over ia limit. trials=15: success.
+Step   135: OL  975.4  229.3  OA 2975.7 988.9 CL 3111.8 1421.7 nm  4.468 s
+step 135 DM 2: 288 actuators clipped
+Step 135, DM 0: 516 actuators over ia limit. trials=41: success.
+Step 135, DM 1: 560 actuators over ia limit. trials=9: success.
+Step 135, DM 2: 609 actuators over ia limit. trials=15: success.
+Step   136: OL  976.3  229.4  OA 2983.8 956.8 CL 3124.3 1416.8 nm  4.450 s
+step 136 DM 2: 289 actuators clipped
+Step 136, DM 0: 519 actuators over ia limit. trials=41: success.
+Step 136, DM 1: 559 actuators over ia limit. trials=9: success.
+Step 136, DM 2: 611 actuators over ia limit. trials=15: success.
+Step   137: OL  977.3  229.6  OA 2995.1 932.3 CL 3140.8 1420.7 nm  4.429 s
+step 137 DM 2: 295 actuators clipped
+Step 137, DM 0: 522 actuators over ia limit. trials=41: success.
+Step 137, DM 1: 563 actuators over ia limit. trials=9: success.
+Step 137, DM 2: 611 actuators over ia limit. trials=15: success.
+Step   138: OL  978.2  229.7  OA 3006.8 911.0 CL 3158.0 1426.6 nm  4.503 s
+step 138 DM 2: 302 actuators clipped
+Step 138, DM 0: 528 actuators over ia limit. trials=41: success.
+Step 138, DM 1: 562 actuators over ia limit. trials=9: success.
+Step 138, DM 2: 613 actuators over ia limit. trials=15: success.
+Step   139: OL  979.1  229.8  OA 3017.8 895.3 CL 3173.9 1432.9 nm  4.435 s
+step 139 DM 2: 309 actuators clipped
+Step 139, DM 0: 532 actuators over ia limit. trials=41: success.
+Step 139, DM 1: 562 actuators over ia limit. trials=9: success.
+Step 139, DM 2: 618 actuators over ia limit. trials=15: success.
+Step   140: OL  980.0  230.0  OA 3027.1 878.4 CL 3188.4 1439.3 nm  4.422 s
+step 140 DM 2: 315 actuators clipped
+Step 140, DM 0: 538 actuators over ia limit. trials=41: success.
+Step 140, DM 1: 567 actuators over ia limit. trials=9: success.
+Step 140, DM 2: 618 actuators over ia limit. trials=15: success.
+Step   141: OL  980.9  230.1  OA 3033.6 861.2 CL 3200.0 1443.4 nm  4.516 s
+step 141 DM 2: 319 actuators clipped
+Step 141, DM 0: 541 actuators over ia limit. trials=41: success.
+Step 141, DM 1: 571 actuators over ia limit. trials=9: success.
+Step 141, DM 2: 620 actuators over ia limit. trials=15: success.
+Step   142: OL  981.8  230.2  OA 3036.5 834.2 CL 3207.1 1439.8 nm  4.500 s
+step 142 DM 2: 325 actuators clipped
+Step 142, DM 0: 548 actuators over ia limit. trials=41: success.
+Step 142, DM 1: 575 actuators over ia limit. trials=9: success.
+Step 142, DM 2: 622 actuators over ia limit. trials=15: success.
+Step   143: OL  982.6  230.4  OA 3038.6 806.5 CL 3214.3 1435.5 nm  4.398 s
+step 143 DM 2: 331 actuators clipped
+Step 143, DM 0: 553 actuators over ia limit. trials=41: success.
+Step 143, DM 1: 581 actuators over ia limit. trials=9: success.
+Step 143, DM 2: 617 actuators over ia limit. trials=15: success.
+Step   144: OL  983.4  230.6  OA 3034.6 766.3 CL 3215.3 1419.7 nm  4.447 s
+step 144 DM 2: 332 actuators clipped
+Step 144, DM 0: 557 actuators over ia limit. trials=41: success.
+Step 144, DM 1: 594 actuators over ia limit. trials=9: success.
+Step 144, DM 2: 619 actuators over ia limit. trials=15: success.
+Step   145: OL  984.2  230.7  OA 3027.4 727.1 CL 3214.4 1402.9 nm  4.397 s
+step 145 DM 2: 337 actuators clipped
+Step 145, DM 0: 561 actuators over ia limit. trials=41: success.
+Step 145, DM 1: 597 actuators over ia limit. trials=9: success.
+Step 145, DM 2: 619 actuators over ia limit. trials=15: success.
+Step   146: OL  984.9  230.9  OA 3019.8 690.8 CL 3212.0 1387.2 nm  4.549 s
+step 146 DM 2: 341 actuators clipped
+Step 146, DM 0: 564 actuators over ia limit. trials=42: success.
+Step 146, DM 1: 602 actuators over ia limit. trials=9: success.
+Step 146, DM 2: 615 actuators over ia limit. trials=15: success.
+Step   147: OL  985.6  231.1  OA 3014.0 661.6 CL 3210.5 1374.2 nm  4.491 s
+step 147 DM 2: 348 actuators clipped
+Step 147, DM 0: 563 actuators over ia limit. trials=42: success.
+Step 147, DM 1: 611 actuators over ia limit. trials=9: success.
+Step 147, DM 2: 613 actuators over ia limit. trials=15: success.
+Step   148: OL  986.3  231.3  OA 3005.1 627.5 CL 3206.3 1356.7 nm  4.504 s
+step 148 DM 2: 353 actuators clipped
+Step 148, DM 0: 569 actuators over ia limit. trials=42: success.
+Step 148, DM 1: 614 actuators over ia limit. trials=9: success.
+Step 148, DM 2: 613 actuators over ia limit. trials=15: success.
+Step   149: OL  987.0  231.4  OA 2995.8 594.4 CL 3202.6 1340.0 nm  4.462 s
+step 149 DM 2: 355 actuators clipped
+Step 149, DM 0: 569 actuators over ia limit. trials=42: success.
+Step 149, DM 1: 619 actuators over ia limit. trials=9: success.
+Step 149, DM 2: 615 actuators over ia limit. trials=15: success.
+Step   150: OL  987.6  231.6  OA 2984.8 558.9 CL 3197.7 1321.6 nm  4.442 s
+step 150 DM 2: 363 actuators clipped
+Step 150, DM 0: 573 actuators over ia limit. trials=42: success.
+Step 150, DM 1: 626 actuators over ia limit. trials=9: success.
+Step 150, DM 2: 612 actuators over ia limit. trials=15: success.
+Step   151: OL  988.2  231.8  OA 2973.9 521.6 CL 3193.2 1301.8 nm  4.440 s
+step 151 DM 2: 367 actuators clipped
+Step 151, DM 0: 575 actuators over ia limit. trials=42: success.
+Step 151, DM 1: 631 actuators over ia limit. trials=9: success.
+Step 151, DM 2: 608 actuators over ia limit. trials=15: success.
+Step   152: OL  988.8  232.0  OA 2963.9 489.6 CL 3191.2 1287.5 nm  4.367 s
+Step 152, DM 0: 579 actuators over ia limit. trials=42: success.
+Step 152, DM 1: 634 actuators over ia limit. trials=9: success.
+Step 152, DM 2: 609 actuators over ia limit. trials=15: success.
+Step   153: OL  989.4  232.2  OA 2952.2 454.2 CL 3185.9 1268.1 nm  4.428 s
+step 153 DM 2: 371 actuators clipped
+Step 153, DM 0: 580 actuators over ia limit. trials=42: success.
+Step 153, DM 1: 646 actuators over ia limit. trials=9: success.
+Step 153, DM 2: 608 actuators over ia limit. trials=15: success.
+Step   154: OL  989.9  232.4  OA 2939.5 416.8 CL 3179.2 1245.8 nm  4.495 s
+step 154 DM 2: 380 actuators clipped
+Step 154, DM 0: 582 actuators over ia limit. trials=41: success.
+Step 154, DM 1: 656 actuators over ia limit. trials=9: success.
+Step 154, DM 2: 607 actuators over ia limit. trials=15: success.
+Step   155: OL  990.3  232.6  OA 2928.7 385.0 CL 3174.8 1227.3 nm  4.457 s
+step 155 DM 2: 389 actuators clipped
+Step 155, DM 0: 582 actuators over ia limit. trials=41: success.
+Step 155, DM 1: 661 actuators over ia limit. trials=9: success.
+Step 155, DM 2: 606 actuators over ia limit. trials=15: success.
+Step   156: OL  990.8  232.8  OA 2918.3 354.2 CL 3171.4 1209.5 nm  4.342 s
+step 156 DM 2: 391 actuators clipped
+Step 156, DM 0: 587 actuators over ia limit. trials=41: success.
+Step 156, DM 1: 666 actuators over ia limit. trials=9: success.
+Step 156, DM 2: 605 actuators over ia limit. trials=15: success.
+Step   157: OL  991.2  233.0  OA 2907.5 322.3 CL 3167.4 1189.5 nm  4.480 s
+step 157 DM 2: 395 actuators clipped
+Step 157, DM 0: 593 actuators over ia limit. trials=41: success.
+Step 157, DM 1: 676 actuators over ia limit. trials=9: success.
+Step 157, DM 2: 604 actuators over ia limit. trials=15: success.
+Step   158: OL  991.6  233.3  OA 2898.2 294.2 CL 3166.5 1174.0 nm  4.481 s
+step 158 DM 2: 398 actuators clipped
+Step 158, DM 0: 595 actuators over ia limit. trials=41: success.
+Step 158, DM 1: 686 actuators over ia limit. trials=9: success.
+Step 158, DM 2: 606 actuators over ia limit. trials=15: success.
+Step   159: OL  991.9  233.5  OA 2889.4 267.6 CL 3166.4 1159.5 nm  4.431 s
+step 159 DM 2: 401 actuators clipped
+Step 159, DM 0: 597 actuators over ia limit. trials=41: success.
+Step 159, DM 1: 694 actuators over ia limit. trials=9: success.
+Step 159, DM 2: 611 actuators over ia limit. trials=15: success.
+Step   160: OL  992.2  233.7  OA 2880.8 241.7 CL 3168.2 1147.6 nm  4.539 s
+step 160 DM 2: 404 actuators clipped
+Step 160, DM 0: 595 actuators over ia limit. trials=41: success.
+Step 160, DM 1: 702 actuators over ia limit. trials=9: success.
+Step 160, DM 2: 616 actuators over ia limit. trials=15: success.
+Step   161: OL  992.5  233.9  OA 2872.5 216.8 CL 3169.3 1135.9 nm  4.461 s
+step 161 DM 2: 406 actuators clipped
+Step 161, DM 0: 597 actuators over ia limit. trials=41: success.
+Step 161, DM 1: 715 actuators over ia limit. trials=9: success.
+Step 161, DM 2: 623 actuators over ia limit. trials=15: success.
+Step   162: OL  992.7  234.2  OA 2865.1 193.4 CL 3171.2 1125.7 nm  4.474 s
+step 162 DM 2: 408 actuators clipped
+Step 162, DM 0: 600 actuators over ia limit. trials=41: success.
+Step 162, DM 1: 728 actuators over ia limit. trials=9: success.
+Step 162, DM 2: 628 actuators over ia limit. trials=15: success.
+Step   163: OL  992.9  234.4  OA 2858.0 166.8 CL 3170.9 1110.5 nm  4.509 s
+step 163 DM 2: 415 actuators clipped
+Step 163, DM 0: 598 actuators over ia limit. trials=41: success.
+Step 163, DM 1: 745 actuators over ia limit. trials=9: success.
+Step 163, DM 2: 633 actuators over ia limit. trials=15: success.
+Step   164: OL  993.0  234.6  OA 2851.8 142.1 CL 3170.6 1096.5 nm  4.531 s
+step 164 DM 2: 418 actuators clipped
+Step 164, DM 0: 601 actuators over ia limit. trials=41: success.
+Step 164, DM 1: 758 actuators over ia limit. trials=9: success.
+Step 164, DM 2: 640 actuators over ia limit. trials=15: success.
+Step   165: OL  993.2  234.9  OA 2845.9 117.0 CL 3169.3 1080.0 nm  4.618 s
+step 165 DM 2: 419 actuators clipped
+Step 165, DM 0: 602 actuators over ia limit. trials=41: success.
+Step 165, DM 1: 766 actuators over ia limit. trials=9: success.
+Step 165, DM 2: 646 actuators over ia limit. trials=15: success.
+Step   166: OL  993.2  235.1  OA 2840.6  88.8 CL 3167.7 1061.2 nm  4.398 s
+step 166 DM 2: 421 actuators clipped
+Step 166, DM 0: 602 actuators over ia limit. trials=41: success.
+Step 166, DM 1: 778 actuators over ia limit. trials=10: success.
+Step 166, DM 2: 652 actuators over ia limit. trials=15: success.
+Step   167: OL  993.3  235.4  OA 2836.5  63.4 CL 3166.6 1042.3 nm  4.513 s
+Step 167, DM 0: 608 actuators over ia limit. trials=41: success.
+Step 167, DM 1: 794 actuators over ia limit. trials=10: success.
+Step 167, DM 2: 656 actuators over ia limit. trials=15: success.
+Step   168: OL  993.4  235.6  OA 2833.7  36.5 CL 3164.6 1019.0 nm  4.412 s
+Step 168, DM 0: 613 actuators over ia limit. trials=41: success.
+Step 168, DM 1: 810 actuators over ia limit. trials=10: success.
+Step 168, DM 2: 667 actuators over ia limit. trials=15: success.
+Step   169: OL  993.4  235.9  OA 2832.4  22.5 CL 3161.8 992.6 nm  4.514 s
+step 169 DM 2: 422 actuators clipped
+Step 169, DM 0: 617 actuators over ia limit. trials=41: success.
+Step 169, DM 1: 825 actuators over ia limit. trials=10: success.
+Step 169, DM 2: 679 actuators over ia limit. trials=15: success.
+Step   170: OL  993.4  236.1  OA 2832.4  40.2 CL 3160.8 968.3 nm  4.550 s
+step 170 DM 2: 425 actuators clipped
+Step 170, DM 0: 621 actuators over ia limit. trials=41: success.
+Step 170, DM 1: 835 actuators over ia limit. trials=10: success.
+Step 170, DM 2: 685 actuators over ia limit. trials=15: success.
+Step   171: OL  993.3  236.4  OA 2832.6  62.4 CL 3159.7 945.7 nm  4.494 s
+step 171 DM 2: 429 actuators clipped
+Step 171, DM 0: 628 actuators over ia limit. trials=41: success.
+Step 171, DM 1: 848 actuators over ia limit. trials=10: success.
+Step 171, DM 2: 701 actuators over ia limit. trials=15: success.
+Step   172: OL  993.2  236.6  OA 2833.1  84.7 CL 3158.4 922.3 nm  4.458 s
+step 172 DM 2: 430 actuators clipped
+Step 172, DM 0: 631 actuators over ia limit. trials=41: success.
+Step 172, DM 1: 862 actuators over ia limit. trials=10: success.
+Step 172, DM 2: 706 actuators over ia limit. trials=15: success.
+Step   173: OL  993.2  236.9  OA 2835.1 120.9 CL 3152.8 885.7 nm  4.448 s
+step 173 DM 2: 431 actuators clipped
+Step 173, DM 0: 634 actuators over ia limit. trials=41: success.
+Step 173, DM 1: 870 actuators over ia limit. trials=10: success.
+Step 173, DM 2: 717 actuators over ia limit. trials=15: success.
+Step   174: OL  993.1  237.1  OA 2839.0 155.4 CL 3149.5 850.9 nm  4.464 s
+step 174 DM 2: 433 actuators clipped
+Step 174, DM 0: 638 actuators over ia limit. trials=41: success.
+Step 174, DM 1: 879 actuators over ia limit. trials=10: success.
+Step 174, DM 2: 725 actuators over ia limit. trials=15: success.
+Step   175: OL  993.0  237.4  OA 2844.3 187.1 CL 3147.5 818.3 nm  4.429 s
+step 175 DM 2: 434 actuators clipped
+Step 175, DM 0: 642 actuators over ia limit. trials=41: success.
+Step 175, DM 1: 888 actuators over ia limit. trials=10: success.
+Step 175, DM 2: 731 actuators over ia limit. trials=15: success.
+Step   176: OL  992.8  237.7  OA 2849.9 217.8 CL 3147.3 788.4 nm  4.509 s
+step 176 DM 2: 437 actuators clipped
+Step 176, DM 0: 646 actuators over ia limit. trials=41: success.
+Step 176, DM 1: 896 actuators over ia limit. trials=10: success.
+Step 176, DM 2: 744 actuators over ia limit. trials=15: success.
+Step   177: OL  992.7  237.9  OA 2855.8 246.4 CL 3146.8 760.2 nm  4.569 s
+Step 177, DM 0: 657 actuators over ia limit. trials=41: success.
+Step 177, DM 1: 916 actuators over ia limit. trials=10: success.
+Step 177, DM 2: 747 actuators over ia limit. trials=15: success.
+Step   178: OL  992.6  238.2  OA 2863.7 278.2 CL 3148.2 727.3 nm  4.386 s
+Step 178, DM 0: 664 actuators over ia limit. trials=41: success.
+Step 178, DM 1: 928 actuators over ia limit. trials=11: success.
+Step 178, DM 2: 763 actuators over ia limit. trials=15: success.
+Step   179: OL  992.4  238.5  OA 2872.5 308.8 CL 3149.3 693.2 nm  4.466 s
+Step 179, DM 0: 677 actuators over ia limit. trials=41: success.
+Step 179, DM 1: 939 actuators over ia limit. trials=15: success.
+Step 179, DM 2: 786 actuators over ia limit. trials=15: success.
+Step   180: OL  992.2  238.8  OA 2881.3 334.9 CL 3153.2 662.8 nm  4.544 s
+step 180 DM 2: 438 actuators clipped
+Step 180, DM 0: 684 actuators over ia limit. trials=41: success.
+Step 180, DM 1: 953 actuators over ia limit. trials=15: success.
+Step 180, DM 2: 803 actuators over ia limit. trials=15: success.
+Step   181: OL  992.1  239.0  OA 2890.0 358.6 CL 3156.8 635.0 nm  4.469 s
+Step 181, DM 0: 690 actuators over ia limit. trials=41: success.
+Step 181, DM 1: 964 actuators over ia limit. trials=15: success.
+Step 181, DM 2: 820 actuators over ia limit. trials=15: success.
+Step   182: OL  991.9  239.3  OA 2900.7 387.2 CL 3161.6 607.5 nm  4.408 s
+step 182 DM 2: 440 actuators clipped
+Step 182, DM 0: 693 actuators over ia limit. trials=41: success.
+Step 182, DM 1: 976 actuators over ia limit. trials=16: success.
+Step 182, DM 2: 840 actuators over ia limit. trials=15: success.
+Step   183: OL  991.7  239.6  OA 2911.2 412.1 CL 3166.1 582.4 nm  4.434 s
+step 183 DM 2: 451 actuators clipped
+Step 183, DM 0: 699 actuators over ia limit. trials=41: success.
+Step 183, DM 1: 990 actuators over ia limit. trials=16: success.
+Step 183, DM 2: 854 actuators over ia limit. trials=15: success.
+Step   184: OL  991.5  239.9  OA 2921.3 437.9 CL 3171.3 557.0 nm  4.467 s
+step 184 DM 2: 453 actuators clipped
+Step 184, DM 0: 707 actuators over ia limit. trials=41: success.
+Step 184, DM 1: 998 actuators over ia limit. trials=16: success.
+Step 184, DM 2: 867 actuators over ia limit. trials=15: success.
+Step   185: OL  991.3  240.2  OA 2931.2 459.3 CL 3176.4 530.1 nm  4.490 s
+step 185 DM 2: 464 actuators clipped
+Step 185, DM 0: 713 actuators over ia limit. trials=41: success.
+Step 185, DM 1: 1004 actuators over ia limit. trials=16: success.
+Step 185, DM 2: 883 actuators over ia limit. trials=15: success.
+Step   186: OL  991.0  240.5  OA 2943.4 484.6 CL 3184.6 502.2 nm  4.517 s
+step 186 DM 2: 477 actuators clipped
+Step 186, DM 0: 721 actuators over ia limit. trials=41: success.
+Step 186, DM 1: 1021 actuators over ia limit. trials=16: success.
+Step 186, DM 2: 896 actuators over ia limit. trials=15: success.
+Step   187: OL  990.8  240.8  OA 2957.3 508.1 CL 3193.8 476.6 nm  4.488 s
+step 187 DM 2: 492 actuators clipped
+Step 187, DM 0: 730 actuators over ia limit. trials=41: success.
+Step 187, DM 1: 1026 actuators over ia limit. trials=16: success.
+Step 187, DM 2: 905 actuators over ia limit. trials=15: success.
+Step   188: OL  990.6  241.0  OA 2971.1 532.0 CL 3204.1 452.5 nm  4.538 s
+step 188 DM 2: 503 actuators clipped
+Step 188, DM 0: 733 actuators over ia limit. trials=41: success.
+Step 188, DM 1: 1032 actuators over ia limit. trials=16: success.
+Step 188, DM 2: 914 actuators over ia limit. trials=15: success.
+Step   189: OL  990.4  241.3  OA 2983.1 549.5 CL 3213.2 432.8 nm  4.513 s
+step 189 DM 2: 508 actuators clipped
+Step 189, DM 0: 741 actuators over ia limit. trials=41: success.
+Step 189, DM 1: 1040 actuators over ia limit. trials=16: success.
+Step 189, DM 2: 925 actuators over ia limit. trials=15: success.
+Step   190: OL  990.1  241.6  OA 2993.2 559.3 CL 3224.7 418.6 nm  4.452 s
+step 190 DM 2: 511 actuators clipped
+Step 190, DM 0: 748 actuators over ia limit. trials=41: success.
+Step 190, DM 1: 1049 actuators over ia limit. trials=16: success.
+Step 190, DM 2: 933 actuators over ia limit. trials=15: success.
+Step   191: OL  989.9  241.9  OA 3002.4 563.8 CL 3235.7 405.5 nm  4.473 s
+step 191 DM 2: 517 actuators clipped
+Step 191, DM 0: 758 actuators over ia limit. trials=41: success.
+Step 191, DM 1: 1057 actuators over ia limit. trials=16: success.
+Step 191, DM 2: 964 actuators over ia limit. trials=15: success.
+Step   192: OL  989.6  242.2  OA 3013.5 576.7 CL 3247.3 389.3 nm  4.537 s
+step 192 DM 2: 518 actuators clipped
+Step 192, DM 0: 767 actuators over ia limit. trials=41: success.
+Step 192, DM 1: 1058 actuators over ia limit. trials=16: success.
+Step 192, DM 2: 973 actuators over ia limit. trials=15: success.
+Step   193: OL  989.3  242.5  OA 3027.5 595.9 CL 3258.8 372.0 nm  4.433 s
+step 193 DM 2: 526 actuators clipped
+Step 193, DM 0: 775 actuators over ia limit. trials=41: success.
+Step 193, DM 1: 1061 actuators over ia limit. trials=16: success.
+Step 193, DM 2: 987 actuators over ia limit. trials=15: success.
+Step   194: OL  989.1  242.8  OA 3046.0 614.6 CL 3278.7 353.7 nm  4.598 s
+step 194 DM 2: 544 actuators clipped
+Step 194, DM 0: 781 actuators over ia limit. trials=41: success.
+Step 194, DM 1: 1072 actuators over ia limit. trials=16: success.
+Step 194, DM 2: 995 actuators over ia limit. trials=15: success.
+Step   195: OL  988.8  243.1  OA 3063.2 626.9 CL 3297.7 338.8 nm  4.469 s
+step 195 DM 2: 553 actuators clipped
+Step 195, DM 0: 789 actuators over ia limit. trials=41: success.
+Step 195, DM 1: 1081 actuators over ia limit. trials=16: success.
+Step 195, DM 2: 1005 actuators over ia limit. trials=15: success.
+Step   196: OL  988.5  243.4  OA 3080.6 641.7 CL 3316.9 328.8 nm  4.535 s
+Step 196, DM 0: 802 actuators over ia limit. trials=41: success.
+Step 196, DM 1: 1096 actuators over ia limit. trials=16: success.
+Step 196, DM 2: 1016 actuators over ia limit. trials=15: success.
+Step   197: OL  988.3  243.7  OA 3096.8 654.4 CL 3334.2 324.2 nm  4.432 s
+step 197 DM 2: 554 actuators clipped
+Step 197, DM 0: 808 actuators over ia limit. trials=41: success.
+Step 197, DM 1: 1102 actuators over ia limit. trials=16: success.
+Step 197, DM 2: 1025 actuators over ia limit. trials=15: success.
+Step   198: OL  988.0  244.0  OA 3110.8 658.3 CL 3353.7 321.0 nm  4.477 s
+step 198 DM 2: 556 actuators clipped
+Step 198, DM 0: 820 actuators over ia limit. trials=41: success.
+Step 198, DM 1: 1109 actuators over ia limit. trials=16: success.
+Step 198, DM 2: 1034 actuators over ia limit. trials=15: success.
+Step   199: OL  987.7  244.3  OA 3122.3 654.8 CL 3372.3 317.6 nm  4.480 s
+step 199 DM 2: 560 actuators clipped
+Step 199, DM 0: 831 actuators over ia limit. trials=41: success.
+Step 199, DM 1: 1111 actuators over ia limit. trials=16: success.
+Step 199, DM 2: 1043 actuators over ia limit. trials=15: success.
+Step   200: OL  987.5  244.6  OA 3127.9 637.6 CL 3390.3 312.6 nm  4.619 s
+step 200 DM 2: 561 actuators clipped
+Step 200, DM 0: 840 actuators over ia limit. trials=41: success.
+Step 200, DM 1: 1116 actuators over ia limit. trials=16: success.
+Step 200, DM 2: 1052 actuators over ia limit. trials=15: success.
+Step   201: OL  987.2  244.9  OA 3132.5 618.4 CL 3405.7 308.3 nm  4.508 s
+step 201 DM 2: 565 actuators clipped
+Step 201, DM 0: 847 actuators over ia limit. trials=41: success.
+Step 201, DM 1: 1121 actuators over ia limit. trials=16: success.
+Step 201, DM 2: 1065 actuators over ia limit. trials=15: success.
+Step   202: OL  986.9  245.2  OA 3141.4 610.9 CL 3424.0 305.3 nm  4.411 s
+step 202 DM 2: 571 actuators clipped
+Step 202, DM 0: 858 actuators over ia limit. trials=41: success.
+Step 202, DM 1: 1130 actuators over ia limit. trials=16: success.
+Step 202, DM 2: 1074 actuators over ia limit. trials=14: success.
+Step   203: OL  986.6  245.5  OA 3153.0 610.3 CL 3440.6 303.5 nm  4.483 s
+step 203 DM 2: 579 actuators clipped
+Step 203, DM 0: 868 actuators over ia limit. trials=41: success.
+Step 203, DM 1: 1134 actuators over ia limit. trials=16: success.
+Step 203, DM 2: 1078 actuators over ia limit. trials=15: success.
+Step   204: OL  986.2  245.8  OA 3165.6 610.1 CL 3461.6 303.7 nm  4.555 s
+step 204 DM 2: 598 actuators clipped
+Step 204, DM 0: 876 actuators over ia limit. trials=41: success.
+Step 204, DM 1: 1148 actuators over ia limit. trials=16: success.
+Step 204, DM 2: 1089 actuators over ia limit. trials=15: success.
+Step   205: OL  985.9  246.1  OA 3178.6 608.8 CL 3481.3 303.7 nm  4.581 s
+step 205 DM 2: 608 actuators clipped
+Step 205, DM 0: 883 actuators over ia limit. trials=41: success.
+Step 205, DM 1: 1157 actuators over ia limit. trials=16: success.
+Step 205, DM 2: 1097 actuators over ia limit. trials=15: success.
+Step   206: OL  985.6  246.4  OA 3192.9 610.6 CL 3503.6 303.9 nm  4.418 s
+step 206 DM 2: 639 actuators clipped
+Step 206, DM 0: 894 actuators over ia limit. trials=41: success.
+Step 206, DM 1: 1165 actuators over ia limit. trials=16: success.
+Step 206, DM 2: 1105 actuators over ia limit. trials=15: success.
+Step   207: OL  985.2  246.7  OA 3208.9 615.8 CL 3524.8 306.1 nm  4.485 s
+step 207 DM 2: 681 actuators clipped
+Step 207, DM 0: 912 actuators over ia limit. trials=41: success.
+Step 207, DM 1: 1182 actuators over ia limit. trials=16: success.
+Step 207, DM 2: 1112 actuators over ia limit. trials=15: success.
+Step   208: OL  984.8  247.0  OA 3226.3 626.8 CL 3547.0 310.1 nm  4.415 s
+step 208 DM 2: 728 actuators clipped
+Step 208, DM 0: 926 actuators over ia limit. trials=41: success.
+Step 208, DM 1: 1197 actuators over ia limit. trials=16: success.
+Step 208, DM 2: 1117 actuators over ia limit. trials=15: success.
+Step   209: OL  984.3  247.3  OA 3243.6 629.4 CL 3569.3 311.6 nm  4.499 s
+step 209 DM 2: 747 actuators clipped
+Step 209, DM 0: 941 actuators over ia limit. trials=41: success.
+Step 209, DM 1: 1209 actuators over ia limit. trials=16: success.
+Step 209, DM 2: 1122 actuators over ia limit. trials=15: success.
+Step   210: OL  983.9  247.6  OA 3259.9 626.6 CL 3593.8 312.2 nm  4.530 s
+step 210 DM 2: 762 actuators clipped
+Step 210, DM 0: 955 actuators over ia limit. trials=41: success.
+Step 210, DM 1: 1212 actuators over ia limit. trials=16: success.
+Step 210, DM 2: 1128 actuators over ia limit. trials=15: success.
+Step   211: OL  983.4  247.9  OA 3276.1 621.6 CL 3615.3 312.4 nm  4.482 s
+step 211 DM 2: 777 actuators clipped
+Step 211, DM 0: 966 actuators over ia limit. trials=41: success.
+Step 211, DM 1: 1226 actuators over ia limit. trials=16: success.
+Step 211, DM 2: 1143 actuators over ia limit. trials=15: success.
+Step   212: OL  982.9  248.2  OA 3290.6 614.5 CL 3637.5 312.3 nm  4.530 s
+step 212 DM 2: 778 actuators clipped
+Step 212, DM 0: 971 actuators over ia limit. trials=41: success.
+Step 212, DM 1: 1234 actuators over ia limit. trials=16: success.
+Step 212, DM 2: 1156 actuators over ia limit. trials=15: success.
+Step   213: OL  982.4  248.5  OA 3305.1 607.1 CL 3656.5 313.1 nm  4.398 s
+step 213 DM 2: 795 actuators clipped
+Step 213, DM 0: 982 actuators over ia limit. trials=41: success.
+Step 213, DM 1: 1245 actuators over ia limit. trials=16: success.
+Step 213, DM 2: 1162 actuators over ia limit. trials=15: success.
+Step   214: OL  981.8  248.8  OA 3318.1 599.6 CL 3676.9 314.1 nm  4.638 s
+step 214 DM 2: 808 actuators clipped
+Step 214, DM 0: 989 actuators over ia limit. trials=41: success.
+Step 214, DM 1: 1252 actuators over ia limit. trials=16: success.
+Step 214, DM 2: 1174 actuators over ia limit. trials=15: success.
+Step   215: OL  981.2  249.1  OA 3332.3 593.8 CL 3695.3 316.2 nm  4.432 s
+step 215 DM 2: 812 actuators clipped
+Step 215, DM 0: 1001 actuators over ia limit. trials=41: success.
+Step 215, DM 1: 1264 actuators over ia limit. trials=16: success.
+Step 215, DM 2: 1181 actuators over ia limit. trials=15: success.
+Step   216: OL  980.6  249.4  OA 3346.7 592.6 CL 3714.9 318.5 nm  4.474 s
+step 216 DM 2: 817 actuators clipped
+Step 216, DM 0: 1011 actuators over ia limit. trials=41: success.
+Step 216, DM 1: 1272 actuators over ia limit. trials=16: success.
+Step 216, DM 2: 1194 actuators over ia limit. trials=15: success.
+Step   217: OL  979.9  249.7  OA 3363.7 593.3 CL 3734.5 322.8 nm  4.452 s
+Step 217, DM 0: 1034 actuators over ia limit. trials=41: success.
+Step 217, DM 1: 1280 actuators over ia limit. trials=16: success.
+Step 217, DM 2: 1208 actuators over ia limit. trials=15: success.
+Step   218: OL  979.3  250.1  OA 3380.1 590.7 CL 3756.7 327.6 nm  4.522 s
+Step 218, DM 0: 1045 actuators over ia limit. trials=41: success.
+Step 218, DM 1: 1294 actuators over ia limit. trials=16: success.
+Step 218, DM 2: 1227 actuators over ia limit. trials=15: success.
+Step   219: OL  978.6  250.4  OA 3398.3 584.2 CL 3779.2 333.5 nm  4.434 s
+step 219 DM 2: 822 actuators clipped
+Step 219, DM 0: 1054 actuators over ia limit. trials=41: success.
+Step 219, DM 1: 1303 actuators over ia limit. trials=16: success.
+Step 219, DM 2: 1247 actuators over ia limit. trials=15: success.
+Step   220: OL  977.9  250.7  OA 3413.0 566.2 CL 3804.4 340.2 nm  4.456 s
+step 220 DM 2: 833 actuators clipped
+Step 220, DM 0: 1069 actuators over ia limit. trials=41: success.
+Step 220, DM 1: 1312 actuators over ia limit. trials=16: success.
+Step 220, DM 2: 1261 actuators over ia limit. trials=15: success.
+Step   221: OL  977.1  251.0  OA 3428.3 540.8 CL 3831.5 351.7 nm  4.471 s
+step 221 DM 2: 850 actuators clipped
+Step 221, DM 0: 1083 actuators over ia limit. trials=41: success.
+Step 221, DM 1: 1328 actuators over ia limit. trials=16: success.
+Step 221, DM 2: 1267 actuators over ia limit. trials=15: success.
+Step   222: OL  976.3  251.4  OA 3445.3 521.9 CL 3861.4 365.2 nm  4.424 s
+step 222 DM 2: 857 actuators clipped
+Step 222, DM 0: 1098 actuators over ia limit. trials=41: success.
+Step 222, DM 1: 1337 actuators over ia limit. trials=16: success.
+Step 222, DM 2: 1288 actuators over ia limit. trials=15: success.
+Step   223: OL  975.5  251.7  OA 3468.0 516.3 CL 3891.0 376.5 nm  4.552 s
+step 223 DM 2: 878 actuators clipped
+Step 223, DM 0: 1123 actuators over ia limit. trials=41: success.
+Step 223, DM 1: 1350 actuators over ia limit. trials=16: success.
+Step 223, DM 2: 1297 actuators over ia limit. trials=15: success.
+Step   224: OL  974.7  252.0  OA 3489.2 511.4 CL 3919.8 385.7 nm  4.400 s
+step 224 DM 2: 895 actuators clipped
+Step 224, DM 0: 1135 actuators over ia limit. trials=41: success.
+Step 224, DM 1: 1360 actuators over ia limit. trials=16: success.
+Step 224, DM 2: 1310 actuators over ia limit. trials=15: success.
+Step   225: OL  973.8  252.4  OA 3511.4 501.4 CL 3948.0 399.8 nm  4.449 s
+step 225 DM 2: 907 actuators clipped
+Step 225, DM 0: 1148 actuators over ia limit. trials=41: success.
+Step 225, DM 1: 1378 actuators over ia limit. trials=16: success.
+Step 225, DM 2: 1325 actuators over ia limit. trials=15: success.
+Step   226: OL  972.9  252.7  OA 3532.9 494.1 CL 3976.5 413.7 nm  4.443 s
+step 226 DM 2: 914 actuators clipped
+Step 226, DM 0: 1159 actuators over ia limit. trials=41: success.
+Step 226, DM 1: 1384 actuators over ia limit. trials=16: success.
+Step 226, DM 2: 1350 actuators over ia limit. trials=15: success.
+Step   227: OL  972.0  253.0  OA 3558.2 480.4 CL 4005.8 428.8 nm  4.629 s
+step 227 DM 2: 928 actuators clipped
+Step 227, DM 0: 1169 actuators over ia limit. trials=41: success.
+Step 227, DM 1: 1393 actuators over ia limit. trials=16: success.
+Step 227, DM 2: 1373 actuators over ia limit. trials=15: success.
+Step   228: OL  971.0  253.4  OA 3582.8 468.0 CL 4037.8 446.4 nm  4.525 s
+step 228 DM 2: 941 actuators clipped
+Step 228, DM 0: 1186 actuators over ia limit. trials=41: success.
+Step 228, DM 1: 1405 actuators over ia limit. trials=16: success.
+Step 228, DM 2: 1400 actuators over ia limit. trials=15: success.
+Step   229: OL  970.0  253.7  OA 3604.6 438.0 CL 4071.4 476.0 nm  4.499 s
+step 229 DM 2: 948 actuators clipped
+Step 229, DM 0: 1195 actuators over ia limit. trials=41: success.
+Step 229, DM 1: 1409 actuators over ia limit. trials=16: success.
+Step 229, DM 2: 1413 actuators over ia limit. trials=15: success.
+Step   230: OL  969.0  254.1  OA 3625.1 412.6 CL 4106.2 504.8 nm  4.472 s
+step 230 DM 2: 955 actuators clipped
+Step 230, DM 0: 1213 actuators over ia limit. trials=41: success.
+Step 230, DM 1: 1409 actuators over ia limit. trials=16: success.
+Step 230, DM 2: 1421 actuators over ia limit. trials=15: success.
+Step   231: OL  968.0  254.5  OA 3650.4 393.0 CL 4140.4 531.1 nm  4.486 s
+step 231 DM 2: 961 actuators clipped
+Step 231, DM 0: 1236 actuators over ia limit. trials=41: success.
+Step 231, DM 1: 1423 actuators over ia limit. trials=16: success.
+Step 231, DM 2: 1438 actuators over ia limit. trials=15: success.
+Step   232: OL  967.0  254.8  OA 3676.0 381.6 CL 4174.7 551.8 nm  4.474 s
+step 232 DM 2: 968 actuators clipped
+Step 232, DM 0: 1260 actuators over ia limit. trials=41: success.
+Step 232, DM 1: 1432 actuators over ia limit. trials=16: success.
+Step 232, DM 2: 1454 actuators over ia limit. trials=15: success.
+Step   233: OL  966.0  255.2  OA 3701.7 362.1 CL 4209.5 576.1 nm  4.419 s
+step 233 DM 2: 978 actuators clipped
+Step 233, DM 0: 1281 actuators over ia limit. trials=41: success.
+Step 233, DM 1: 1444 actuators over ia limit. trials=16: success.
+Step 233, DM 2: 1464 actuators over ia limit. trials=15: success.
+Step   234: OL  965.0  255.6  OA 3724.6 347.3 CL 4243.7 599.0 nm  4.488 s
+step 234 DM 2: 989 actuators clipped
+Step 234, DM 0: 1294 actuators over ia limit. trials=41: success.
+Step 234, DM 1: 1450 actuators over ia limit. trials=16: success.
+Step 234, DM 2: 1472 actuators over ia limit. trials=15: success.
+Step   235: OL  964.0  256.0  OA 3750.8 327.1 CL 4281.8 624.8 nm  4.468 s
+step 235 DM 2: 997 actuators clipped
+Step 235, DM 0: 1308 actuators over ia limit. trials=41: success.
+Step 235, DM 1: 1463 actuators over ia limit. trials=16: success.
+Step 235, DM 2: 1480 actuators over ia limit. trials=15: success.
+Step   236: OL  963.0  256.4  OA 3778.0 314.1 CL 4321.2 648.6 nm  4.568 s
+step 236 DM 2: 1005 actuators clipped
+Step 236, DM 0: 1320 actuators over ia limit. trials=41: success.
+Step 236, DM 1: 1476 actuators over ia limit. trials=16: success.
+Step 236, DM 2: 1503 actuators over ia limit. trials=15: success.
+Step   237: OL  962.0  256.8  OA 3803.6 289.8 CL 4359.9 679.2 nm  4.414 s
+step 237 DM 2: 1012 actuators clipped
+Step 237, DM 0: 1333 actuators over ia limit. trials=41: success.
+Step 237, DM 1: 1487 actuators over ia limit. trials=16: success.
+Step 237, DM 2: 1517 actuators over ia limit. trials=15: success.
+Step   238: OL  961.0  257.2  OA 3823.7 257.0 CL 4397.6 718.5 nm  4.432 s
+step 238 DM 2: 1020 actuators clipped
+Step 238, DM 0: 1349 actuators over ia limit. trials=41: success.
+Step 238, DM 1: 1511 actuators over ia limit. trials=16: success.
+Step 238, DM 2: 1533 actuators over ia limit. trials=15: success.
+Step   239: OL  960.0  257.6  OA 3843.7 220.9 CL 4432.6 758.7 nm  4.448 s
+step 239 DM 2: 1036 actuators clipped
+Step 239, DM 0: 1371 actuators over ia limit. trials=41: success.
+Step 239, DM 1: 1523 actuators over ia limit. trials=16: success.
+Step 239, DM 2: 1546 actuators over ia limit. trials=15: success.
+Step   240: OL  959.1  258.0  OA 3863.3 191.7 CL 4466.5 794.3 nm  4.495 s
+step 240 DM 2: 1059 actuators clipped
+Step 240, DM 0: 1383 actuators over ia limit. trials=41: success.
+Step 240, DM 1: 1535 actuators over ia limit. trials=16: success.
+Step 240, DM 2: 1555 actuators over ia limit. trials=15: success.
+Step   241: OL  958.2  258.4  OA 3881.3 154.2 CL 4500.4 837.4 nm  4.462 s
+step 241 DM 2: 1065 actuators clipped
+Step 241, DM 0: 1392 actuators over ia limit. trials=41: success.
+Step 241, DM 1: 1552 actuators over ia limit. trials=16: success.
+Step 241, DM 2: 1569 actuators over ia limit. trials=15: success.
+Step   242: OL  957.3  258.9  OA 3897.1 125.4 CL 4531.9 876.2 nm  4.509 s
+step 242 DM 2: 1075 actuators clipped
+Step 242, DM 0: 1397 actuators over ia limit. trials=41: success.
+Step 242, DM 1: 1565 actuators over ia limit. trials=16: success.
+Step 242, DM 2: 1578 actuators over ia limit. trials=16: success.
+Step   243: OL  956.5  259.3  OA 3912.5 100.2 CL 4560.1 912.8 nm  4.500 s
+step 243 DM 2: 1082 actuators clipped
+Step 243, DM 0: 1412 actuators over ia limit. trials=41: success.
+Step 243, DM 1: 1576 actuators over ia limit. trials=16: success.
+Step 243, DM 2: 1578 actuators over ia limit. trials=16: success.
+Step   244: OL  955.8  259.7  OA 3926.1  84.1 CL 4586.7 944.3 nm  4.556 s
+step 244 DM 2: 1092 actuators clipped
+Step 244, DM 0: 1421 actuators over ia limit. trials=41: success.
+Step 244, DM 1: 1585 actuators over ia limit. trials=16: success.
+Step 244, DM 2: 1586 actuators over ia limit. trials=16: success.
+Step   245: OL  955.0  260.2  OA 3940.8  56.2 CL 4615.9 983.5 nm  4.454 s
+step 245 DM 2: 1107 actuators clipped
+Step 245, DM 0: 1428 actuators over ia limit. trials=41: success.
+Step 245, DM 1: 1590 actuators over ia limit. trials=16: success.
+Step 245, DM 2: 1590 actuators over ia limit. trials=16: success.
+Step   246: OL  954.4  260.6  OA 3955.6  33.8 CL 4645.3 1020.6 nm  4.511 s
+step 246 DM 2: 1117 actuators clipped
+Step 246, DM 0: 1434 actuators over ia limit. trials=41: success.
+Step 246, DM 1: 1600 actuators over ia limit. trials=16: success.
+Step 246, DM 2: 1591 actuators over ia limit. trials=16: success.
+Step   247: OL  953.8  261.1  OA 3972.2  31.3 CL 4674.1 1058.1 nm  4.467 s
+step 247 DM 2: 1120 actuators clipped
+Step 247, DM 0: 1442 actuators over ia limit. trials=41: success.
+Step 247, DM 1: 1606 actuators over ia limit. trials=16: success.
+Step 247, DM 2: 1604 actuators over ia limit. trials=16: success.
+Step   248: OL  953.2  261.5  OA 3987.9  52.9 CL 4701.9 1093.7 nm  4.522 s
+step 248 DM 2: 1122 actuators clipped
+Step 248, DM 0: 1443 actuators over ia limit. trials=41: success.
+Step 248, DM 1: 1615 actuators over ia limit. trials=16: success.
+Step 248, DM 2: 1615 actuators over ia limit. trials=16: success.
+Step   249: OL  952.8  262.0  OA 4005.5  97.9 CL 4733.6 1140.5 nm  4.394 s
+step 249 DM 2: 1126 actuators clipped
+Step 249, DM 0: 1453 actuators over ia limit. trials=41: success.
+Step 249, DM 1: 1620 actuators over ia limit. trials=16: success.
+Step 249, DM 2: 1622 actuators over ia limit. trials=16: success.
+Step   250: OL  952.4  262.5  OA 4022.1 139.3 CL 4762.8 1182.2 nm  4.491 s
+step 250 DM 2: 1132 actuators clipped
+Step 250, DM 0: 1461 actuators over ia limit. trials=41: success.
+Step 250, DM 1: 1632 actuators over ia limit. trials=16: success.
+Step 250, DM 2: 1626 actuators over ia limit. trials=16: success.
+Step   251: OL  952.0  263.0  OA 4039.8 179.4 CL 4789.4 1220.0 nm  4.440 s
+step 251 DM 2: 1141 actuators clipped
+Step 251, DM 0: 1465 actuators over ia limit. trials=41: success.
+Step 251, DM 1: 1640 actuators over ia limit. trials=16: success.
+Step 251, DM 2: 1634 actuators over ia limit. trials=16: success.
+Step   252: OL  951.8  263.5  OA 4058.5 220.1 CL 4818.4 1259.1 nm  4.468 s
+step 252 DM 2: 1143 actuators clipped
+Step 252, DM 0: 1468 actuators over ia limit. trials=41: success.
+Step 252, DM 1: 1646 actuators over ia limit. trials=16: success.
+Step 252, DM 2: 1646 actuators over ia limit. trials=16: success.
+Step   253: OL  951.6  264.0  OA 4079.3 261.5 CL 4848.0 1298.8 nm  4.520 s
+step 253 DM 2: 1147 actuators clipped
+Step 253, DM 0: 1480 actuators over ia limit. trials=41: success.
+Step 253, DM 1: 1653 actuators over ia limit. trials=16: success.
+Step 253, DM 2: 1651 actuators over ia limit. trials=16: success.
+Step   254: OL  951.5  264.5  OA 4101.8 308.4 CL 4881.5 1343.9 nm  4.470 s
+Step 254, DM 0: 1491 actuators over ia limit. trials=41: success.
+Step 254, DM 1: 1665 actuators over ia limit. trials=16: success.
+Step 254, DM 2: 1657 actuators over ia limit. trials=16: success.
+Step   255: OL  951.4  265.0  OA 4126.5 361.8 CL 4916.2 1394.3 nm  4.488 s
+Step   255 updated high order loop gain: 0.428
+step 255 DM 2: 1153 actuators clipped
+Step 255, DM 0: 1493 actuators over ia limit. trials=41: success.
+Step 255, DM 1: 1668 actuators over ia limit. trials=16: success.
+Step 255, DM 2: 1656 actuators over ia limit. trials=16: success.
+Step   256: OL  951.5  265.5  OA 4151.4 417.1 CL 4952.0 1446.7 nm  4.554 s
+step 256 DM 2: 1156 actuators clipped
+Step 256, DM 0: 1505 actuators over ia limit. trials=41: success.
+Step 256, DM 1: 1669 actuators over ia limit. trials=16: success.
+Step 256, DM 2: 1663 actuators over ia limit. trials=16: success.
+Step   257: OL  951.6  266.0  OA 4174.9 462.3 CL 4981.8 1489.8 nm  4.419 s
+step 257 DM 2: 1158 actuators clipped
+Step 257, DM 0: 1514 actuators over ia limit. trials=41: success.
+Step 257, DM 1: 1676 actuators over ia limit. trials=16: success.
+Step 257, DM 2: 1651 actuators over ia limit. trials=16: success.
+Step   258: OL  951.7  266.5  OA 4207.9 528.9 CL 5023.7 1548.2 nm  4.450 s
+step 258 DM 2: 1161 actuators clipped
+Step 258, DM 0: 1526 actuators over ia limit. trials=41: success.
+Step 258, DM 1: 1679 actuators over ia limit. trials=16: success.
+Step 258, DM 2: 1659 actuators over ia limit. trials=16: success.
+Step   259: OL  952.0  267.1  OA 4243.4 592.2 CL 5063.6 1601.5 nm  4.538 s
+step 259 DM 2: 1163 actuators clipped
+Step 259, DM 0: 1538 actuators over ia limit. trials=41: success.
+Step 259, DM 1: 1681 actuators over ia limit. trials=16: success.
+Step 259, DM 2: 1669 actuators over ia limit. trials=16: success.
+Step   260: OL  952.3  267.6  OA 4277.5 641.7 CL 5100.0 1643.2 nm  4.535 s
+step 260 DM 2: 1167 actuators clipped
+Step 260, DM 0: 1549 actuators over ia limit. trials=41: success.
+Step 260, DM 1: 1683 actuators over ia limit. trials=16: success.
+Step 260, DM 2: 1669 actuators over ia limit. trials=16: success.
+Step   261: OL  952.7  268.2  OA 4312.9 694.3 CL 5137.0 1689.1 nm  4.554 s
+step 261 DM 2: 1169 actuators clipped
+Step 261, DM 0: 1554 actuators over ia limit. trials=41: success.
+Step 261, DM 1: 1683 actuators over ia limit. trials=16: success.
+Step 261, DM 2: 1671 actuators over ia limit. trials=16: success.
+Step   262: OL  953.2  268.7  OA 4347.5 751.3 CL 5177.6 1742.5 nm  4.418 s
+step 262 DM 2: 1175 actuators clipped
+Step 262, DM 0: 1559 actuators over ia limit. trials=41: success.
+Step 262, DM 1: 1683 actuators over ia limit. trials=16: success.
+Step 262, DM 2: 1676 actuators over ia limit. trials=16: success.
+Step   263: OL  953.7  269.3  OA 4382.8 814.2 CL 5219.2 1802.2 nm  4.500 s
+step 263 DM 2: 1179 actuators clipped
+Step 263, DM 0: 1568 actuators over ia limit. trials=41: success.
+Step 263, DM 1: 1686 actuators over ia limit. trials=16: success.
+Step 263, DM 2: 1692 actuators over ia limit. trials=16: success.
+Step   264: OL  954.3  269.9  OA 4418.9 879.4 CL 5263.2 1864.0 nm  4.497 s
+step 264 DM 2: 1180 actuators clipped
+Step 264, DM 0: 1577 actuators over ia limit. trials=41: success.
+Step 264, DM 1: 1696 actuators over ia limit. trials=16: success.
+Step 264, DM 2: 1696 actuators over ia limit. trials=16: success.
+Step   265: OL  955.0  270.4  OA 4457.9 947.3 CL 5307.7 1926.9 nm  4.464 s
+step 265 DM 2: 1190 actuators clipped
+Step 265, DM 0: 1588 actuators over ia limit. trials=41: success.
+Step 265, DM 1: 1699 actuators over ia limit. trials=16: success.
+Step 265, DM 2: 1705 actuators over ia limit. trials=16: success.
+Step   266: OL  955.7  271.0  OA 4498.4 1014.4 CL 5354.6 1989.5 nm  4.426 s
+Step 266, DM 0: 1599 actuators over ia limit. trials=41: success.
+Step 266, DM 1: 1700 actuators over ia limit. trials=16: success.
+Step 266, DM 2: 1708 actuators over ia limit. trials=16: success.
+Step   267: OL  956.5  271.6  OA 4541.8 1077.3 CL 5400.4 2046.6 nm  4.464 s
+step 267 DM 2: 1191 actuators clipped
+Step 267, DM 0: 1612 actuators over ia limit. trials=41: success.
+Step 267, DM 1: 1708 actuators over ia limit. trials=16: success.
+Step 267, DM 2: 1720 actuators over ia limit. trials=16: success.
+Step   268: OL  957.3  272.2  OA 4587.5 1142.4 CL 5448.7 2105.6 nm  4.444 s
+step 268 DM 2: 1192 actuators clipped
+Step 268, DM 0: 1623 actuators over ia limit. trials=41: success.
+Step 268, DM 1: 1713 actuators over ia limit. trials=16: success.
+Step 268, DM 2: 1721 actuators over ia limit. trials=16: success.
+Step   269: OL  958.2  272.8  OA 4636.5 1213.5 CL 5499.2 2169.9 nm  4.530 s
+step 269 DM 2: 1196 actuators clipped
+Step 269, DM 0: 1631 actuators over ia limit. trials=41: success.
+Step 269, DM 1: 1708 actuators over ia limit. trials=16: success.
+Step 269, DM 2: 1728 actuators over ia limit. trials=16: success.
+Step   270: OL  959.2  273.4  OA 4686.1 1286.7 CL 5551.1 2235.9 nm  4.434 s
+step 270 DM 2: 1199 actuators clipped
+Step 270, DM 0: 1638 actuators over ia limit. trials=41: success.
+Step 270, DM 1: 1713 actuators over ia limit. trials=16: success.
+Step 270, DM 2: 1735 actuators over ia limit. trials=16: success.
+Step   271: OL  960.2  274.0  OA 4736.3 1359.3 CL 5601.4 2300.3 nm  4.564 s
+step 271 DM 2: 1203 actuators clipped
+Step 271, DM 0: 1649 actuators over ia limit. trials=41: success.
+Step 271, DM 1: 1717 actuators over ia limit. trials=16: success.
+Step 271, DM 2: 1743 actuators over ia limit. trials=16: success.
+Step   272: OL  961.2  274.7  OA 4788.6 1434.8 CL 5654.1 2366.3 nm  4.429 s
+Step 272, DM 0: 1656 actuators over ia limit. trials=41: success.
+Step 272, DM 1: 1725 actuators over ia limit. trials=16: success.
+Step 272, DM 2: 1757 actuators over ia limit. trials=16: success.
+Step   273: OL  962.3  275.3  OA 4841.2 1508.2 CL 5704.6 2429.5 nm  4.562 s
+step 273 DM 2: 1207 actuators clipped
+Step 273, DM 0: 1660 actuators over ia limit. trials=41: success.
+Step 273, DM 1: 1731 actuators over ia limit. trials=16: success.
+Step 273, DM 2: 1762 actuators over ia limit. trials=16: success.
+Step   274: OL  963.4  275.9  OA 4898.6 1585.0 CL 5761.0 2496.8 nm  4.542 s
+step 274 DM 2: 1211 actuators clipped
+Step 274, DM 0: 1672 actuators over ia limit. trials=41: success.
+Step 274, DM 1: 1739 actuators over ia limit. trials=16: success.
+Step 274, DM 2: 1770 actuators over ia limit. trials=16: success.
+Step   275: OL  964.5  276.6  OA 4959.0 1662.5 CL 5819.7 2566.6 nm  4.525 s
+step 275 DM 2: 1216 actuators clipped
+Step 275, DM 0: 1679 actuators over ia limit. trials=41: success.
+Step 275, DM 1: 1746 actuators over ia limit. trials=16: success.
+Step 275, DM 2: 1784 actuators over ia limit. trials=16: success.
+Step   276: OL  965.7  277.2  OA 5021.1 1742.3 CL 5881.7 2639.7 nm  4.545 s
+step 276 DM 2: 1220 actuators clipped
+Step 276, DM 0: 1678 actuators over ia limit. trials=41: success.
+Step 276, DM 1: 1759 actuators over ia limit. trials=16: success.
+Step 276, DM 2: 1785 actuators over ia limit. trials=16: success.
+Step   277: OL  966.9  277.9  OA 5084.2 1821.4 CL 5942.7 2711.4 nm  4.403 s
+step 277 DM 2: 1222 actuators clipped
+Step 277, DM 0: 1685 actuators over ia limit. trials=41: success.
+Step 277, DM 1: 1763 actuators over ia limit. trials=16: success.
+Step 277, DM 2: 1795 actuators over ia limit. trials=16: success.
+Step   278: OL  968.2  278.6  OA 5149.1 1903.7 CL 6005.1 2784.8 nm  4.463 s
+step 278 DM 2: 1229 actuators clipped
+Step 278, DM 0: 1690 actuators over ia limit. trials=41: success.
+Step 278, DM 1: 1774 actuators over ia limit. trials=16: success.
+Step 278, DM 2: 1801 actuators over ia limit. trials=16: success.
+Step   279: OL  969.4  279.2  OA 5215.7 1984.5 CL 6066.8 2856.0 nm  4.496 s
+step 279 DM 2: 1233 actuators clipped
+Step 279, DM 0: 1705 actuators over ia limit. trials=41: success.
+Step 279, DM 1: 1773 actuators over ia limit. trials=16: success.
+Step 279, DM 2: 1811 actuators over ia limit. trials=16: success.
+Step   280: OL  970.7  279.9  OA 5282.5 2063.6 CL 6128.6 2925.2 nm  4.392 s
+step 280 DM 2: 1235 actuators clipped
+Step 280, DM 0: 1715 actuators over ia limit. trials=41: success.
+Step 280, DM 1: 1774 actuators over ia limit. trials=16: success.
+Step 280, DM 2: 1822 actuators over ia limit. trials=16: success.
+Step   281: OL  972.0  280.6  OA 5352.3 2144.6 CL 6193.2 2997.4 nm  4.470 s
+step 281 DM 2: 1242 actuators clipped
+Step 281, DM 0: 1727 actuators over ia limit. trials=41: success.
+Step 281, DM 1: 1776 actuators over ia limit. trials=16: success.
+Step 281, DM 2: 1830 actuators over ia limit. trials=16: success.
+Step   282: OL  973.3  281.3  OA 5428.4 2234.9 CL 6265.8 3078.6 nm  4.407 s
+step 282 DM 2: 1246 actuators clipped
+Step 282, DM 0: 1738 actuators over ia limit. trials=49: success.
+Step 282, DM 1: 1777 actuators over ia limit. trials=16: success.
+Step 282, DM 2: 1839 actuators over ia limit. trials=16: success.
+Step   283: OL  974.7  282.0  OA 5505.6 2324.6 CL 6338.3 3159.3 nm  4.435 s
+step 283 DM 2: 1251 actuators clipped
+Step 283, DM 0: 1742 actuators over ia limit. trials=53: success.
+Step 283, DM 1: 1774 actuators over ia limit. trials=16: success.
+Step 283, DM 2: 1844 actuators over ia limit. trials=16: success.
+Step   284: OL  976.0  282.7  OA 5584.4 2415.2 CL 6413.2 3241.0 nm  4.541 s
+step 284 DM 2: 1253 actuators clipped
+Step 284, DM 0: 1750 actuators over ia limit. trials=55: success.
+Step 284, DM 1: 1775 actuators over ia limit. trials=16: success.
+Step 284, DM 2: 1853 actuators over ia limit. trials=16: success.
+Step   285: OL  977.3  283.5  OA 5666.8 2508.9 CL 6490.7 3325.8 nm  4.481 s
+step 285 DM 2: 1254 actuators clipped
+Step 285, DM 0: 1756 actuators over ia limit. trials=57: success.
+Step 285, DM 1: 1773 actuators over ia limit. trials=16: success.
+Step 285, DM 2: 1862 actuators over ia limit. trials=16: success.
+Step   286: OL  978.7  284.2  OA 5753.7 2607.2 CL 6573.1 3414.4 nm  4.514 s
+step 286 DM 2: 1255 actuators clipped
+Step 286, DM 0: 1771 actuators over ia limit. trials=58: success.
+Step 286, DM 1: 1771 actuators over ia limit. trials=16: success.
+Step 286, DM 2: 1880 actuators over ia limit. trials=16: success.
+Step   287: OL  980.0  284.9  OA 5847.9 2712.3 CL 6661.3 3509.1 nm  4.596 s
+Step 287, DM 0: 1777 actuators over ia limit. trials=59: success.
+Step 287, DM 1: 1783 actuators over ia limit. trials=16: success.
+Step 287, DM 2: 1881 actuators over ia limit. trials=16: success.
+Step   288: OL  981.3  285.7  OA 5941.3 2815.3 CL 6747.9 3601.2 nm  4.640 s
+Step 288, DM 0: 1795 actuators over ia limit. trials=59: success.
+Step 288, DM 1: 1778 actuators over ia limit. trials=16: success.
+Step 288, DM 2: 1891 actuators over ia limit. trials=16: success.
+Step   289: OL  982.7  286.4  OA 6038.2 2920.7 CL 6836.7 3695.7 nm  4.455 s
+Step 289, DM 0: 1799 actuators over ia limit. trials=60: success.
+Step 289, DM 1: 1784 actuators over ia limit. trials=16: success.
+Step 289, DM 2: 1893 actuators over ia limit. trials=16: success.
+Step   290: OL  984.0  287.2  OA 6135.1 3026.1 CL 6926.9 3791.3 nm  5.114 s
+Step 290, DM 0: 1804 actuators over ia limit. trials=60: success.
+Step 290, DM 1: 1787 actuators over ia limit. trials=16: success.
+Step 290, DM 2: 1900 actuators over ia limit. trials=16: success.
+Step   291: OL  985.2  287.9  OA 6243.3 3142.6 CL 7027.2 3898.1 nm  4.729 s
+Step 291, DM 0: 1821 actuators over ia limit. trials=61: success.
+Step 291, DM 1: 1794 actuators over ia limit. trials=15: success.
+Step 291, DM 2: 1920 actuators over ia limit. trials=16: success.
+Step   292: OL  986.5  288.7  OA 6353.9 3261.0 CL 7131.9 4008.6 nm  4.601 s
+step 292 DM 2: 1259 actuators clipped
+Step 292, DM 0: 1836 actuators over ia limit. trials=62: success.
+Step 292, DM 1: 1798 actuators over ia limit. trials=15: success.
+Step 292, DM 2: 1931 actuators over ia limit. trials=16: success.
+Step   293: OL  987.8  289.5  OA 6498.8 3414.3 CL 7267.4 4151.3 nm  4.744 s
+step 293 DM 2: 1266 actuators clipped
+Step 293, DM 0: 1848 actuators over ia limit. trials=62: success.
+Step 293, DM 1: 1810 actuators over ia limit. trials=14: success.
+Step 293, DM 2: 1938 actuators over ia limit. trials=16: success.
+Step   294: OL  989.0  290.3  OA 6645.6 3566.4 CL 7404.9 4293.5 nm  4.694 s
+step 294 DM 2: 1272 actuators clipped
+Step 294, DM 0: 1868 actuators over ia limit. trials=62: success.
+Step 294, DM 1: 1806 actuators over ia limit. trials=10: success.
+Step 294, DM 2: 1944 actuators over ia limit. trials=16: success.
+Step   295: OL  990.2  291.1  OA 6789.9 3713.6 CL 7539.9 4432.0 nm  4.698 s
+step 295 DM 2: 1276 actuators clipped
+Step 295, DM 0: 1882 actuators over ia limit. trials=63: success.
+Step 295, DM 1: 1813 actuators over ia limit. trials=10: success.
+Step 295, DM 2: 1957 actuators over ia limit. trials=16: success.
+Step   296: OL  991.4  291.9  OA 6928.7 3853.1 CL 7670.6 4564.3 nm  4.656 s
+step 296 DM 2: 1277 actuators clipped
+Step 296, DM 0: 1909 actuators over ia limit. trials=63: success.
+Step 296, DM 1: 1817 actuators over ia limit. trials=10: success.
+Step 296, DM 2: 1973 actuators over ia limit. trials=16: success.
+Step   297: OL  992.5  292.7  OA 7081.8 4005.9 CL 7813.3 4708.0 nm  4.803 s
+step 297 DM 2: 1285 actuators clipped
+Step 297, DM 0: 1931 actuators over ia limit. trials=63: success.
+Step 297, DM 1: 1821 actuators over ia limit. trials=10: success.
+Step 297, DM 2: 1982 actuators over ia limit. trials=16: success.
+Step   298: OL  993.6  293.5  OA 7235.2 4158.0 CL 7957.8 4852.5 nm  4.641 s
+Step 298, DM 0: 1944 actuators over ia limit. trials=64: success.
+Step 298, DM 1: 1825 actuators over ia limit. trials=10: success.
+Step 298, DM 2: 2003 actuators over ia limit. trials=16: success.
+Step   299: OL  994.7  294.3  OA 7394.3 4315.6 CL 8106.8 5002.4 nm  4.751 s
+Step 299, DM 0: 1949 actuators over ia limit. trials=64: success.
+Step 299, DM 1: 1830 actuators over ia limit. trials=10: success.
+Step 299, DM 2: 2016 actuators over ia limit. trials=16: success.
+Step   300: OL  995.7  295.2  OA 7560.4 4479.3 CL 8264.3 5159.5 nm  4.676 s
+Step 300, DM 0: 1964 actuators over ia limit. trials=64: success.
+Step 300, DM 1: 1833 actuators over ia limit. trials=10: success.
+Step 300, DM 2: 2022 actuators over ia limit. trials=16: success.
+Step   301: OL  996.7  296.0  OA 7737.6 4653.5 CL 8431.5 5325.9 nm  4.704 s
+step 301 DM 2: 1290 actuators clipped
+Step 301, DM 0: 1975 actuators over ia limit. trials=64: success.
+Step 301, DM 1: 1837 actuators over ia limit. trials=10: success.
+Step 301, DM 2: 2032 actuators over ia limit. trials=16: success.
+Step   302: OL  997.7  296.9  OA 7915.0 4825.5 CL 8600.2 5491.4 nm  4.617 s
+step 302 DM 2: 1295 actuators clipped
+Step 302, DM 0: 1982 actuators over ia limit. trials=64: success.
+Step 302, DM 1: 1845 actuators over ia limit. trials=10: success.
+Step 302, DM 2: 2044 actuators over ia limit. trials=16: success.
+Step   303: OL  998.6  297.7  OA 8087.8 4990.7 CL 8764.4 5650.9 nm  4.702 s
+step 303 DM 2: 1299 actuators clipped
+Step 303, DM 0: 1995 actuators over ia limit. trials=65: success.
+Step 303, DM 1: 1845 actuators over ia limit. trials=10: success.
+Step 303, DM 2: 2054 actuators over ia limit. trials=16: success.
+Step   304: OL  999.5  298.6  OA 8273.0 5166.0 CL 8941.0 5820.4 nm  4.631 s
+step 304 DM 2: 1307 actuators clipped
+Step 304, DM 0: 2021 actuators over ia limit. trials=70: success.
+Step 304, DM 1: 1854 actuators over ia limit. trials=10: success.
+Step 304, DM 2: 2060 actuators over ia limit. trials=16: success.
+Step   305: OL 1000.5  299.5  OA 8451.9 5334.2 CL 9112.8 5984.5 nm  4.717 s
+step 305 DM 2: 1311 actuators clipped
+Step 305, DM 0: 2046 actuators over ia limit. trials=72: success.
+Step 305, DM 1: 1848 actuators over ia limit. trials=10: success.
+Step 305, DM 2: 2081 actuators over ia limit. trials=16: success.
+Step   306: OL 1001.3  300.3  OA 8653.4 5522.5 CL 9306.6 6167.8 nm  4.750 s
+step 306 DM 2: 1313 actuators clipped
+Step 306, DM 0: 2065 actuators over ia limit. trials=75: success.
+Step 306, DM 1: 1857 actuators over ia limit. trials=10: success.
+Step 306, DM 2: 2083 actuators over ia limit. trials=16: success.
+Step   307: OL 1002.2  301.2  OA 8853.5 5709.4 CL 9500.7 6351.3 nm  4.599 s
+step 307 DM 2: 1319 actuators clipped
+Step 307, DM 0: 2069 actuators over ia limit. trials=76: success.
+Step 307, DM 1: 1871 actuators over ia limit. trials=10: success.
+Step 307, DM 2: 2102 actuators over ia limit. trials=16: success.
+Step   308: OL 1003.0  302.1  OA 9055.2 5896.1 CL 9697.2 6535.8 nm  4.678 s
+step 308 DM 2: 1322 actuators clipped
+Step 308, DM 0: 2091 actuators over ia limit. trials=77: success.
+Step 308, DM 1: 1878 actuators over ia limit. trials=10: success.
+Step 308, DM 2: 2110 actuators over ia limit. trials=16: success.
+Step   309: OL 1003.8  303.0  OA 9256.5 6081.6 CL 9892.0 6719.3 nm  4.632 s
+Warning(perfevl.c:534): Step   310: The loop is diverging: OL: 1004.66 CL: 10097
+step 309 DM 2: 1326 actuators clipped
+Step 309, DM 0: 2113 actuators over ia limit. trials=77: success.
+Step 309, DM 1: 1874 actuators over ia limit. trials=10: success.
+Step 309, DM 2: 2122 actuators over ia limit. trials=16: success.
+Step   310: OL 1004.7  304.0  OA 9468.6 6276.9 CL10097.0 6912.4 nm  4.735 s
+Warning(perfevl.c:534): Step   311: The loop is diverging: OL: 1005.48 CL: 10308.9
+step 310 DM 2: 1335 actuators clipped
+Step 310, DM 0: 2139 actuators over ia limit. trials=78: success.
+Step 310, DM 1: 1874 actuators over ia limit. trials=10: success.
+Step 310, DM 2: 2137 actuators over ia limit. trials=16: success.
+Step   311: OL 1005.5  304.9  OA 9686.6 6476.3 CL10308.9 7109.9 nm  4.679 s
+Warning(perfevl.c:534): Step   312: The loop is diverging: OL: 1006.28 CL: 10532.2
+Step 311, DM 0: 2164 actuators over ia limit. trials=78: success.
+Step 311, DM 1: 1880 actuators over ia limit. trials=10: success.
+Step 311, DM 2: 2168 actuators over ia limit. trials=16: success.
+Step   312: OL 1006.3  305.8  OA 9914.7 6684.5 CL10532.2 7316.7 nm  4.734 s
+Warning(perfevl.c:534): Step   313: The loop is diverging: OL: 1007.09 CL: 10763.7
+step 312 DM 2: 1343 actuators clipped
+Step 312, DM 0: 2188 actuators over ia limit. trials=79: success.
+Step 312, DM 1: 1870 actuators over ia limit. trials=10: success.
+Step 312, DM 2: 2188 actuators over ia limit. trials=16: success.
+Step   313: OL 1007.1  306.7  OA10150.6 6898.5 CL10763.7 7529.6 nm  4.702 s
+Warning(perfevl.c:534): Step   314: The loop is diverging: OL: 1007.9 CL: 10985.3
+step 313 DM 2: 1354 actuators clipped
+Step 313, DM 0: 2210 actuators over ia limit. trials=79: success.
+Step 313, DM 1: 1867 actuators over ia limit. trials=10: success.
+Step 313, DM 2: 2207 actuators over ia limit. trials=16: success.
+Step   314: OL 1007.9  307.7  OA10373.5 7099.6 CL10985.3 7732.8 nm  4.744 s
+Warning(perfevl.c:534): Step   315: The loop is diverging: OL: 1008.73 CL: 11220
+step 314 DM 2: 1357 actuators clipped
+Step 314, DM 0: 2231 actuators over ia limit. trials=80: success.
+Step 314, DM 1: 1864 actuators over ia limit. trials=10: success.
+Step 314, DM 2: 2223 actuators over ia limit. trials=16: success.
+Step   315: OL 1008.7  308.6  OA10611.8 7313.2 CL11220.0 7946.9 nm  4.701 s
+Warning(perfevl.c:534): Step   316: The loop is diverging: OL: 1009.55 CL: 11465.6
+step 315 DM 2: 1362 actuators clipped
+Step 315, DM 0: 2253 actuators over ia limit. trials=81: success.
+Step 315, DM 1: 1872 actuators over ia limit. trials=10: success.
+Step 315, DM 2: 2248 actuators over ia limit. trials=16: success.
+Step   316: OL 1009.5  309.6  OA10859.7 7533.5 CL11465.6 8169.8 nm  4.737 s
+Warning(perfevl.c:534): Step   317: The loop is diverging: OL: 1010.42 CL: 11702.6
+step 316 DM 2: 1364 actuators clipped
+Step 316, DM 0: 2272 actuators over ia limit. trials=82: success.
+Step 316, DM 1: 1882 actuators over ia limit. trials=10: success.
+Step 316, DM 2: 2261 actuators over ia limit. trials=16: success.
+Step   317: OL 1010.4  310.6  OA11095.9 7743.4 CL11702.6 8384.4 nm  4.701 s
+Warning(perfevl.c:534): Step   318: The loop is diverging: OL: 1011.29 CL: 11926.5
+step 317 DM 2: 1373 actuators clipped
+Step 317, DM 0: 2288 actuators over ia limit. trials=85: success.
+Step 317, DM 1: 1877 actuators over ia limit. trials=10: success.
+Step 317, DM 2: 2283 actuators over ia limit. trials=16: success.
+Step   318: OL 1011.3  311.5  OA11317.7 7939.6 CL11926.5 8587.3 nm  4.695 s
+Warning(perfevl.c:534): Step   319: The loop is diverging: OL: 1012.22 CL: 12148.7
+Step 318, DM 0: 2308 actuators over ia limit. trials=87: success.
+Step 318, DM 1: 1880 actuators over ia limit. trials=10: success.
+Step 318, DM 2: 2301 actuators over ia limit. trials=16: success.
+Step   319: OL 1012.2  312.5  OA11538.9 8135.0 CL12148.7 8788.0 nm  4.738 s
+Warning(perfevl.c:534): Step   320: The loop is diverging: OL: 1013.16 CL: 12383.4
+Warning(perfevl.c:538): Exit after this time step.
+step 319 DM 2: 1375 actuators clipped
+Step 319, DM 0: 2329 actuators over ia limit. trials=88: success.
+Step 319, DM 1: 1876 actuators over ia limit. trials=10: success.
+Step 319, DM 2: 2304 actuators over ia limit. trials=16: success.
+Step   320: OL 1013.2  313.5  OA11774.0 8342.2 CL12383.4 8998.8 nm  4.643 s
+Mean: 4751.81 2506.48 4036.98  nm.
+
+*** Simulation Terminated at 2025/02/19 11:33:09 in elisa. ***
+

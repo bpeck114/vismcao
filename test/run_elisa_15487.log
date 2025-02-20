@@ -1,0 +1,53 @@
+Warning(sock.c:516): connect locally (/u/bpeck/.aos/tmp/elisa/scheduler) failed: Connection refused. 
+Warning(daemonize.c:230): Error redirect stdout
+Warning(daemonize.c:231): Error redirect stderr
+/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/maos -o test -c master_files/A_vismcao.conf -O 
+Output folder is 'test'.
+SRC: /g/lu/code/maos v2.9 164342f4 2023-11-17 17:33:58 -0800
+BUILT: /g/lu/code/maos/build by CLANG (v14.0.0) on 2024/03/08 14:47:10 CPU(F64,+O3) w/o CUDA
+Launched at 2025/02/19 10:55:12 in elisa with PID 15487.
+The web based job monitor can be accessed at http://localhost:10300
+Main config file is /System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/master_files/A_vismcao.conf
+Warning(path.c:48): Path not found: path=/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/master_files/bin; abspath=/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/master_files/bin; Ignored.
+Warning(path.c:48): Path not found: path=/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/master_files/atm; abspath=/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/master_files/atm; Ignored.
+Warning(readcfg.c:405): sim.apfsm has been renamed to powfs.apfsm.
+Warning(readcfg.c:405): sim.epfsm has been renamed to powfs.epfsm.
+Warning(readcfg.c:405): sim.alfsm has been renamed to powfs.alfsm.
+Warning(readcfg.c:405): sim.commonfsm has been renamed to powfs.commonfsm.
+Warning(readcfg.c:405): sim.idealfsm has been renamed to powfs.idealfsm.
+Warning(readcfg.c:405): sim.zetafsm has been renamed to powfs.zetafsm.
+Warning(readcfg.c:405): sim.f0fsm has been renamed to powfs.f0fsm.
+Warning(readcfg.c:405): tsurf has been renamed to ncpa.tsurf.
+loaded 132 (132 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./keck_sim.conf'
+loaded  19 ( 19 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./dm_none.conf'
+loaded  19 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./keck_ASM.conf'
+loaded  19 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./keck_DM2.conf'
+loaded  19 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./keck_DM3.conf'
+loaded   0 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./keck_dm_multiple.conf'
+loaded   7 (  5 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./atm_mk13n50p_ground_detail.conf'
+loaded  81 ( 74 new) records from '/g/lu/code/maos/config/maos/powfs_common.conf'
+loaded  44 ( 38 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./powfs_none.conf'
+loaded  44 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./keck_shwfs_lgs.conf'
+loaded  44 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./keck_shwfs_ttf_strap.conf'
+loaded  44 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./keck_shwfs_twfs_lbwfs.conf'
+loaded   0 (  0 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./keck_wfs_lgs_strap_lbwfs.conf'
+loaded  71 ( 71 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./keck_recon.conf'
+Warning(readcfg.c:405): dbg.na_smooth has been renamed to powfs0_llt.na_smooth.
+Warning(readcfg.c:405): dbg.na_interp has been renamed to powfs0_llt.na_interp.
+Warning(readcfg.c:405): dbg.na_thres has been renamed to powfs0_llt.na_thres.
+Warning(readcfg.c:405): dbg.na_fit_maxit has been renamed to powfs0_llt.na_fit_maxit.
+Warning(readcfg.c:405): dbg.na_fit_svdthres has been renamed to powfs0_llt.na_fit_svdthres.
+Warning(readcfg.c:405): dbg.na_fit_dh has been renamed to powfs0_llt.na_fit_dh.
+Warning(readcfg.c:405): dbg.ncpa_preload has been renamed to ncpa.preload.
+Warning(readcfg.c:405): dbg.ncpa_rmsci has been renamed to ncpa.rmsci.
+Warning(readcfg.c:405): dbg.draw_opdmax has been renamed to plot.opdmax.
+Warning(readcfg.c:405): dbg.draw_gmax has been renamed to plot.gmax.
+loaded  95 ( 93 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./keck_dbg.conf'
+loaded   4 (  4 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./keck_fit_mcao.conf'
+Warning(readcfg.c:405): surf has been renamed to ncpa.surf.
+loaded  37 (  7 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/master_files/A_vismcao.conf'
+loaded   0 (  0 new) records from 'command line'
+loaded  24 ( 18 new) records from '/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/./keck_llt_CL.conf'
+Error(readcfg.c:523): Record sim.bzero not found
+
+Signal caught: User defined signal 2: 31 (31)

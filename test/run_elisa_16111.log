@@ -1,0 +1,10 @@
+/System/Volumes/Data/mnt/g2/scratch/bpeck/ao/mcao/vismcao/maos -o test -c master_files/A_vismcao/conf -O plot.all=1 
+Output folder is 'test'.
+SRC: /g/lu/code/maos v2.9 164342f4 2023-11-17 17:33:58 -0800
+BUILT: /g/lu/code/maos/build by CLANG (v14.0.0) on 2024/03/08 14:47:10 CPU(F64,+O3) w/o CUDA
+Launched at 2025/02/19 11:09:29 in elisa with PID 16111.
+The web based job monitor can be accessed at http://localhost:10300
+Main config file is master_files/A_vismcao/conf
+Error(readcfg.c:322): Input (master_files/A_vismcao/conf) is not valid
+
+Signal caught: User defined signal 2: 31 (31)
