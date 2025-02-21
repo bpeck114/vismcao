@@ -4,7 +4,7 @@
 #SBATCH --qos=regular
 #SBATCH --constraint=gpu
 #SBATCH --nodes=1
-#SBATCH --time=02:00:00
+#SBATCH --time=00:10:00
 #SBATCH --job-name=dm_order_study
 #SBATCH --output=dm_order.out
 echo "---------------------------"

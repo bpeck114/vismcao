@@ -1,0 +1,11 @@
+Actuator Count Study Log - Batch ID: 20250220_175658
+Output Folder: studies/reduced_ngs_with_misreg/10_lgs/8mag_lgs/debug
+Test Mode: Disabled
+---------------------------------------
+
+Found configuration file: master_files/reduced_ngs_with_misreg/10_lgs/8mag_lgs/kola_4000act.confSIMULATION: 4000
+COMMAND: maos -o studies/reduced_ngs_with_misreg/10_lgs/8mag_lgs/debug/4000count -c master_files/reduced_ngs_with_misreg/10_lgs/8mag_lgs/kola_4000act.conf -O
+Error: Command 'maos -o studies/reduced_ngs_with_misreg/10_lgs/8mag_lgs/debug/4000count -c master_files/reduced_ngs_with_misreg/10_lgs/8mag_lgs/kola_4000act.conf -O' died with <Signals.SIGUSR2: 12>.
+
+---------------------------------------
+---------------------------------------

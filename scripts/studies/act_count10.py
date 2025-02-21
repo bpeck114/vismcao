@@ -16,7 +16,7 @@ args = parser.parse_args()
 
 # Set parameters for actuator study
 config_folder = "master_files/reduced_ngs_with_misreg/10_lgs/8mag_lgs"
-default_output_folder = "studies/reduced_ngs_with_misreg/10_lgs/8mag_lgs"
+default_output_folder = "studies/reduced_ngs_with_misreg/10_lgs/8mag_lgs/debug"
 test_folder = "studies/reduced_ngs_with_misreg/10_lgs/8mag_lgs/test"
 act_count = np.array([4000])
 
